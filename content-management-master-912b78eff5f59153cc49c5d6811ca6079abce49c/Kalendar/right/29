@@ -1,0 +1,53 @@
+<style>
+    @media (max-width: 767px) {
+        .xmas-phase2-form-ctr {
+            display: none !important;
+        }
+    }
+</style>
+
+<div class="sr-wrapper sr-wrapper_current-day hide-on-mobile">
+
+    <div class="srgrid">
+
+        <div class="sr-advent-calendar sr-advent-calendar_right-section">
+            <div class="srgrid__row">
+                <div class="srgrid__col srgrid__col_36_xs srgrid__col_36_s srgrid__col_36_m srgrid__col_36_l">
+
+                    <div class="sr-advent-calendar__header">
+                        <img class="sr-advent-calendar__header-illustration-text hide-on-tablet" src="pages/campaign/xmas2016/header_illustration_text.png?$staticlink$" alt="Slogan Illustration Text">
+                        <h2 class="sr-advent-calendar__header__text headline-2">Trage jetzt Deine E-Mail-Adresse ein und sichere Dir zusammen mit einem Freund die Gewinnchance auf unsere Tagespreise sowie den Hauptgewinn!</h2>
+                    </div> 
+
+                    <div class="sr-advent-calendar__prizes">
+                        <div class="srgrid">
+                            <div class="srgrid__row">
+                                <div class="srgrid__col srgrid__col_36_xs srgrid__col srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                                    <h5 class="sr-advent-calendar__prize-text headline-5 text-uppercase">Heute für Dich im Adventskalender:</h5>
+                                    <div class="sr-advent-calendar__prize sr-advent-calendar__prize_current">
+                                        <a class="sr-advent-calendar__prize-link" href="#" title="Prize Product">
+                                            <img class="sr-advent-calendar__prize__image" src="pages/campaign/xmas2016/current_prize.png?$staticlink$" alt="Today's Prize Picture">
+                                            <h4 class="sr-advent-calendar__prize__title headline-3">Geflügelhalter Weber Style</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="srgrid__col srgrid__col_36_xs srgrid__col srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                                    <h5 class="sr-advent-calendar__prize-text headline-5 text-uppercase">Und das ist für Deinen Freund drin:</h5>
+                                    <div class="sr-advent-calendar__prize sr-advent-calendar__prize_friend">
+                                        <a class="sr-advent-calendar__prize-link" href="#" title="Prize Product">
+                                            <img class="sr-advent-calendar__prize__image" src="pages/campaign/xmas2016/friend_prize.png?$staticlink$" alt="Friend's Prize Picture">
+                                            <h4 class="sr-advent-calendar__prize__title headline-3">Geflügelhalter Weber Style</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+            </div>
+        </div> 
+
+    </div> 
+
+</div>

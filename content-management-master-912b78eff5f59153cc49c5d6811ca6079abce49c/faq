@@ -1,0 +1,111 @@
+<section class="black-container video-html5 mb-lg-5 mb-md-5 mb-sm-3">
+	<div class="gao-video-banner">
+		<video id="video" class="hero-video" autoplay loop poster="/pages/grillacademy/video/weber-ga-hero-video-placeholder.jpg?$staticlink$">			
+			<source src="/pages/grillacademy/video/weber-ga-hero-video.mp4?$staticlink$" type="video/mp4" />
+			<source src="/pages/grillacademy/video/weber-ga-hero-video.webm?$staticlink$" type="video/webm" />
+			<source src="/pages/grillacademy/video/weber-ga-hero-video.ogv?$staticlink$" type="video/ogg" />
+		</video>
+		<div class="full-width-container gao-video-banner-content">
+			<div class="ux-ci-teaser ux-ci-teaser-large">
+				<div class="ux-ci-teaser-content text-center">
+					<span class="ux-ci-teaser-header text-uppercase text-white text-condensed text-center text-shadow-small">
+						FAQ
+					</span>
+					<span class="headline-4 text-shadow-small text-white ux-ci-teaser-text hide-on-mobile block">
+						Here are answers to the most frequently asked questions regarding the Weber Grill Academy.
+					</span>
+				</div>
+			</div>
+		</div>
+		<script id="full-video" type="text/javascript">
+			"[  {\"video\/mp4\": \"/pages/grillacademy/video/weber-ga-hero-video.mp4?$staticlink$\"}, 
+				{\"video\/webm\": \"/pages/grillacademy/video/weber-ga-hero-video.webm?$staticlink$\"}, 
+				{\"video\/ogg\": \"/pages/grillacademy/video/weber-ga-hero-video.ogv?$staticlink$\"} ]"			    
+		</script>
+	</div>
+	</section>
+
+	
+
+
+	<h3><b>I cannot attend my course, can I cancel my ticket?</b></h3>
+	<p class="text-grey">"You may cancel your ticket without any fee up to 7 days before the event. It is also possible to cancel 
+	your ticket within 6 days of the event, however in this case you will forfeit your ticket and  will not receive any refund or credit."</p> 
+	
+	<h3><b>Can I change my course to a different one?</b></h3>
+	<p class="text-grey">"It is possible to change your course up to 7 days before the event. In order to do this, please visit ‘My Account’, find the course that 
+	you would like to change and press ‘EDIT COURSE’ - then follow the instructions."</p>
+	
+	<h3><b>I booked my course in the wrong city, can I change my course location?</b></h3>
+	<p class="text-grey">"It is possible to change your course location up to 7 days before the event. In order to do this, please visit ‘My Account’, find the 
+	course that you would like to change and press ‘EDIT COURSE’ - then follow the instructions. Please be aware that not all of our courses are 
+	offered in every location."</p>	
+	
+	<h3><b>I lost my ticket, can I get a new one?</b></h3>
+	<p class="text-grey">"It is always possible to resend your ticket, if you lost it. Please contact the location, where you are attending the course and they have
+	 the possibility to resend this for you in the booking system."</p>
+	 
+	<h3><b>The course I want to attend is sold out, can I sign up for a waiting list?</b></h3>
+	<p class="text-grey">"At the moment it is not possible to sign up for a waiting list. However, if a participant cancels a ticket to a sold out course, the ticket 
+	will be re-listed on our website and made available for purchase up until 7 days before the course date."</p>
+	
+	<h3><b>Which barbecues do you use for the courses?</b></h3>
+	<p class="text-grey">Most of our courses use both charcoal and gas barbecues - some of the locations also have electric barbecues available for you to use. 
+	You are always more than welcome to enquire as to whether a specific barbecue will be used at the course that you will be attending. You will 
+	find more information regarding all of our courses on the Course Overview site.</p>	
+	
+	<h3><b>Will the course be inside or outside?</b></h3>
+	<p class="text-grey">"In almost all of our locations you will prepare the food inside and barbecue it outside. But this depends on the location and the specific course. 
+	Specific information regarding this can be found on the Location Detail site."</p>
+			
+	<h3><b>How old should a participant be in order to attend a course at the Weber Grill Academy?</b></h3>
+	<p class="text-grey">Course participants must be at least 16 years old. This is sometimes adjusted for a particular course and it will be stated in the 
+	course description 	(e.g., a children’s course).</p>
+		
+	<h3><b>What should I bring when attending a course? </b></h3>
+	<p class="text-grey">If you have used a gift voucher to pay for the course, please bring the voucher with you. Otherwise, just bring your ticket. You will receive an apron 
+	(which you can take home with you) when you arrive at the course, but depending on the weather and which location you are visiting, please wear proper outdoor 
+	clothes. All of the barbecues, accessories, food and beverages will be provided by the Weber Grill Academy, so you do not have to bring these.</p>	
+	
+	<h3><b>I have an allergy. Who should I inform?</b></h3>
+	<p class="text-grey">"Please inform the specific Weber Grill Academy location that you will be attending if you have an allergy so that it is possible for them to take this 
+	into account during their planning. Please do so at least one week before attending your course."</p>	
+	
+	<h3><b>Can I buy Weber products after attending a course at the Weber Grill Academy?</b></h3>
+	<p class="text-grey">"If you have attended a course at a Weber Grill Academy location that is placed within a Weber Original Store, it is possible to purchase any of the store’s 
+	products after the course. Sadly, this is not possible at the remaining Weber Grill Academy locations as they have no store in context. 
+	However, you are always more than welcome to visit our webshop or one of our many Weber dealers."</p>	
+	
+	<h3><b>I forgot my jacket/apron/recipe booklet etc. at a course. Who should I contact?</b></h3>
+	<p class="text-grey">Please contact the specific Weber Grill Academy location where you attended the course.</p>	
+
+	<h3><b>Can I buy a gift voucher for a course?</b></h3>
+	<p class="text-grey">"It is possible to buy an open gift voucher for a determined amount, but not for a specific course. 
+	The receiver can use this gift voucher to pay for their desired course. If the gift voucher's value  
+	is not enough to pay for the desired course, it is possible to pay the remaining amount with a credit card. "</p>		
+	
+	<h3><b>Can I return a gift voucher for a refund?</b></h3>
+	<p class="text-grey">It is not possible to receive a refund for a gift voucher, but it is valid for 3 years and can be used for all available courses that are offered by 
+	the Weber Grill Academy within this period.</p>		
+	
+	<h3><b>Is there any accommodation nearby?</b></h3>
+	<p class="text-grey">"Please find our hotel recommendations on the Location Detail site."</p>
+
+<br>
+<br>
+<br>
+
+	<h3><b>Do you have further questions regarding your Weber barbecue?</b></h3>
+	<h3><b>Perhaps these additional links can help you:</b></h3>
+	
+	<br>
+
+
+        <h3><b>Do you have questions regarding warranty claims on your Weber barbecue? </b></h3>
+	<p class="text-grey">Please contact <a href="https://www.weberbbq.co.uk/contact-us/">Weber Customer Service</a>.</p>	
+	
+	<h3><b>Do you have questions regarding cooking methods or recipes? </b></h3>
+	<p class="text-grey">Please visit <a href="https://www.weberbbq.co.uk/video-playlist/how-to/">Weber's website</a>to find recipes and inspiration.</p>
+	
+	<h3><b>Do you have questions regarding how to clean and maintain your barbecue?</b></h3>
+	<p class="text-grey">Please visit <a href="https://www.weberbbq.co.uk/video-playlist/how-to/">Weber's website</a>for guidance and suggestions on which products to use.</p>

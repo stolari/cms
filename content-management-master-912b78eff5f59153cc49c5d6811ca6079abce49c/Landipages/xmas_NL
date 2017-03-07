@@ -1,0 +1,1114 @@
+<style>
+    .sr-intro {
+        min-height: 390px;
+        background: #fff url("pages/campaign/xmas2016/intro_gift_illustration.png?$staticlink$") no-repeat 90% 5%;
+    }
+
+    @media (max-width: 767px) {
+        .sr-intro {
+            background: #fff;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .sr-intro {
+            padding-top: 20px;
+        }
+    }
+
+    .sr-hero {
+        width: 100%;
+        height: 640px;
+        padding-top: 90px;
+        padding-right: 40px;
+        background: #000 url("pages/campaign/xmas2016/hero_teaser.jpg?$staticlink$") no-repeat center center;
+        background-size: cover;
+    }
+
+    @media (max-width: 767px) {
+        .sr-hero {
+            height: auto;
+            padding: 0;
+            background: #000;
+        }
+    }
+
+    @media (max-width: 1023px) {
+        .sr-gift-finder__header__headline {
+            text-align: center;
+            padding: 15px 0 20px;
+            border-style: dotted;
+            border-color: #fff;
+            border-image-source: url("../images/landingpages/xmas2016/white-dots.svg");
+            border-image-slice: 25% 25%;
+            border-image-repeat: round;
+            border-width: 0 0 6px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .sr-winter-recipe__tab-container {
+            padding: 20px 0 0;
+            list-style: none;
+            border-top: 1px dashed #fff;
+            border-bottom: 0;
+            border-image-source: url("pages/campaign/xmas2016/white-dashes.png?$staticlink$");
+            border-image-slice: 41 1;
+            border-image-repeat: round;
+        }
+    }
+
+    .sr-winter-recipes {
+        background: #000 url("pages/campaign/xmas2016/winter_recipes_cook_illustration.png?$staticlink$") no-repeat top right;
+    }
+
+    @media (max-width: 1023px) {
+        .sr-winter-recipes {
+            background: #000;
+        }
+    }
+
+    .sr-winter-recipes__carousel_desktop .sr-winter-recipe__tab-content {
+        font-size: 20px;
+        list-style: none;
+        border-top: 1px dashed #fff;
+        border-bottom: 0;
+        border-image-source: url("pages/campaign/xmas2016/white-dashes.png?$staticlink$");
+        border-image-slice: 41 1;
+        border-image-repeat: round;
+    }
+
+    .sr-gift-winder__header__illustration__border {
+        border-style: dotted;
+        border-color: #ffffff;
+        border-image-source: url("../images/landingpages/xmas2016/white-dots.svg");
+        border-image-slice: 25% 25%;
+        border-image-repeat: round;
+        border-width: 0 0 6px;
+    }
+
+    .sr-gift-finder__category__slide__description__content {
+        display: block;
+        padding: 40px 20px;
+        margin: 40px 20px 0;
+        border-style: dotted;
+        border-color: #ffffff;
+        border-image-source: url("../images/landingpages/xmas2016/black-dots.svg");
+        border-image-slice: 20% 20%;
+        border-image-repeat: round;
+        border-width: 7px 0;
+    }
+
+    .sr-winter-recipe__tabs {
+        display: inline-block !important;
+    }
+
+    .sr-intro__text-wrap:hover {
+        color: #ed1c23 !important;
+    }
+
+</style>
+
+<div class="sr-wrapper">
+
+    <nav class="wc-scroll-menu hide-on-mobile">
+        <ul>
+            <li><a href="#sr-intro" class="active">Winterse wereld van weber</a></li>
+            <li><a href="#sr-campaign-products">promotie</a></li>
+            <li><a href="#sr-campaign-cashback">cashback</a></li>
+            <li><a href="#sr-campaign-calendar">adventskalender</a></li>
+            <li><a href="#sr-winter-recipes">winterse recepten</a></li>
+            <li><a href="#sr-cta-section">Weber ID & Händlerfinder</a></li>
+        </ul>
+    </nav> 
+
+    <div class="srgrid">
+
+        <div class="srgrid__container">
+
+            <div class="sr-hero" id="sr-hero">
+                <div class="srgrid__row">
+                    <div class="srgrid__col srgrid__col_20_s srgrid__col_offset_16_s srgrid__col_20_m srgrid__col_offset_16_m srgrid__col_18_l srgrid__col_offset_18_l sr-hero__illustration-wrapper">
+                        <img class="sr-hero__illustration" src="pages/campaign/xmas2016/hero_illustration_with_text-nl.png?$staticlink$" alt="Grill illustration with text">
+                    </div>
+                </div>
+            </div> 
+
+            <nav class="sr-mobile-nav js_mobile-nav only-on-mobile">
+                <ul class="sr-mobile-nav__links">
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-intro">Winterse wereld van weber</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-campaign-products">promotie</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-campaign-cashback">cashback</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-campaign-calendar">adventskalender</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-winter-recipes">winterse recepten</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-cta-section">Weber ID & Händlerfinder</a></li>
+                </ul>
+            </nav> 
+
+            <div class="sr-intro" id="sr-intro">
+
+                <a name="sr-intro"></a>
+
+                <div class="srgrid__row">
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-intro__illustrations sr-intro__illustrations--nl hide-on-mobile">
+                            <img class="sr-intro__illustration sr-intro__illustration_text sr-intro__illustration_text--nl hide-on-mobile" src="pages/campaign/xmas2016/intro_illustration_text-nl.png?$staticlink$" alt="Most wonderful barbecue of the year">
+                            <img class="sr-intro__illustration sr-intro__illustration_cook sr-intro__illustration_cook--nl hide-on-mobile" src="pages/campaign/xmas2016/intro_cook_illustration-nl.png?$staticlink$" alt="Cooking with Weber grill">
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                        <div class="sr-intro__content sr-intro__content--nl scroll-menu">
+                            <div class="sr-intro__text">
+                                <div class="sr-intro__text-wrap">
+                                    <a href="#sr-campaign-calendar"></a>
+                                    <h3 class="sr-intro__headline">Winactie</h3>
+                                    <p class="sr-intro__description">Win elke dag fantastische prijzen met de Weber adventskalender. Doe nu mee!</p>
+                                </div>
+                            </div>
+                            <div class="sr-intro__text">
+                                <div class="sr-intro__text-wrap">
+                                    <a href="#sr-campaign-cashback"></a>
+                                    <h3 class="sr-intro__headline">Cashback</h3>
+                                    <p class="sr-intro__description">Ontvang nu een aantrekkelijke cashback op diverse modellen barbecues!</p>
+                                </div>
+                            </div>
+                            <div class="sr-intro__text">
+                                <div class="sr-intro__text-wrap">
+                                    <a href="#sr-winter-recipes"></a>
+                                    <h3 class="sr-intro__headline">Winterse recepten</h3>
+                                    <p class="sr-intro__description">Drie van Weber's favoriete recepten, nu om te proberen!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="sr-campaign-products" id="sr-campaign-products">
+
+                <a name="sr-campaign-products"></a>
+
+                <div class="srgrid__row srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-products__info">
+                            <img class="sr-campaign-products__mood_copper mood-image" src="pages/campaign/xmas2016/campaign_product_copper_mood.jpg?$staticlink$" alt="Campaign product mood">
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-products__info">
+                            <span class="sr-campaign-products__badge sr-campaign-products__badge--nl">
+                               <strong>Nieuw</strong>
+                            </span>
+                            <img class="sr-campaign-products__product sr-campaign-products__product_copper" src="pages/campaign/xmas2016/campaign_product_copper_grill.png?$staticlink$" alt="Campaign product - copper grill">
+                            <div class="sr-campaign-products__description">
+                                <h2 class="sr-campaign-products__headline sr-campaign-products__headline--nl">Special edition <span>MASTER-TOUCH GBS COPPER</span></h2>
+                                <p class="sr-campaign-products__text sr-campaign-products__text--nl hide-on-mobile">De perfecte partner voor een winterse barbecue! De klassieke kogelbarbecue in de nieuwe kleur 'Copper'. De barbecue bevat een roestvrijstalen GBS grillrooster, zodat u een uitgebreid kerstdiner kunt bereiden!</p>
+                                <a class="button button_default sr-campaign-products__button" href="$httpsUrl('Product-Show', 'pid', '14502904')$">Ontdek Nu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="srgrid__row srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_order_2_xs srgrid__col_order_2_s srgrid__col_order_1_m srgrid__col_order_1_l srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-products__info sr-campaign-products__info--spiess-nl">
+                            <img class="sr-campaign-products__product sr-campaign-products__product_stainless" src="pages/campaign/xmas2016/campaign_product_spiess.png?$staticlink$" alt="Campaign product - stainless steel grill">
+                            <div class="sr-campaign-products__description">
+                                <h2 class="sr-campaign-products__headline sr-campaign-products__headline--nl">De handen vrij terwijl het eten draait <span>Gezond, gemakkelijk en erg lekker!</span></h2>
+                                <p class="sr-campaign-products__text sr-campaign-products__text--nl hide-on-mobile">Met de rotisserie-accessoires van Weber kunt u diverse grote stukken vlees bereiden zoals hele kip, rollades en hammen. Ideaal wanneer u een groot gezelschap verwacht!</p>
+                                <a class="button button_default sr-campaign-products__button" href="http://www.weber.com/NL/nl/accessoires/bereiden/rotisserie/">Ontdek Meer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_order_1_xs srgrid__col_order_1_s srgrid__col_order_2_m srgrid__col_order_2_l srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-products__info">
+                            <img class="sr-campaign-products__mood_stainless mood-image" src="pages/campaign/xmas2016/campaign_product_stainless_steel_mood.jpg?$staticlink$" alt="Campaign product mood">
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+
+        </div> 
+
+    </div> 
+
+
+    <div class="srgrid">
+        <div class="sr-campaign-cashback">
+
+            <div class="srgrid__container">
+
+                <a name="sr-campaign-cashback"></a>
+
+                <div class="srgrid__row srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-cashback__info">
+                            <img class="sr-campaign-cashback__info__headline-img" src="pages/campaign/xmas2016/cashback_headline.png?$staticlink$" alt="Cashback">
+                            <div class="sr-campaign-cashback__info__content">
+                                <p class="sr-campaign-cashback__text text-condensed-thin">Van 1 november 2016 tot 1 januari 2017 heeft Weber weer een aantrekkelijke cashback op diverse modellen barbecues. Wanneer u er een bijpassende hoes bij aanschaft, ontvangt u extra cashback! Kijk op de
+                                    <a href="$url('Stores-Find')$">dealer locator</a> voor de deelnemende Weber winter dealers. Wanneer u een actiemodel heeft gekocht binnen de actieperiode, download dan het cashback formulier hieronder, vul in en verstuur deze volgens het stappenplan.</p>
+                                <p class="sr-campaign-cashback__text sr-campaign-cashback__text--headline text-condensed-thin"><strong>Download:</strong></p>
+                                <span class="sr-campaign-cashback__info__download-link">
+                                    <img class="sr-campaign-cashback__info__pdf" src="pages/campaign/xmas2016/pdf.svg?$staticlink$" alt="PDF">
+                                    <a href="pdf/NL_actievoorwaarden.pdf?$staticlink$">Actievoorwaarden</a>
+                                </span>
+                                <span class="sr-campaign-cashback__info__download-link">
+                                    <img class="sr-campaign-cashback__info__pdf" src="pages/campaign/xmas2016/pdf.svg?$staticlink$" alt="PDF">
+                                    <a href="pdf/NL_cahsback_2016.pdf?$staticlink$">Cashback formulier</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-cashback__product-wrapper">
+                            <a class="sr-campaign-cashback__product sr-campaign-cashback__product--1" href="http://www.weber.com/NL/nl/barbecues/elektrisch/weber-q1400/">
+                                <img src="pages/campaign/xmas2016/cashback_1.png?$staticlink$" alt="Cashback">
+                            </a>
+                            <a class="sr-campaign-cashback__product sr-campaign-cashback__product--2" href="http://www.weber.com/NL/nl/barbecues/houtskool/bar-b-kettle/1231004.html?cgid=4584#start=1">
+                                <img src="pages/campaign/xmas2016/cashback_2.png?$staticlink$" alt="Cashback">
+                            </a>
+                            <a class="sr-campaign-cashback__product sr-campaign-cashback__product--3" href="http://www.weber.com/NL/nl/barbecues/houtskool/master-touch-gbs-/">
+                                <img src="pages/campaign/xmas2016/cashback_3.png?$staticlink$" alt="Cashback">
+                            </a>
+                            <a class="sr-campaign-cashback__product sr-campaign-cashback__product--4" href="http://www.weber.com/NL/nl/barbecues/gas/spirit/46613664.html">
+                                <img src="pages/campaign/xmas2016/cashback_4.png?$staticlink$" alt="Cashback">
+                            </a>
+                        </div>
+
+                        <span class="sr-campaign-cashback__sternchentext text-condensed-thin">* In Combinatie Met Een Weber® Hoes</span>
+                    </div>
+                </div>
+
+                </div>
+
+        </div> 
+
+    </div> 
+
+
+    <div class="srgrid">
+        <div class="sr-campaign-calendar">
+
+            <div class="srgrid__container">
+
+                <a name="sr-campaign-calendar"></a>
+
+                <div class="srgrid__row srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-calendar__info">
+                            <img src="pages/campaign/xmas2016/calendar_headline-nl.png?$staticlink$" alt="De Weber adventskalender">
+                            <div class="sr-campaign-calendar__info__content">
+                                <!--adventskalendar--><p class="sr-campaign-calendar__text text-condensed-thin">Doe mee met de Weber adventskalender en kijk reikhalzend uit naar de Kerst! De hoofdprijs, een Weber Grill Academy workshop voor 16 personen, zal worden weggegeven op 5 januari 2017!</p>
+ 
+<p class="sr-campaign-calendar__text text-condensed-thin">Een échte Weber Grill Master zal u en uw gasten verrassen met overheerlijke gerechten van de barbecue. De Grill Master zal gebruik maken van exclusieve gerechten en de beste ingrediënten om u en uw gasten zo een onvergetelijke ervaring mee te geven.</p>
+ 
+<p class="sr-campaign-calendar__text text-condensed-thin">Met de Weber adventskalender maakt u in de maand december elke dag kans op fantastische prijzen tot en met 24 december 2016.</p>
+<p><a class="button button_default sr-gift-contest__button" href="$httpsUrl('PageSupportive-XmasPhase2')$">Doe mee en maak kans </a></p>
+                                 
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-calendar-wrapper">
+                            <img src="pages/campaign/xmas2016/calendar_grill-nl.jpg?$staticlink$" alt="Calendar">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div> 
+
+    </div> 
+
+
+    <div class="srgrid">
+
+        <div class="srgrid__container">
+
+            <div class="sr-winter-recipes" id="sr-winter-recipes">
+
+                <a name="sr-winter-recipes"></a>
+
+                <div class="sr-winter-recipes__header">
+                    <img class="sr-winter-recipes__illustration-text" src="pages/campaign/xmas2016/winter_recipes_illustration_text-nl.png?$staticlink$" alt="Delicious winter recipes">
+                </div>
+
+                
+
+<div class="sr-winter-recipes__slider slider hide-on-mobile hide-on-tablet">
+    <div class="jcarousel-wrapper loaded sr-winter-recipes__carousel-wrapper">
+        <div class="jcarousel sr-winter-recipes__carousel sr-winter-recipes__carousel_desktop" data-autoplay="true" data-interval="7500" data-jcarousel="true" data-jcarouselautoscroll="true">
+            <ul class="sr-winter-recipes__slides slides">
+                <li class="sr-winter-recipes__slide slide">
+                    <div class="sr-winter-recipes__recipe-wrapper">
+                        <div class="srgrid">
+                            <div class="srgrid__row">
+                                <div class="srgrid__col srgrid__col_12_m srgrid__col_12_l flex-img">
+                                    <img class="sr-winter-recipe__burger-image" src="pages/campaign/xmas2016/winter_recipes_pumpkin_soup_large.jpg?$staticlink$" alt="Pumpkin soup">
+                                </div>
+                                <div class="srgrid__col srgrid__col_24_m srgrid__col_24_l">
+                                    <div class="sr-winter-recipe__header">
+                                        <h3 class="sr-winter-recipe__title">Gegrilde pompoensoep</h3>
+                                        <p class="sr-winter-recipe__portion-info">Voor 6 personen</p>
+                                    </div>
+                                    <div class="sr-winter-recipe__tabs-wrapper js_desktop-tabs-parent">
+                                        <ul class="sr-winter-recipe__tabs js_desktop-recipe-tabs">
+                                            <li class="sr-winter-recipe__tab-link current" data-tab="js_tab-desktop-1-1st">Ingrediënten</li>
+                                            <li class="sr-winter-recipe__tab-link" data-tab="js_tab-desktop-2-1st">Bereiding</li>
+                                            
+                                        </ul>
+
+                                        <a href="http://www.weber.com/s/NL/nl/recipe-overview/" class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link--direct-link">MEER RECEPTEN</a>
+
+                                        <div id="js_tab-desktop-1-1st"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content current">
+                                            <div class="sr-winter-recipe__tab-container">
+                                                <div class="srgrid">
+                                                    <div class="srgrid__row">
+                                                        <div class="srgrid__col srgrid__col_18_m">
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>1</strong> pompoen, ± 1,5 kg</li>
+                                                                <li><strong>1</strong> tl boter</li>
+                                                                <li><strong>1</strong> grote ui, gesnipperd</li>
+                                                                <li><strong>125 ml</strong> droge witte wijn</li>
+                                                                <li><strong>500 ml</strong> kippenbouillon</li>
+                                                                <li><strong>125ml</strong> volle slagroom</li>
+                                                                <li>Zout en peper</li>
+                                                                <li>Nootmuskaat (optioneel)</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="srgrid__col srgrid__col_18_m">
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>Voorbereidingstijd:</strong> 30 minuten</li>
+                                                                <li><strong>Grilltijd:</strong> 1 – 2 uren</li>
+                                                                <li><strong>Grillmethode:</strong> indirecte gemiddelde warmte (170 – 220 °C)</li>
+                                                                <li><strong>Benodigde accessoires:</strong> Grote pan, Weber® tool set</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="js_tab-desktop-2-1st"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content">
+                                            <div class="sr-winter-recipes__instructions">
+                                                <ol class="sr-winter-recipes__instructions__list">
+                                                    <li class="sr-winter-recipes__instructions__list-item">Bereid de barbecue voor op indirecte gemiddelde warmte (170° - 220°C).
+                                                    </li>
+                                                    <li class="sr-winter-recipes__instructions__list-item">Snijd de bovenkant van de pompoen en leg deze aan de kant. Schraap met een grote lepel de zaadjes en de vezels uit de pompoen en gooi deze weg. Zet de bovenkant terug op de pompoen.
+                                                    </li>
+                                                    <li class="sr-winter-recipes__instructions__list-item">Borstel het grillrooster schoon. Gril de pompoen op indirecte gemiddelde warmte, met gesloten deksel tot het vruchtvlees erg zacht is, gedurende 1½ tot 2 uren. Haal de pompoen van de barbecue en laat deze afkoelen. Schep de pulp eruit met een lepel en bewaar dit.
+                                                    </li>
+                                                    <li class="sr-winter-recipes__instructions__list-item">Smelt de boter in een grote pan. Voeg de uien toe en bak tot ze zacht zijn maar niet bruin, gedurende 2 tot 3 minuten, roer af en toe. Voeg de wijn toe en kook tot bijna al het vocht verdampt is, gedurende 5 minuten. Voeg de pompoenpulp en de kippenbouillon toe en roer goed door. Breng aan de kook en laat ± 20 minuten sudderen, af en toe roeren. Roer de slagroom door de soep en breng terug op temperatuur. Breng op smaak met zout en peper. Serveer warm en bestrooi indien gewenst met nootmuskaat.
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="sr-winter-recipes__slide slide">
+                    <div class="sr-winter-recipes__recipe-wrapper">
+                        <div class="srgrid">
+                            <div class="srgrid__row">
+                                <div class="srgrid__col srgrid__col_12_m srgrid__col_12_l flex-img">
+                                    <img class="sr-winter-recipe__burger-image" src="pages/campaign/xmas2016/ganzenborst-nl-large.jpg?$staticlink$" alt="Saddle">
+                                </div>
+                                <div class="srgrid__col srgrid__col_24_m srgrid__col_24_l">
+                                    <div class="sr-winter-recipe__header">
+                                        <h3 class="sr-winter-recipe__title">Gevulde ganzenborst met speculaas, gebakken perencompote en rode kool</h3>
+                                        <p class="sr-winter-recipe__portion-info">Voor 4 personen</p>
+                                    </div>
+                                    <div class="sr-winter-recipe__tabs-wrapper js_desktop-tabs-parent">
+                                        <ul class="sr-winter-recipe__tabs js_desktop-recipe-tabs">
+                                            <li class="sr-winter-recipe__tab-link current" data-tab="js_tab-desktop-1-2nd">INGREDIËNTEN</li>
+                                            <li class="sr-winter-recipe__tab-link" data-tab="js_tab-desktop-2-2nd">Bereiding</li>
+                                            
+                                        </ul>
+
+                                        <a href="http://www.weber.com/s/NL/nl/recipe-overview/" class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link--direct-link">MEER RECEPTEN</a>
+
+                                        <div id="js_tab-desktop-1-2nd"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content current">
+                                            <div class="sr-winter-recipe__tab-container">
+                                                <div class="srgrid">
+                                                    <div class="srgrid__row">
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">
+                                                                Voor de ganzenborst</h4>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>2</strong> ganzenborsten (300- 400 gr zonder botten, met vet)</li>
+                                                                <li><strong>80 gr</strong> amandelen </li>
+                                                                <li><strong>120 gr</strong> cranberry jam</li>
+                                                                <li><strong>2</strong> tandenstokers geweekt in water </li>
+                                                                <li>Geraspte schil van 1 sinaasappel 
+                                                                <li><strong>5 gr</strong> zwarte peper (fijngemalen) </li>
+                                                                <li><strong>5 gr</strong> koriander (fijngehakt)  </li>
+                                                                <li><strong>2 gr</strong> speculaaskruiden </li>
+                                                                <li><strong>5 gr</strong> grof zeezout </li>
+                                                                <li><strong>10 gr</strong> bruine rietsuiker</li>
+                                                            </ul>
+                                                            <h4 class="sr-winter-recipes__instructions-headline">
+                                                                Voor de gebakken perencompote</h4>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>4</strong> rijpe peren</li>
+                                                                <li><strong>50 gr</strong> acaciahoning</li>
+                                                                <li>Sap van een ½ citroen </li>
+                                                                <li><strong>25 gr</strong> geklaarde boter</li>
+                                                                <li><strong>1</strong> snufje kaneel</li>
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">
+                                                                Voor de rode kool</h4>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>1</strong> rode kool (max. 600 gr) </li>
+                                                                <li><strong>200 gr</strong> appels </li>
+                                                                <li><strong>2</strong> gepelde uien </li>
+                                                                <li><strong>50 gr</strong> varkensvet </li>
+                                                                <li><strong>3 el</strong> honing </li>
+                                                                <li><strong>100 ml</strong> wijnazijn</li>
+                                                                <li><strong> 200 ml</strong> rode wijn</li>
+                                                                <li><strong> 200 ml</strong> sinaasappelsap</li>
+                                                                <li><strong> 100 gr</strong> cranberryjam</li>
+                                                                <li><strong> 1</strong> klein kaneelstokje</li>
+                                                                <li><strong> 2</strong> teentjes knoflook </li>
+                                                                <li><strong>2</strong> laurierblaadjes </li>
+                                                                <li><strong>2</strong> jeneverbessen </li>
+                                                                <li><strong>8</strong> zwarte peperkorrels</li>
+                                                                <li>Zeezout</li>
+                                                            </ul>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>Voorbereidingstijd: </strong>60 minuten</li>
+                                                                <li><strong>Grilltijd:</strong> 80 tot 90 minuten </li>
+                                                                <li><strong>Grillmethode:</strong> directe / indirecte gemiddelde warmte (140-190°C)</li>
+                                                            </ul>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>Benodigde accessoires: </strong></li>
+                                                                <li>Steelpan </li>
+                                                                <li>Weber® Grillkorf </li>
+                                                                <li>Theezeefje </li>
+                                                                <li>Bakpapier</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="js_tab-desktop-2-2nd"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content">
+                                            <div class="sr-winter-recipes__instructions">
+                                                <div class="srgrid">
+                                                    <div class="srgrid__row">
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">In de keuken:</h4>
+                                                            <h6>Bereiding van de ganzenborst:</h6>
+                                                            <ol class="sr-winter-recipes__instructions__list:">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Was de ganzenborst onder stromend water, dep ze droog en snijd het vet kruislings in. Snijd daarbij niet in het vlees.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Snijd de ganzenborst in de lengte in (zonder het vlees helemaal door te snijden). </li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Mix de amandelen en de cranberry jam met behulp van een keukenmachine tot een pasta. Vul daarna de ganzenborsten met de pasta. </li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Maak de uiteinden dicht met een tandenstoker.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Meng de sinaasappelrasp, peper, jeneverbessen, speculaaskruiden, zout en suiker. Wrijf daarna de mix over de ganzenborsten.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Laat de ganzenborsten daarna minstens 30 minuten afgedekt liggen op kamertemperatuur. Nog beter is het om de ganzenborsten in de koelkast te leggen voor een nacht.</li>
+                                                            </ol>
+                                                            <h6>Bereiding gebakken perencompote:</h6>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Schil de peren, snijd in 4 parten en verwijder het klokhuis.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Verwarm de honing in een metalen kom aan de zijkant van de barbecue en meng met het citroensap. Dompel de peren onder in het honing-citroenmengsel.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Bekleed de Weber Grillkorf met bakpapier en smeer dit in met geklaarde boter.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Leg de parten peer naast elkaar in de grillkorf.</li>
+                                                            </ol>
+                                                            <h6>Bereiding rode kool:</h6>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Was de rode kool, snijd deze in vieren, verwijder de kern en snijd in fijne reepjes.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Schil de appels, snijd in 4 parten, verwijder het klokhuis en snijd daarna in blokjes. </li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Snijd als laatste de ui in stukjes.</li>
+                                                            </ol>
+                                                        </div>
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">Op de barbecue:</h4>
+                                                            <h6>Ganzenborst: </h6>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Bereid de barbecue voor op indirecte warmte 140-160 °C.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Grill de ganzenborsten met gesloten deksel gedurende ongeveer 20 minuten. Draai ze daarna en grill ze daarna weer gedurende 10 minuten.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Verhoog hierna de temperatuur en leg de ganzenborst met de huid naar beneden direct boven de warmtebron. Sluit hierbij het deksel niet. Grill de huid totdat deze knapperig is.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Haal de ganzenborsten van de barbecue en laat 5 minuten rusten.</li>
+                                                            </ol>
+                                                            <h6>Perencompote: </h6>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Bereid de barbecue voor op indirecte gemiddelde warmte 180-190 °C.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Gril de peren in de grillkorf gedurende 15 tot 20 minuten met gesloten deksel. Het is normaal dat de peren hun vocht verliezen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Gebruik daarna een vork om ze tot een compote te prakken en voeg kaneel naar smaak toe. </li>
+                                                            </ol>
+                                                            <h6>Rode kool: </h6>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Verwarm voorzichtig het varkensvet in een steelpan.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Voeg honing, azijn, rode wijn, sinaasappelsap en cranberry jam toe en breng aan de kook.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Doe het kaneelstokje, laurierbladen, koriander en jeneverbessen in een theezeefje en voeg toe aan de vloeistof.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Voeg de rode kool en appels toe en verwarm met gesloten deksel totdat de rode kool zacht is.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Verwijder tot slot het theezeefje en voeg naar smaak zout toe. </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="sr-winter-recipes__slide slide">
+                    <div class="sr-winter-recipes__recipe-wrapper">
+                        <div class="srgrid">
+                            <div class="srgrid__row">
+                                <div class="srgrid__col srgrid__col_12_m srgrid__col_12_l flex-img">
+                                    <img class="sr-winter-recipe__burger-image" src="pages/campaign/xmas2016/winter_recipes_snow_muffins_large.jpg?$staticlink$" alt="Snow Muffins">
+                                </div>
+                                <div class="srgrid__col srgrid__col_24_m srgrid__col_24_l">
+                                    <div class="sr-winter-recipe__header">
+                                        <h3 class="sr-winter-recipe__title">Sneeuwpop muffins</h3>
+                                        <p class="sr-winter-recipe__portion-info">Voor ongeveer 20 muffins</p>
+                                    </div>
+                                    <div class="sr-winter-recipe__tabs-wrapper js_desktop-tabs-parent">
+                                        <ul class="sr-winter-recipe__tabs js_desktop-recipe-tabs">
+                                            <li class="sr-winter-recipe__tab-link current" data-tab="js_tab-desktop-1-3rd">INGREDIËNTEN</li>
+                                            <li class="sr-winter-recipe__tab-link" data-tab="js_tab-desktop-2-3rd">Bereiding</li>
+                                            
+                                        </ul>
+
+                                        <a href="http://www.weber.com/s/NL/nl/recipe-overview/" class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link--direct-link">MEER RECEPTEN</a>
+
+                                        <div id="js_tab-desktop-1-3rd"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content current">
+                                            <div class="sr-winter-recipe__tab-container">
+
+                                                <div class="srgrid">
+                                                    <div class="srgrid__row">
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">Voor het deeg:</h4>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>2</strong> eieren (maat M)</li>
+                                                                <li><strong>75</strong> gr suiker</li>
+                                                                <li><strong>200</strong> ml melk</li>
+                                                                <li><strong>100</strong> ml zonnebloemolie</li>
+                                                                <li><strong>1</strong> snufje zout</li>
+                                                                <li>Merg van <strong>1</strong> vanillestokje</li>
+                                                                <li><strong>250</strong> gr bloem</li>
+                                                                <li><strong>1</strong> tl bakpoeder</li>
+                                                            </ul>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>Voorbereidingstijd:</strong> 15 minuten, 30 minuten voor de decoratie</li>
+                                                                <li><strong>Grilltijd:</strong> 20 tot 25 minuten</li>
+                                                                <li><strong>Barbecuemethode:</strong> indirecte gemiddelde warmte (180°C)</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">Voor de decoratie:</h4>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>250</strong> g poedersuiker</li>
+                                                                <li>Sap van 1 citroen</li>
+                                                                <li>Ongeveer 50 gr gesmolten pure chocolade</li>
+                                                                <li>± 20 witte chocoladetruffels </li>
+                                                                <li>± 300 gr rauwe marsepein</li>
+                                                                <li>Rode kleurstof</li>
+                                                                <li>Zwarte kleurstof</li>
+                                                            </ul>
+                                                            <h6>Benodigde accessoire:</h6>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li>Gourmet BBQ System – Ebelskiver / poffertjespan</li>
+                                                                <li>Papieren muffinvormpjes</li>
+                                                                <li>Kleine spuitzak</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="js_tab-desktop-2-3rd"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content">
+                                            <div class="sr-winter-recipes__instructions">
+
+                                                <div class="srgrid">
+                                                    <div class="srgrid__row">
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+
+                                                            <h4 class="sr-winter-recipes__instructions-headline"><small>In de keuken:</small></h4>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Meng de eieren, suiker, melk, zonnebloemolie, zout en het merg van het vanillestokje in een grote kom.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Meng de bloem en het bakpoeder, zeef het boven het eimengsel en spatel het er voorzichtig door.</li>
+                                                            </ol>
+                                                            <h4 class="sr-winter-recipes__instructions-headline"><small>Op de barbecue:</small></h4>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Bereid de barbecue voor op indirecte warmte 180°C.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Plaats de papieren muffinvormpjes in de Ebelskiver.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Vul de vormpjes voor 3/4 met het deegmengsel.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Bak de muffins boven indirecte warmte gedurende 20 tot 25 minuten, totdat ze goudbruin zijn.</li>
+                                                            </ol>
+                                                        </div>
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">Voorbereiding van de decoratie</h4>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Meng de poedersuiker met het citroensap tot een dik glazuur. Zodra de muffins afgekoeld zijn dit gelijkmatig verspreiden op de muffins en laten drogen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Gebruik de witte chocoladetruffel als hoofd van de sneeuwpop zet deze vast met een beetje glazuur.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Kleur 150 gr. onbewerkte marsepein met rode kleurstof. Rol de marsepein met poedersuiker of tussen bakpapier dun uit en snijd het in 10 cm lange en 1 cm brede stroken.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Plaats de rode marsepein stroken rond de nek van de sneeuwpop als sjaal.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Kleur de overige 150 gr. onbewerkte marsepein met zwarte kleurstof. Maak hiervan hoedjes voor de sneeuwpoppen. Zet het hoedje met een beetje glazuur vast op het hoofd van de sneeuwpop.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Vul een kleine spuitzak met vloeibare chocolade. Maak 2 oogjes op elke witte chocoladetruffel.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Bestrooi als laatste de muffins met wat poedersuiker. </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <span class="jcarousel-pagination sr-winter-recipes__carousel-pagination" data-jcarouselpagination="true">
+                                <a class="active" href="#1">1</a>
+                                <a href="#2">2</a>
+                                <a href="#3">3</a>
+                            </span>
+        </div>
+        <div class="jcarousel-navigation centered" id="sr_desktop-nav">
+            <a href="" class="jcarousel-control-prev icon-arrow-down-light sr-winter-recipes__carousel-control sr-winter-recipes__carousel-control_prev" data-jcarouselcontrol="true"></a>
+            <a href="" class="jcarousel-control-next icon-arrow-down-light sr-winter-recipes__carousel-control sr-winter-recipes__carousel-control_next" data-jcarouselcontrol="true"></a>
+        </div>
+    </div>
+</div>
+                
+
+
+<div class="sr-winter-recipes__headlines sr-winter-recipes__headlines_mobile hide-on-desktop">
+    <ul class="sr-winter-recipes__headlines-list js_headlines">
+        <li class="sr-winter-recipes__headline current">
+            <h3 class="sr-winter-recipes__headline__title">Gegrilde pompoensoep</h3>
+            <p class="sr-winter-recipes__headline__portion-info">Voor 6 personen</p>
+        </li>
+        <li class="sr-winter-recipes__headline">
+            <h3 class="sr-winter-recipes__headline__title">Gevulde ganzenborst met speculaas, gebakken perencompote en rode kool</h3>
+            <p class="sr-winter-recipes__headline__portion-info">Voor 4 personen</p>
+        </li>
+        <li class="sr-winter-recipes__headline">
+            <h3 class="sr-winter-recipes__headline__title">Sneeuwpop muffins</h3>
+            <p class="sr-winter-recipes__headline__portion-info">Voor ongeveer 20 muffins</p>
+        </li>
+    </ul>
+</div>
+
+
+<div class="sr-winter-recipes__carousel sr-winter-recipes__carousel_mobile slider hide-on-desktop">
+    <div class="jcarousel-wrapper loaded">
+        <div class="jcarousel" data-autoplay="false" data-interval="7500" data-jcarousel="true" data-jcarouselautoscroll="true">
+            <ul class="slides">
+                <li class="slide sr-winter-recipes__carousel__slide js_recipe-slide active">
+                    <img class="sr-winter-recipes__carousel__image" src="pages/campaign/xmas2016/winter_recipes_pumpkin_soup_small.jpg?$staticlink$" alt="Pumpkin Soup">
+                </li>
+                <li class="slide sr-winter-recipes__carousel__slide js_recipe-slide">
+                    <img class="sr-winter-recipes__carousel__image" src="pages/campaign/xmas2016/ganzenborst-nl-small.jpg?$staticlink$" alt="Saddle">
+                </li>
+                <li class="slide sr-winter-recipes__carousel__slide js_recipe-slide">
+                    <img class="sr-winter-recipes__carousel__image" src="pages/campaign/xmas2016/winter_recipes_snow_muffins_small.jpg?$staticlink$" alt="Snow Muffins">
+                </li>
+            </ul>
+        </div>
+        <div class="jcarousel-navigation centered">
+            <a href="" class="jcarousel-control-prev icon-arrow-down-light" data-jcarouselcontrol="true"></a>
+            <a href="" class="jcarousel-control-next icon-arrow-down-light" data-jcarouselcontrol="true"></a>
+        </div>
+    </div>
+</div>
+
+
+<div class="sr-winter-recipes__content sr-winter-recipes__content_mobile hide-on-desktop">
+    <ul class="sr-winter-recipes__content__list js_recipes-content">
+        <li class="sr-winter-recipes__content__list-item current">
+            <div class="sr-winter-recipe__tabs-wrapper js_mobile-tabs-parent">
+                <ul class="sr-winter-recipes__tabs sr-winter-recipes__tabs_mobile js_mobile-recipe-tabs">
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet current" data-tab="js_tab-mobile-1-1st">Ingrediënten</li>
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet" data-tab="js_tab-mobile-2-1st">Bereiding</li>
+                    
+                </ul>
+
+                <div id="js_tab-mobile-1-1st" class="sr-winter-recipe__tab-content js_mobile-tab-content current">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        
+                            
+                        
+                        <div class="sr-winter-recipes__tab__button-second hide-on-desktop">
+                            <a class="button button_default button_mobile-download" href="http://www.weber.com/s/NL/nl/recipe-overview/">MEER RECEPTEN</a>
+                        </div>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>1</strong> pompoen, ± 1,5 kg</li>
+                            <li><strong>1</strong> tl boter</li>
+                            <li><strong>1</strong> grote ui, gesnipperd</li>
+                            <li><strong>125 ml</strong> droge witte wijn</li>
+                            <li><strong>500 ml</strong> kippenbouillon</li>
+                            <li><strong>125ml</strong> volle slagroom</li>
+                            <li>Zout en peper</li>
+                            <li>Nootmuskaat (optioneel)</li>
+                        </ul>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>Voorbereidingstijd:</strong> 30 minuten</li>
+                            <li><strong>Grilltijd:</strong> 1 – 2 uren</li>
+                            <li><strong>Grillmethode:</strong> indirecte gemiddelde warmte (170 – 220 °C)</li>
+                            <li><strong>Benodigde accessoires:</strong> Grote pan, Weber® tool set</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="js_tab-mobile-2-1st" class="sr-winter-recipe__tab-content js_mobile-tab-content">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        
+                            
+                                
+                        
+                        <div class="sr-winter-recipes__instructions">
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Bereid de barbecue voor op indirecte gemiddelde warmte (170° - 220°C).
+                                </li>
+                                <li class="sr-winter-recipes__instructions__list-item">Snijd de bovenkant van de pompoen en leg deze aan de kant. Schraap met een grote lepel de zaadjes en de vezels uit de pompoen en gooi deze weg. Zet de bovenkant terug op de pompoen.
+                                </li>
+                                <li class="sr-winter-recipes__instructions__list-item">Borstel het grillrooster schoon. Gril de pompoen op indirecte gemiddelde warmte, met gesloten deksel tot het vruchtvlees erg zacht is, gedurende 1½ tot 2 uren. Haal de pompoen van de barbecue en laat deze afkoelen. Schep de pulp eruit met een lepel en bewaar dit.
+                                </li>
+                                <li class="sr-winter-recipes__instructions__list-item">Smelt de boter in een grote pan. Voeg de uien toe en bak tot ze zacht zijn maar niet bruin, gedurende 2 tot 3 minuten, roer af en toe. Voeg de wijn toe en kook tot bijna al het vocht verdampt is, gedurende 5 minuten. Voeg de pompoenpulp en de kippenbouillon toe en roer goed door. Breng aan de kook en laat ± 20 minuten sudderen, af en toe roeren. Roer de slagroom door de soep en breng terug op temperatuur. Breng op smaak met zout en peper. Serveer warm en bestrooi indien gewenst met nootmuskaat.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div id="js_tab-tablet-3-1st" class="sr-winter-recipe__tab-content js_mobile-tab-content hide-on-mobile">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        
+                            
+                        
+                    </div>
+                </div>
+
+            </div>
+        </li>
+        <li class="sr-winter-recipes__content__list-item">
+            <div class="sr-winter-recipe__tabs-wrapper js_mobile-tabs-parent">
+                <ul class="sr-winter-recipes__tabs sr-winter-recipes__tabs_mobile js_mobile-recipe-tabs">
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet current" data-tab="js_tab-mobile-1-2nd">Ingrediënten</li>
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet" data-tab="js_tab-mobile-2-2nd">Bereiding</li>
+                    
+                </ul>
+
+                <div id="js_tab-mobile-1-2nd" class="sr-winter-recipe__tab-content js_mobile-tab-content current">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        
+                            
+                        
+                        <div class="sr-winter-recipes__tab__button-second hide-on-desktop">
+                            <a class="button button_default button_mobile-download" href="http://www.weber.com/s/NL/nl/recipe-overview/">MEER RECEPTEN</a>
+                        </div>
+                        <h4 class="sr-winter-recipes__instructions-headline">
+                            Voor de ganzenborst</h4>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>2</strong> ganzenborsten (300- 400 gr zonder botten, met vet)</li>
+                            <li><strong>80 gr</strong> amandelen </li>
+                            <li><strong>120 gr</strong> cranberry jam</li>
+                            <li><strong>2</strong> tandenstokers geweekt in water </li>
+                            <li>Geraspte schil van 1 sinaasappel 
+                            <li><strong>5 gr</strong> zwarte peper (fijngemalen) </li>
+                            <li><strong>5 gr</strong> koriander (fijngehakt)  </li>
+                            <li><strong>2 gr</strong> speculaaskruiden </li>
+                            <li><strong>5 gr</strong> grof zeezout </li>
+                            <li><strong>10 gr</strong> bruine rietsuiker</li>
+                        </ul>
+                        <h4 class="sr-winter-recipes__instructions-headline">
+                            Voor de gebakken perencompote</h4>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>4</strong> rijpe peren</li>
+                            <li><strong>50 gr</strong> acaciahoning</li>
+                            <li>Sap van een ½ citroen </li>
+                            <li><strong>25 gr</strong> geklaarde boter</li>
+                            <li><strong>1</strong> snufje kaneel</li>
+                        </ul>
+                        <h4 class="sr-winter-recipes__instructions-headline">
+                            Voor de rode kool</h4>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>1</strong> rode kool (max. 600 gr) </li>
+                            <li><strong>200 gr</strong> appels </li>
+                            <li><strong>2</strong> gepelde uien </li>
+                            <li><strong>50 gr</strong> varkensvet </li>
+                            <li><strong>3 el</strong> honing </li>
+                            <li><strong>100 ml</strong> wijnazijn</li>
+                            <li><strong> 200 ml</strong> rode wijn</li>
+                            <li><strong> 200 ml</strong> sinaasappelsap</li>
+                            <li><strong> 100 gr</strong> cranberryjam</li>
+                            <li><strong> 1</strong> klein kaneelstokje</li>
+                            <li><strong> 2</strong> teentjes knoflook </li>
+                            <li><strong>2</strong> laurierblaadjes </li>
+                            <li><strong>2</strong> jeneverbessen </li>
+                            <li><strong>8</strong> zwarte peperkorrels</li>
+                            <li>Zeezout</li>
+                        </ul>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>Voorbereidingstijd: </strong>60 minuten</li>
+                            <li><strong>Grilltijd:</strong> 80 tot 90 minuten </li>
+                            <li><strong>Grillmethode:</strong> directe / indirecte gemiddelde warmte (140-190°C)</li>
+                        </ul>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>Benodigde accessoires: </strong></li>
+                            <li>Steelpan </li>
+                            <li>Weber® Grillkorf </li>
+                            <li>Theezeefje </li>
+                            <li>Bakpapier</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="js_tab-mobile-2-2nd" class="sr-winter-recipe__tab-content js_mobile-tab-content">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        
+                            
+                                
+                        
+                        <div class="sr-winter-recipes__instructions">
+                            <h4 class="sr-winter-recipes__instructions-headline">In de keuken:</h4>
+                            <h6>Bereiding van de ganzenborst:</h6>
+                            <ol class="sr-winter-recipes__instructions__list:">
+                                <li class="sr-winter-recipes__instructions__list-item">Was de ganzenborst onder stromend water, dep ze droog en snijd het vet kruislings in. Snijd daarbij niet in het vlees.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Snijd de ganzenborst in de lengte in (zonder het vlees helemaal door te snijden). </li>
+                                <li class="sr-winter-recipes__instructions__list-item">Mix de amandelen en de cranberry jam met behulp van een keukenmachine tot een pasta. Vul daarna de ganzenborsten met de pasta. </li>
+                                <li class="sr-winter-recipes__instructions__list-item">Maak de uiteinden dicht met een tandenstoker.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Meng de sinaasappelrasp, peper, jeneverbessen, speculaaskruiden, zout en suiker. Wrijf daarna de mix over de ganzenborsten.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Laat de ganzenborsten daarna minstens 30 minuten afgedekt liggen op kamertemperatuur. Nog beter is het om de ganzenborsten in de koelkast te leggen voor een nacht.</li>
+                            </ol>
+                            <h6>Bereiding gebakken perencompote:</h6>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Schil de peren, snijd in 4 parten en verwijder het klokhuis.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Verwarm de honing in een metalen kom aan de zijkant van de barbecue en meng met het citroensap. Dompel de peren onder in het honing-citroenmengsel.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Bekleed de Weber Grillkorf met bakpapier en smeer dit in met geklaarde boter.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Leg de parten peer naast elkaar in de grillkorf.</li>
+                            </ol>
+                            <h6>Bereiding rode kool:</h6>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Was de rode kool, snijd deze in vieren, verwijder de kern en snijd in fijne reepjes.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Schil de appels, snijd in 4 parten, verwijder het klokhuis en snijd daarna in blokjes. </li>
+                                <li class="sr-winter-recipes__instructions__list-item">Snijd als laatste de ui in stukjes.</li>
+                            </ol>
+                            <h4 class="sr-winter-recipes__instructions-headline">Op de barbecue:</h4>
+                            <h6>Ganzenborst: </h6>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Bereid de barbecue voor op indirecte warmte 140-160 °C.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Grill de ganzenborsten met gesloten deksel gedurende ongeveer 20 minuten. Draai ze daarna en grill ze daarna weer gedurende 10 minuten.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Verhoog hierna de temperatuur en leg de ganzenborst met de huid naar beneden direct boven de warmtebron. Sluit hierbij het deksel niet. Grill de huid totdat deze knapperig is.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Haal de ganzenborsten van de barbecue en laat 5 minuten rusten.</li>
+                            </ol>
+                            <h6>Perencompote: </h6>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Bereid de barbecue voor op indirecte gemiddelde warmte 180-190 °C.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Gril de peren in de grillkorf gedurende 15 tot 20 minuten met gesloten deksel. Het is normaal dat de peren hun vocht verliezen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Gebruik daarna een vork om ze tot een compote te prakken en voeg kaneel naar smaak toe. </li>
+                            </ol>
+                            <h6>Rode kool: </h6>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Verwarm voorzichtig het varkensvet in een steelpan.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Voeg honing, azijn, rode wijn, sinaasappelsap en cranberry jam toe en breng aan de kook.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Doe het kaneelstokje, laurierbladen, koriander en jeneverbessen in een theezeefje en voeg toe aan de vloeistof.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Voeg de rode kool en appels toe en verwarm met gesloten deksel totdat de rode kool zacht is.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Verwijder tot slot het theezeefje en voeg naar smaak zout toe. </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div id="js_tab-tablet-3-2nd" class="sr-winter-recipe__tab-content js_mobile-tab-content hide-on-mobile">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        
+                            
+                        
+                    </div>
+                </div>
+
+            </div>
+        </li>
+        <li class="sr-winter-recipes__content__list-item">
+            <div class="sr-winter-recipe__tabs-wrapper js_mobile-tabs-parent">
+                <ul class="sr-winter-recipes__tabs sr-winter-recipes__tabs_mobile js_mobile-recipe-tabs">
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet current" data-tab="js_tab-mobile-1-3rd">Ingrediënten</li>
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet" data-tab="js_tab-mobile-2-3rd">Bereiding</li>
+                    
+                </ul>
+
+                <div id="js_tab-mobile-1-3rd" class="sr-winter-recipe__tab-content js_mobile-tab-content current">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        
+                            
+                        
+                        <div class="sr-winter-recipes__tab__button-second hide-on-desktop">
+                            <a class="button button_default button_mobile-download" href="http://www.weber.com/s/NL/nl/recipe-overview/">MEER RECEPTEN</a>
+                        </div>
+                        <h4 class="sr-winter-recipes__instructions-headline">Voor het deeg:</h4>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>2</strong> eieren (maat M)</li>
+                            <li><strong>75</strong> gr suiker</li>
+                            <li><strong>200</strong> ml melk</li>
+                            <li><strong>100</strong> ml zonnebloemolie</li>
+                            <li><strong>1</strong> snufje zout</li>
+                            <li>Merg van <strong>1</strong> vanillestokje</li>
+                            <li><strong>250</strong> gr bloem</li>
+                            <li><strong>1</strong> tl bakpoeder</li>
+                        </ul>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>Voorbereidingstijd:</strong> 15 minuten, 30 minuten voor de decoratie</li>
+                            <li><strong>Grilltijd:</strong> 20 tot 25 minuten</li>
+                            <li><strong>Barbecuemethode:</strong> indirecte gemiddelde warmte (180°C)</li>
+                        </ul>
+                        <h4 class="sr-winter-recipes__instructions-headline">Voor de decoratie:</h4>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>250</strong> g poedersuiker</li>
+                            <li>Sap van 1 citroen</li>
+                            <li>Ongeveer 50 gr gesmolten pure chocolade</li>
+                            <li>± 20 witte chocoladetruffels </li>
+                            <li>± 300 gr rauwe marsepein</li>
+                            <li>Rode kleurstof</li>
+                            <li>Zwarte kleurstof</li>
+                        </ul>
+                        <h6>Benodigde accessoire:</h6>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li>Gourmet BBQ System – Ebelskiver / poffertjespan</li>
+                            <li>Papieren muffinvormpjes</li>
+                            <li>Kleine spuitzak</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="js_tab-mobile-2-3rd" class="sr-winter-recipe__tab-content js_mobile-tab-content">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        
+                            
+                                
+                        
+                        <div class="sr-winter-recipes__instructions">
+                            <h4 class="sr-winter-recipes__instructions-headline"><small>In de keuken:</small></h4>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Meng de eieren, suiker, melk, zonnebloemolie, zout en het merg van het vanillestokje in een grote kom.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Meng de bloem en het bakpoeder, zeef het boven het eimengsel en spatel het er voorzichtig door.</li>
+                            </ol>
+                            <h4 class="sr-winter-recipes__instructions-headline"><small>Op de barbecue:</small></h4>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Bereid de barbecue voor op indirecte warmte 180°C.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Plaats de papieren muffinvormpjes in de Ebelskiver.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Vul de vormpjes voor 3/4 met het deegmengsel.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Bak de muffins boven indirecte warmte gedurende 20 tot 25 minuten, totdat ze goudbruin zijn.</li>
+                            </ol>
+                            <h4 class="sr-winter-recipes__instructions-headline">Voorbereiding van de decoratie</h4>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Meng de poedersuiker met het citroensap tot een dik glazuur. Zodra de muffins afgekoeld zijn dit gelijkmatig verspreiden op de muffins en laten drogen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Gebruik de witte chocoladetruffel als hoofd van de sneeuwpop zet deze vast met een beetje glazuur.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Kleur 150 gr. onbewerkte marsepein met rode kleurstof. Rol de marsepein met poedersuiker of tussen bakpapier dun uit en snijd het in 10 cm lange en 1 cm brede stroken.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Plaats de rode marsepein stroken rond de nek van de sneeuwpop als sjaal.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Kleur de overige 150 gr. onbewerkte marsepein met zwarte kleurstof. Maak hiervan hoedjes voor de sneeuwpoppen. Zet het hoedje met een beetje glazuur vast op het hoofd van de sneeuwpop.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Vul een kleine spuitzak met vloeibare chocolade. Maak 2 oogjes op elke witte chocoladetruffel.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Bestrooi als laatste de muffins met wat poedersuiker. </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div id="js_tab-tablet-3-3rd" class="sr-winter-recipe__tab-content js_mobile-tab-content hide-on-mobile">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        
+                            
+                        
+                    </div>
+                </div>
+
+            </div>
+        </li>
+    </ul>
+</div>
+
+            </div> 
+
+        </div> 
+
+    </div> 
+
+    <div class="srgrid">
+
+        <div class="srgrid__container">
+
+            <div class="sr-cta-section" id="sr-cta-section">
+
+                <a name="sr-cta-section"></a>
+
+                <div class="srgrid__row srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-cta-section__info red-container">
+                            <div class="sr-cta-section__description">
+                                <img class="sr-cta-section__illustration-text" src="pages/campaign/xmas2016/cta_illustration_with_text.png?$staticlink$" alt="Weber ID illustration with text">
+                                <div class="sr-cta-section__list-wrapper">
+                                    <ul class="sr-cta-section__list bullet-list">
+                                        <li class="sr-cta-section__list-item">Registreer uw barbecue</li>
+                                        <li class="sr-cta-section__list-item">Ontdek exclusieve recepten en producten</li>
+                                        <li class="sr-cta-section__list-item">Ontvang handige tips & tricks</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a class="button button-trans-white button_default sr-cta-section__button" href="$httpsUrl('Account-Show')$">Weber ID Creëren</a>
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-cta-section__info black-container">
+                            <div class="sr-cta-section__description">
+                                <h2 class="sr-cta-section__headline">Alle cashback modellen en andere cadeau's vindt u bij uw deelnemende Weber winter dealer.</h2>
+                            </div>
+                            <a class="button button_default sr-cta-section__button" href="$url('Stores-Find')$">Winkel Zoeken</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+        </div> 
+
+    </div> 
+
+    <div class="srgrid">
+
+        <div class="sr-footer">
+
+            <div class="srgrid__container">
+                <div class="srgrid__row srgrid__row_center srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                        <a class="sr-footer__facebook-link" href="https://www.facebook.com/weberbarbecues.NL/" target="_blank" title="Weber Op Facebook">
+                            <img class="sr-footer__facebook-icon" src="pages/campaign/xmas2016/footer_facebook_icon.jpg?$staticlink$" alt="Weber Facebook page">
+                            <span class="sr-footer__facebook-text">Weber Op Facebook</span>
+                        </a>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                        <a class="sr-footer__back-to-top footer-back-to-top smooth-scrolling hide-on-print" href="#wrapper" title="Naar Boven">
+                            <span class="sr-footer__back-to-top-text back-to-top-text">Naar Boven</span>
+                            <span class="sr-footer__back-to-top-icon icon-arrow-top-light"></span>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+
+        </div> 
+
+    </div> 
+
+</div>

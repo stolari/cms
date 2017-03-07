@@ -1,0 +1,63 @@
+<section class="black-container grill-academy new">
+    <div class="full-width-container no-padding">
+        <div class="box-grid">
+            <div class="box box-col-50-100-100 grill-academy-map" style="background-image: url(pages/homepage/home-slot6-bg-europe-d.png?$staticlink$)">
+                <div class="teaser box size-onend style-large" style="background-image: url(pages/homepage/home-slot6-bg-europe-pins-d.png?$staticlink$)">
+                    <div class="box-content">
+                        <div class="box-content-inner">
+                            <span class="headline"><a href="$url('Stores-Find')$" class="text-white">Weber vor Ort erleben</a></span>
+                            <span class="subheadline"><a href="$url('Stores-Find')$" class="text-white">Lass dich inspirieren</a></span>
+                            <div class="single-grid">
+                              <div class="col-6">
+                                <a href="$url('Page-GrillAcademyLanding')$" title="Kurs buchen" class="default-margin-bottom call-to-img">
+                                  <img src="pages/homepage/home-slot6-grillacademy-left.png?$staticlink$" alt="image">
+                                </a>
+                                <div class="bottom-ctr left">
+                                  <img class="call-to-logo default-margin-bottom" src="pages/homepage/grill-academy_logo.png?$staticlink$" alt="Grill Academy">
+                                  <div>
+                                    <a href="$url('Page-GrillAcademyLanding')$" class="button button-inline button-red" title="Weber Grill Academy">
+                                      Weber Grill Academy
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-6">
+                                <a class="default-margin-bottom call-to-img" href="$url('Page-Show', 'cid', 'nav65')$" title="Weber Original Stores">
+                                  <img src="pages/homepage/home-slot6-grillacademy-right.png?$staticlink$" alt="image">
+                                </a>
+                                <div class="bottom-ctr right">
+                                  <img class="default-margin-bottom call-to-logo" src="pages/homepage/weber_logo.png?$staticlink$" alt="Grill Academy">
+                                  <div>
+                                    <a href="$url('Page-Show', 'cid', 'nav65')$" class="button button-inline button-red"  title="Weber Original Stores">
+                                      Weber Original Stores
+                                      </a>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="box box-col-50-100-100">
+                <div class="box box-col-100">
+                    <div class="teaser box box size-medium-small style-large" style="background-image: url(pages/homepage/160707_d-teaser.jpg?$staticlink$)">
+                        <div class="box-content">
+                            <div class="box-content-inner">
+                                <span class="headline"><a href="$url('Search-Show', 'cgid', 'em-vorteils-sets')$" class="text-white" title="Vorteils-Sets">Die Vorteils-Sets</a></span>
+                                <span class="subheadline"><a href="$url('Search-Show', 'cgid', 'em-vorteils-sets')$" class="text-white" title="Vorteils-Sets subheader">Für alle die mehr wollen die Vorteils-sets mit gratis Zubehör</a></span>
+                                <div class="button-ctr">
+                                    <a href="$url('Search-Show', 'cgid', 'em-vorteils-sets')$" title="Alle Zubehör-Highlights" class="button button-inline button-red" title="Jetzt entdecken"> Finde dein Set</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     $include('Include-Teaser', 'assetid', 'Pulled-Chicken', 'size', 'small', 'style', 'large', 'showbutton', 'true', 'contenttype', 'homepage', 'nocrop', 'true')$
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

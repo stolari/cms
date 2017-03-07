@@ -1,0 +1,73 @@
+<section class="black-container image-slider">
+    <div class="slider">
+        <div class="jcarousel-wrapper full-width-container no-padding">
+            <div class="jcarousel" data-autoplay="true" data-interval="10500">
+                <ul class="slides">
+
+ 
+ <li class="slide teaser-homepage" style="background-image: url(pages/homepage/Christmas_2016.jpg?$staticlink$)">
+                        <div class="col-left">
+                            <span class="headline text-condensed headline-1 text-white"><a href="https://www.weber.com/DE/de/xmas2016.html" class="text-white" style="text-decoration:none">Die schönste<br>Grillzeit des Jahres</a></span>
+                            <p class="text-condensed text-white headline-6"><a href="https://www.weber.com/DE/de/xmas2016.html" class="text-white" style="text-decoration:none">Nichts geht über das gemeinsame Anfeuern bei klirrender Kälte.<br>Entdecke mit uns die Magie des Winters und tolle Geschenkideen.</a></p>
+                            <a href="https://www.weber.com/DE/de/xmas2016.html" class="button">Mehr Entdecken</a>
+                        </div>
+                    </li>
+                    
+                    <li class="slide teaser-homepage" style="background-image: url(pages/homepage/row1/voucher_hero.jpg?$staticlink$)">
+                        <div class="col-left">
+                            <span class="headline text-condensed headline-1 text-white"><a href="$httpsUrl('GiftCert-Purchase')$" class="text-white" style="text-decoration:none">Die schönste<br>Geschenkgutscheine von Weber®</a></span>
+                            <p class="text-condensed text-white headline-6"><a href="$httpsUrl('GiftCert-Purchase')$" class="text-white" style="text-decoration:none">Weil selber aussuchen glücklich macht. <br>Überrasch Deine Liebsten mit einem unserer Gutscheine.</a></p>
+                            <a href="$httpsUrl('GiftCert-Purchase')$" class="button">Mehr Entdecken</a>
+                        </div>
+                    </li>
+                    <!--<a href="$httpsUrl(PageSupportive-LandingPageSummitCharcoal)$" class="text-white" style="text-decoration:none">-->
+
+
+
+<li class="slide teaser-homepage" style="background-image: url(pages/homepage/Weber-Mainteaser-Golden-Season.jpg?$staticlink$)">
+                        <div class="col-left">
+                            <span class="headline text-condensed headline-1 text-white"><a href="https://www.weber-grillakademie.com/seminare/kurs-beschreibung/golden-season" class="text-white" style="text-decoration:none">Weber® <br>Golden Season</a></span>
+                            <p class="text-condensed text-white headline-6"><a href="https://www.weber-grillakademie.com/seminare/kurs-beschreibung/golden-season" class="text-white" style="text-decoration:none">Jetzt ist die leckerste Zeit des Jahres<br>Exklusiv in unseren Weber Original Stores</a></p>
+                            <a href="https://www.weber-grillakademie.com/seminare/kurs-beschreibung/golden-season" class="button">Kurs jetzt buchen</a>
+                        </div>
+                    </li>
+ 
+                    
+         <li class="slide teaser-homepage" style="background-image: url(pages/homepage/teaser_homepage_summit3.jpg?$staticlink$)">
+                        <div class="col-left">
+                            <span class="headline text-condensed headline-1 text-white"><a href="$httpsUrl(PageSupportive-LandingPageSummitCharcoal)$" class="text-white" style="text-decoration:none">Summit™ Charcoal Grill</a></span>
+                            <p class="text-condensed text-white headline-6"><a href="$httpsUrl(PageSupportive-LandingPageSummitCharcoal)$" class="text-white" style="text-decoration:none">Eine ganz neue Welt des Grillens</a></p>
+                            <a href="$httpsUrl(PageSupportive-LandingPageSummitCharcoal)$" class="button">Mehr entdecken</a>
+                        </div>
+                    </li>
+                    
+                   
+
+<li class="slide teaser-homepage" style="background-image: url(/pages/homepage/teaser_homepage_weber-original-stores.jpg?$staticlink$)">
+                        <div class="col-left">
+                            <span class="headline text-condensed headline-1 text-white"><a href="$httpsUrl('Page-Show', 'cid', 'nav65')$" class="text-white" style="text-decoration:none">360 Grad Markenwelt:<br>Weber®  Original Stores</a></span>
+                            <p class="text-condensed text-white headline-6"><a href="$httpsUrl('Page-Show', 'cid', 'nav65')$" class="text-white" style="text-decoration:none">Faszinierende Produktvielfalt. Inspirierende Ideen. Die gesamte Produktpalette von Weber und das Wissen unserer Grillmeister für Dein ultimatives Grillerlebnis.</a></p>
+                            <a href="$httpsUrl('Page-Show', 'cid', 'nav65')$" class="button">MEHR ERFAHREN</a>
+                        </div>
+                    </li>
+
+
+
+           <li class="slide teaser-homepage" style="background-image: url(pages/homepage/teaser_homepage_color-q-v4.jpg?$staticlink$)">
+                        <div class="col-left">
+                            <span class="headline text-condensed headline-1 text-white"><a href="$url('Page-Show', 'cid', 'weber-color-q')$" class="text-white" style="text-decoration:none">Der Weber® Q®<br>Meiner für Alles</a></span>
+                            <p class="text-condensed text-white headline-6"><a href="$url('Page-Show', 'cid', 'weber-color-q')$" class="text-white" style="text-decoration:none">Der kleine und doch leistungsstarke Gasgrill Weber® Q® 1200™. Jetzt in fünf tollen Farben erhältlich.</a></p>
+                            <a href="$url('Page-Show', 'cid', 'weber-color-q')$" class="button">Mehr entdecken</a>
+                        </div>
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="jcarousel-navigation bottom-right">
+                <a href="" class="jcarousel-control-prev icon-arrow-down-light bubble"></a>
+                <span class="jcarousel-pagination light"></span>
+                <a href="" class="jcarousel-control-next icon-arrow-down-light bubble"></a>
+            </div>
+        </div>
+    </div>
+</section>

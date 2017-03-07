@@ -1,0 +1,82 @@
+<div class="grid-row">
+	<div class="col-lg-12 col-md-12 col-sm-12 ux-ci-teaser-ctr">
+		<div class="slider ux-carousel">
+			<div class="jcarousel-wrapper">
+				<div class="jcarousel" data-autoplay="true" data-interval="10500" data-jcarouselautoscroll="true">
+					<ul class="slides">
+						<li class="slide">
+							<div class="ux-teaser ux-ci-teaser ux-ci-teaser-black ux-ci-teaser-large">
+								<div class="ux-ci-teaser-content ux-teaser-content">
+									<span class="ux-teaser-headline text-red text-condensed text-uppercase">
+										News from Weber Grill Academy
+									</span>
+									<span class="headline-3 text-condensed">
+										New Grill Academy opening at Green Dragon Eco Farm Near Banbury !
+									</span><br>
+									<div class="mb-lg-3 mb-md-3 mb-sm-6">
+										<span class="text-grey text-regular">
+											The Green Dragon Eco Farm is a sustainably run visitor attraction and venue 
+											that’s located in beautiful open countryside where there’s plenty of space to 
+											explore the farm.
+										</span>
+										<a class="text-uppercase text-condensed text-black" href="">View Details</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="slide">
+							<div class="ux-teaser ux-ci-teaser ux-ci-teaser-black ux-ci-teaser-large">
+								<div class="ux-teaser-content">
+									<span class="ux-teaser-headline text-red text-condensed text-uppercase">
+										News from Weber Grill Academy
+									</span>
+									<span class="headline-3 text-condensed">
+										The count down has begun. Our full range of courses start from the 1st April. Book now!
+									</span>
+									<div class="mb-lg-3 mb-md-3 mb-sm-6">
+										<span class="text-grey text-regular">
+											"THIS YEAR, MASTER YOUR GRILL SKILLS AND LEARN TO BARBECUE THE WEBER® WAY. 
+											From grilling and roasting to baking and smoking, you’ll be amazed at what you can cook using 
+											these simple techniques. Throughout the day, you will be shown how to get the most out of 
+											your barbecue, to prepare anything from roasts to risottos, pork loin to puddings! In-depth 
+											tuition in a friendly, relaxed atmosphere, will inspire you with the confidence and enthusiasm 
+											to really expand your barbecue repitour." 
+										</span><br>
+										<a class="text-uppercase text-condensed text-black" href="http://www.grillacademy.co.uk/" title="new courses">  Explore our new courses</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="slide">
+							<div class="ux-teaser ux-ci-teaser ux-ci-teaser-black ux-ci-teaser-large">
+								<div class="ux-teaser-content">
+									<span class="ux-teaser-headline text-red text-condensed text-uppercase">
+										News from Weber Grill Academy
+									</span>
+									<span class="headline-3 text-condensed">
+										The Brand new Gennesis II will feature on all 2017 Weber Grill Academy Courses!
+									</span>
+									<div class="mb-lg-3 mb-md-3 mb-sm-6">
+										<span class="text-grey text-regular">
+											PRESENTING THE GENESIS® II AND GENESIS® II LX SERIES OF GAS GRILLS...
+										</span><br>
+										<a class="text-uppercase text-condensed text-black" href="$url('Page-Show', 'cid', 'grillacademy-news-supportive-content-UK02')$" title="View Details">View Details</a>
+										
+									</div>
+								</div>
+							</div>
+						</li>
+					
+					</ul>
+					<div class="jcarousel-navigation"> <!--- the navigation contains two arrows and a pagination for mobile view --->
+						<span class="jcarousel-pagination"></span>
+						<div class="jcarousel-controls">
+							<a href="#" class="jcarousel-control-prev jcarousel-control icon-arrow-down-light bubble"></a> 
+							<a href="#" class="jcarousel-control-next jcarousel-control icon-arrow-down-light bubble"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>

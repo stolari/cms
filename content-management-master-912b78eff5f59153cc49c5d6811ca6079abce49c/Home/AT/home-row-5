@@ -1,0 +1,60 @@
+<section class="black-container grill-academy">
+    <div class="full-width-container no-padding">
+        <div class="box-grid">
+          <div class="box box-col-50-100-100">
+              <div class="teaser box size-onend style-large" style="background-image: url(pages/homepage/home-slot6-bg-europe-with-pins-d.png?$staticlink$)"> 
+                  <div class="box-content">
+                      <div class="box-content-inner">
+                          <span class="headline"><a href="$url('Stores-Find')$" class="text-white">Learn how to grill</a></span>
+                          <span class="subheadline"><a href="$url('Stores-Find')$" class="text-white">Better</a></span>
+                          <div class="button-ctr">
+                                  <a href="$url('Stores-Find')$" title="ZUM GRILL ACADEMY FINDER" class="text-uppercase text-condensed-thin headline-6 text-white">ZUM GRILL ACADEMY FINDER</a>
+                              </div>
+                          <div class="image-container">
+                              <img src="pages/homepage/grill-academy_logo.png?$staticlink$" alt="Grill Academy">
+                          </div>
+                          <div class="slider">
+                              <div class="jcarousel-wrapper full-width-container no-padding">
+                                  <div class="jcarousel">
+                                      <ul class="slides">
+                                          <li class="slide">
+                                              <img src="pages/homepage/box-3_tile-1@1.5.jpg?$staticlink$" alt="image">
+                                          </li>
+                                          <li class="slide">
+                                              <img src="pages/homepage/box-3_tile-2@1.5.jpg?$staticlink$" alt="image">
+                                          </li>
+                                          <li class="slide">
+                                              <img src="pages/homepage/box-3_tile-3@1.5.jpg?$staticlink$" alt="image">
+                                          </li>
+                                      </ul>
+                                  </div>
+                                  <div class="jcarousel-navigation centered only-on-mobile">
+                                      <span class="jcarousel-pagination"></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="box box-col-50-100-100">
+                <div class="box box-col-100">
+                    <div class="teaser box box size-medium-small style-large" style="background-image: url(pages/homepage/160707_d-teaser.jpg?$staticlink$)">
+                        <div class="box-content">
+                            <div class="box-content-inner">
+                                <span class="headline"><a href="$url('Search-Show', 'cgid', 'em-vorteils-sets')$" class="text-white" title="Vorteils-Sets">Die Vorteils-Sets</a></span>
+                                <span class="subheadline"><a href="$url('Search-Show', 'cgid', 'em-vorteils-sets')$" class="text-white" title="Vorteils-Sets subheader">Für alle die mehr wollen die Vorteils-sets mit gratis Zubehör</a></span>
+                                <div class="button-ctr">
+                                    <a href="$url('Search-Show', 'cgid', 'em-vorteils-sets')$" title="Alle Zubehör-Highlights" class="button button-inline button-red" title="Jetzt entdecken"> Finde dein Set</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     $include('Include-Teaser', 'assetid', 'Weihnachtsmenue:-Rehruecken-unter-der-Spekulatiuskruste', 'size', 'small', 'style', 'large', 'showbutton', 'true', 'contenttype', 'homepage', 'nocrop', 'true')$
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

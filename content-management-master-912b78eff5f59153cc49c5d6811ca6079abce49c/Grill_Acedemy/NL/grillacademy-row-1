@@ -1,0 +1,24 @@
+<section class="black-container grillacademy-banner video-html5">
+    <div class="grillacademy-hero">
+        <video id="video" class="hero-video" autoplay loop poster="pages/grillacademy/weber-ga-hero-video-placeholder.jpg?$staticlink$">
+            <source src="pages/grillacademy/weber-ga-hero-video.mp4?$staticlink$" type="video/mp4" />
+            <source src="pages/grillacademy/weber-ga-hero-video.webm?$staticlink$" type="video/webm" />
+            <source src="pages/grillacademy/weber-ga-hero-video.ogv?$staticlink$" type="video/ogg" />
+        </video>
+    </div>
+    <div class="full-width-container teaser">
+        <h1 class="header">DENKT U BIJ 'SMOKING' ALLEEN AAN AVONDKLEDING? HOOG TIJD VOOR DE WEBER GRILL ACADEMY!</h1>
+        <p class="text-condensed-thin sub-header">Bij de Weber Grill Academy leert u onder leiding van een gerenommeerde en door Weber gecertificeerde Grill Master de fijne kneepjes van het betere barbecueën.</p>
+        <div class="container text-center cta-buttons">
+            <a href="$url('Page-Show', 'fdid', ' grillAcademy-grillAcademy-courses')$" class="button button-inline">Workshops</a> <a href="https://www.grillacademy.nl/cursussen.php" class="button button-inline" target="_blank">Boek hier</a>
+        </div>
+        <div class="text-center button-ctr">
+            <p class="link-read-more text-condensed-thin text-uppercase">Meer informatie over de Weber Grill Academy</p>
+            <p class="text-condensed-thin text-center"><span class="play-button"><button name="play"></button>Video afspelen</span></p>
+                
+        </div>
+    </div>
+    <script id="full-video" type="text/javascript">
+        "[{\"video\/mp4\": \"pages/grillacademy/weber-ga-hero-video-full.mp4?$staticlink$\"}, {\"video\/webm\": \"pages/grillacademy/weber-ga-hero-video-full.webm?$staticlink$\"}, {\"video\/ogg\": \"pages/grillacademy/weber-ga-hero-video-full.ogv?$staticlink$\"}]"
+    </script>
+</section>

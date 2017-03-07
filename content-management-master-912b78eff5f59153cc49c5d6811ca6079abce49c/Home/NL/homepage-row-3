@@ -1,0 +1,29 @@
+<section class="black-container">
+    <div class="full-width-container no-padding">
+        <div class="box-grid">
+            <div class="box box-col-50-50-100">
+                <div class="teaser box size-medium-small style-large" style="background-image: url(pages/homepage/box-1@1.5.jpg?$staticlink$)"> 
+                    <div class="box-content">
+                        <div class="box-content-inner">
+                            <span class="headline"><a href="$url('Page-Show', 'cid', 'mc9')$" class="text-white hover-black" title="Grill Selector"> Grill Guide</a></span>
+                            <span class="subheadline"><a href="$url('Page-Show', 'cid', 'mc9')$" class="text-white hover-black" title="Grill guide">VIND DE BARBECUE DIE BIJ U PAST</a></span>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="box box-col-50-50-100">
+                <div class="teaser box size-medium-small style-large" style="background-image: url(pages/homepage/row3/Teaser_BG-2.jpg?$staticlink$)"> 
+                    <div class="box-content">
+                        <div class="box-content-inner">
+                            <span class="headline"><a href="$url('Search-Show', 'cgid', '8896')$" class="text-white" title="iGrill systeem">Het nieuwe  iGrill-systeem</a></span>
+                            <span class="subheadline"><a href="$url('Search-Show', 'cgid', '8896')$" class="text-white" title="Optimale barbecue resultaten">Optimale barbecueresultaten door slimme temperatuurcontrole</a></span>
+                            <div class="button-ctr">
+                                <a href="$url('Search-Show', 'cgid', '8896')$" title="Nu ontdekken" class="button button-inline button-red"> Nu ontdekken </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

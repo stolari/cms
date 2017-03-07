@@ -1,0 +1,23 @@
+<div class="content">
+   <h2 class="headline-2">Overig</h2>
+    <ul>
+         <!--<li>
+            <div class="other-image">
+                <img src="pages/storelocator/weber_grill_red.png?$staticlink$" alt="Weber Grill" />
+		    </div>
+		    <div class="other-text">
+                <h5>Dealer van het jaar 2015</h5>  
+                <p>De titel "dealer van het jaar" werd verleend op grond van de volgende beoordelingscriteria: ‘Assortimentbreedte’, ‘Beleving van Weber producten’, ‘Kwaliteit van het advies’, ‘Omvang en inrichting van de showroom’. Wij zijn blij dat we Weber World ‘Tuincentrum van den Hurk’ uit Culemborg tot dealer van het jaar 2015 mogen uitroepen.</p>
+		    </div>
+		</li>-->
+        <li>
+            <div class="other-image">
+                <img src="pages/storelocator/weber_service.png?$staticlink$" alt="Weber Grill" />
+            </div>
+            <div class="other-text">
+                <h5>Weber Service Partner</h5>  
+                <p>Onze servicepartners bieden meer, want de perfecte service begint pas na aankoop van een barbecue! Hier krijgt u extra service zoals het leveren, reinigen of controleren van een barbecue. Want voor ons is goede service net zo belangrijk als de hoge kwaliteit van onze producten.</p>
+            </div>
+        </li>
+    </ul>
+</div>

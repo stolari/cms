@@ -1,0 +1,1249 @@
+<style>
+    .sr-intro {
+        min-height: 390px;
+        background: #fff url("pages/campaign/xmas2016/intro_gift_illustration.png?$staticlink$") no-repeat 90% 5%;
+    }
+
+    @media (max-width: 767px) {
+        .sr-intro {
+            background: #fff;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .sr-intro {
+            padding-top: 20px;
+        }
+    }
+
+    .sr-hero {
+        width: 100%;
+        height: 640px;
+        padding-top: 90px;
+        padding-right: 40px;
+        background: #000 url("pages/campaign/xmas2016/hero_teaser.jpg?$staticlink$") no-repeat center center;
+        background-size: cover;
+    }
+
+    @media (max-width: 767px) {
+        .sr-hero {
+            height: auto;
+            padding: 0;
+            background: #000;
+        }
+    }
+
+    @media (max-width: 1023px) {
+        .sr-gift-finder__header__headline {
+            text-align: center;
+            padding: 15px 0 20px;
+            border-style: dotted;
+            border-color: #fff;
+            border-image-source: url("../images/landingpages/xmas2016/white-dots.svg");
+            border-image-slice: 25% 25%;
+            border-image-repeat: round;
+            border-width: 0 0 6px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .sr-winter-recipe__tab-container {
+            padding: 20px 0 0;
+            list-style: none;
+            border-top: 1px dashed #fff;
+            border-bottom: 0;
+            border-image-source: url("pages/campaign/xmas2016/white-dashes.png?$staticlink$");
+            border-image-slice: 41 1;
+            border-image-repeat: round;
+        }
+    }
+
+    .sr-winter-recipes {
+        background: #000 url("pages/campaign/xmas2016/winter_recipes_cook_illustration.png?$staticlink$") no-repeat top right;
+    }
+
+    @media (max-width: 1023px) {
+        .sr-winter-recipes {
+            background: #000;
+        }
+    }
+
+    .sr-winter-recipes__carousel_desktop .sr-winter-recipe__tab-content {
+        font-size: 20px;
+        list-style: none;
+        border-top: 1px dashed #fff;
+        border-bottom: 0;
+        border-image-source: url("pages/campaign/xmas2016/white-dashes.png?$staticlink$");
+        border-image-slice: 41 1;
+        border-image-repeat: round;
+    }
+
+    .sr-gift-winder__header__illustration__border {
+        border-style: dotted;
+        border-color: #ffffff;
+        border-image-source: url("../images/landingpages/xmas2016/white-dots.svg");
+        border-image-slice: 25% 25%;
+        border-image-repeat: round;
+        border-width: 0 0 6px;
+    }
+
+    .sr-gift-finder__category__slide__description__content {
+        display: block;
+        padding: 40px 20px;
+        margin: 40px 20px 0;
+        border-style: dotted;
+        border-color: #ffffff;
+        border-image-source: url("../images/landingpages/xmas2016/black-dots.svg");
+        border-image-slice: 20% 20%;
+        border-image-repeat: round;
+        border-width: 7px 0;
+    }
+
+    .sr-winter-recipe__tabs {
+        display: inline-block !important;
+    }
+
+    .sr-intro__text-wrap:hover {
+        color: #ed1c23 !important;
+    }
+
+</style>
+
+<div class="sr-wrapper">
+
+    <nav class="wc-scroll-menu hide-on-mobile">
+        <ul>
+            <li><a href="#sr-intro" class="active">Die schönste Grillzeit des Jahres</a></li>
+            <li><a href="#sr-campaign-products">Aktionsprodukte</a></li>
+            <li><a href="#sr-gift-finder">Geschenkefinder</a></li>
+            <li><a href="#sr-gift-contest">Gewinnspiel</a></li>
+            <li><a href="#sr-winter-recipes">Winterrezepte</a></li>
+            <li><a href="#sr-free-cups">Gratis Tasse</a></li>
+            <li><a href="#sr-cta-section">Weber ID & Händlerfinder</a></li>
+        </ul>
+    </nav> 
+
+    <div class="srgrid">
+
+        <div class="srgrid__container">
+
+            <div class="sr-hero" id="sr-hero">
+                <div class="srgrid__row">
+                    <div class="srgrid__col srgrid__col_20_s srgrid__col_offset_16_s srgrid__col_20_m srgrid__col_offset_16_m srgrid__col_18_l srgrid__col_offset_18_l sr-hero__illustration-wrapper">
+                        <img class="sr-hero__illustration" src="pages/campaign/xmas2016/hero_illustration_with_text.png?$staticlink$" alt="Grill illustration with text">
+                    </div>
+                </div>
+            </div> 
+
+            <nav class="sr-mobile-nav js_mobile-nav only-on-mobile">
+                <ul class="sr-mobile-nav__links">
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-intro">Die schönste Grillzeit des Jahres</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-campaign-products">Aktionsprodukte</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-gift-finder">Geschenkefinder</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-gift-contest">Gewinnspiel</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-winter-recipes">Winterrezepte</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-free-cups">Gratis Tasse</a></li>
+                    <li class="sr-mobile-nav__link-item"><a class="sr-mobile-nav__link" href="#sr-cta-section">Weber ID & Händlerfinder</a></li>
+                </ul>
+            </nav> 
+
+            <div class="sr-intro" id="sr-intro">
+
+                <a name="sr-intro"></a>
+
+                <div class="srgrid__row">
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-intro__illustrations sr-intro__illustrations--nl hide-on-mobile">
+                            <img class="sr-intro__illustration sr-intro__illustration_text sr-intro__illustration_text--nl hide-on-mobile" src="pages/campaign/xmas2016/intro_illustration_text.png?$staticlink$" alt="Most wonderful barbecue of the year">
+                            <img class="sr-intro__illustration sr-intro__illustration_cook sr-intro__illustration_cook--nl hide-on-mobile" src="pages/campaign/xmas2016/intro_cook_illustration-nl.png?$staticlink$" alt="Cooking with Weber grill">
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                        <div class="sr-intro__content scroll-menu">
+                            <div class="sr-intro__text">
+                                <div class="sr-intro__text-wrap">
+                                    <a href="#sr-gift-contest"></a>
+                                    <h3 class="sr-intro__headline">Gewinnspiel</h3>
+                                    <p class="sr-intro__description">Jeden Tag tolle Gewinne im Weber Adventskalender – jetzt mitmachen!</p>
+                                </div>
+                            </div>
+                            <div class="sr-intro__text">
+                                <div class="sr-intro__text-wrap">
+                                    <a href="#sr-gift-finder"></a>
+                                    <h3 class="sr-intro__headline">Geschenkefinder</h3>
+                                    <p class="sr-intro__description">Reinklicken, durchstöbern, inspirieren lassen und das perfekte Geschenk entdecken.</p>
+                                </div>
+                            </div>
+                            <div class="sr-intro__text">
+                                <div class="sr-intro__text-wrap">
+                                    <a href="#sr-winter-recipes"></a>
+                                    <h3 class="sr-intro__headline">Winterrezepte</h3>
+                                    <p class="sr-intro__description">Probiere gleich drei unserer Lieblings Wintergrill-Rezepte aus!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="sr-campaign-products" id="sr-campaign-products">
+
+                <a name="sr-campaign-products"></a>
+
+                <div class="srgrid__row srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-products__info">
+                            <img class="sr-campaign-products__mood_copper mood-image" src="pages/campaign/xmas2016/campaign_product_copper_mood.jpg?$staticlink$" alt="Campaign product mood">
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-products__info">
+                            <span class="sr-campaign-products__badge">
+                               <strong>Neu</strong>
+                            </span>
+                            <img class="sr-campaign-products__product sr-campaign-products__product_copper" src="pages/campaign/xmas2016/campaign_product_copper_grill.png?$staticlink$" alt="Campaign product - copper grill">
+                            <div class="sr-campaign-products__description">
+                                <h2 class="sr-campaign-products__headline">Das neue original <strong>MASTER-TOUCH GBS COPPER SPECIAL EDITION</strong></h2>
+                                <p class="sr-campaign-products__text hide-on-mobile">Für Holzkohle-Fans ist er der Stern am Grillhimmel.
+                                    Dank der austauschbaren Rosteinsätze des Gourmet BBQ Systems (GBS) bietet der
+                                    Master-Touch GBS unzählige Möglichkeiten des Grillgenuss‘. Erleben Sie alle Vorteile
+                                    des Originals.Voller Details und Möglichkeiten.</p>
+                                <a class="button button_default sr-campaign-products__button" href="$httpsUrl('Product-Show', 'pid', '14502904')$">jetzt erleben</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="srgrid__row srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_order_2_xs srgrid__col_order_2_s srgrid__col_order_1_m srgrid__col_order_1_l srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-products__info">
+                            <img class="sr-campaign-products__product sr-campaign-products__product_stainless" src="pages/campaign/xmas2016/campaign_product_stainless_steel_grill.png?$staticlink$" alt="Campaign product - stainless steel grill">
+                            <div class="sr-campaign-products__description">
+                                <h2 class="sr-campaign-products__headline">Professionelle Schönheit <strong>SPIRIT S-330 PREMIUM GBS EDELSTAHL</strong></h2>
+                                <p class="sr-campaign-products__text hide-on-mobile">Das Highlight zum Fest: Brandneues Design, optimale
+                                    Heizleistung dank Sear Station, austauschbare Rosteinsätze und großes Volumen machen
+                                    den Spirit S-330 Premium GBS zum Glanzstück unterm Weihnachtsbaum. Voller Details
+                                    und Möglichkeiten.</p>
+                                <a class="button button_default sr-campaign-products__button" href="$httpsUrl('Product-Show', 'pid', '46803579')$">mehr erfahren</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_order_1_xs srgrid__col_order_1_s srgrid__col_order_2_m srgrid__col_order_2_l srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-campaign-products__info">
+                            <img class="sr-campaign-products__mood_stainless mood-image" src="pages/campaign/xmas2016/campaign_product_stainless_steel_mood.jpg?$staticlink$" alt="Campaign product mood">
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+
+        </div> 
+
+    </div> 
+
+    <div class="srgrid">
+
+        <div class="srgrid__container">
+
+            <div class="sr-gift-finder" id="sr-gift-finder">
+
+                <a name="sr-gift-finder"></a>
+
+                <div class="sr-gift-finder__header">
+                    <div class="sr-gift-finder__header__illustration-wrapper">
+                        <div class="srgrid">
+                            <div class="srgrid__row srgrid__row_gapless_l">
+                                <div class="srgrid__col srgrid__col_36_xs srgrid__col_36_s srgrid__col_16_m srgrid__col_14_l">
+                                    <span class="sr-gift-winder__header__illustration__border sr-gift-winder__header__illustration__border_left"></span>
+                                    <img class="sr-gift-finder__header__illustration-text" src="pages/campaign/xmas2016/gift_finder_header_illustration_text.png?$staticlink$" alt="Weber Gift Finder">
+                                    <span class="sr-gift-winder__header__illustration__border sr-gift-winder__header__illustration__border_right hide-on-mobile hide-on-desktop"></span>
+                                </div>
+                                <div class="srgrid__col srgrid__col_20_m srgrid__col_22_l">
+                                    <div class="sr-gift-finder__desktop-headline-wrapper">
+                                        <h2 class="sr-gift-finder__header__headline sr-gift-finder__header__headline_desktop only-on-desktop">Finde das perfekte Geschenk</h2>
+                                        <span class="sr-gift-winder__header__illustration__border sr-gift-winder__header__illustration__border_right sr-gift-winder__header__illustration__border_right_desktop hide-on-mobile hide-one-tablet"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h2 class="sr-gift-finder__header__headline hide-on-desktop">Finde das perfekte Geschenk</h2>
+                </div>
+
+                <div class="sr-gift-finder__content">
+                    <h2 class="sr-gift-finder__content__headline">Welchen Grill-Typ möchtest du beschenken?</h2>
+
+                    <div class="sr-gift-finder__category-list-wrapper hide-on-mobile">
+
+                        <ul class="sr-gift-finder__category-list">
+                            <li class="sr-gift-finder__category__list-item">
+                                <a class="sr-gift-finder__category-link" href="$httpUrl('Search-Show','cgid','gift-finder-burgertyp')$#category-descriptions" title="Burger Type">
+                                    <img class="sr-gift-finder__category-image" src="pages/campaign/xmas2016/gift_finder_category_burger.png?$staticlink$" alt="Burger Type">
+                                    <span class="sr-gift-finder__category-name">Burger-Typ</span>
+                                </a>
+                            </li>
+                            <li class="sr-gift-finder__category__list-item">
+                                <a class="sr-gift-finder__category-link" href="$httpUrl('Search-Show','cgid','gift-finder-steaktyp')$#category-descriptions" title="Steak Type">
+                                    <img class="sr-gift-finder__category-image" src="pages/campaign/xmas2016/gift_finder_category_steak.png?$staticlink$" alt="Steak Type">
+                                    <span class="sr-gift-finder__category-name">STEAK-Typ</span>
+                                </a>
+                            </li>
+                            <li class="sr-gift-finder__category__list-item">
+                                <a class="sr-gift-finder__category-link" href="$httpUrl('Search-Show','cgid','gift-finder-veggietyp')$#category-descriptions" title="Veggie Type">
+                                    <img class="sr-gift-finder__category-image" src="pages/campaign/xmas2016/gift_finder_category_veggie.png?$staticlink$" alt="Veggie Type">
+                                    <span class="sr-gift-finder__category-name">VEGGIE-Typ</span>
+                                </a>
+                            </li>
+                            <li class="sr-gift-finder__category__list-item">
+                                <a class="sr-gift-finder__category-link" href="$httpUrl('Search-Show','cgid','gift-finder-huehnchentyp')$#category-descriptions" title="Chicken Type">
+                                    <img class="sr-gift-finder__category-image" src="pages/campaign/xmas2016/gift_finder_category_chicken.png?$staticlink$" alt="Chicken Type">
+                                    <span class="sr-gift-finder__category-name">Hühnchen-Typ</span>
+                                </a>
+                            </li>
+                            <li class="sr-gift-finder__category__list-item">
+                                <a class="sr-gift-finder__category-link" href="$httpUrl('Search-Show','cgid','gift-finder-pizzatyp')$#category-descriptions" title="Pizza Type">
+                                    <img class="sr-gift-finder__category-image" src="pages/campaign/xmas2016/gift_finder_category_pizza.png?$staticlink$" alt="Pizza Type">
+                                    <span class="sr-gift-finder__category-name">PIZZA-Typ</span>
+                                </a>
+                            </li>
+                            <li class="sr-gift-finder__category__list-item">
+                                <a class="sr-gift-finder__category-link" href="$httpUrl('Search-Show','cgid','gift-finder-wuerstchentyp')$#category-descriptions" title="Banger Type">
+                                    <img class="sr-gift-finder__category-image" src="pages/campaign/xmas2016/gift_finder_category_banger.png?$staticlink$" alt="Banger Type">
+                                    <span class="sr-gift-finder__category-name">WÜRSTCHEN-Typ</span>
+                                </a>
+                            </li>
+                            <li class="sr-gift-finder__category__list-item">
+                                <a class="sr-gift-finder__category-link" href="$httpUrl('Search-Show','cgid','gift-finder-backtyp')$#category-descriptions" title="Baker Type">
+                                    <img class="sr-gift-finder__category-image" src="pages/campaign/xmas2016/gift_finder_category_baker.png?$staticlink$" alt="Baker Type">
+                                    <span class="sr-gift-finder__category-name">BACK-Typ</span>
+                                </a>
+                            </li>
+                            <li class="sr-gift-finder__category__list-item">
+                                <a class="sr-gift-finder__category-link" href="$httpUrl('Search-Show','cgid','gift-finder-fischtyp')$#category-descriptions" title="Fish Type">
+                                    <img class="sr-gift-finder__category-image" src="pages/campaign/xmas2016/gift_finder_category_fish.png?$staticlink$" alt="Fish Type">
+                                    <span class="sr-gift-finder__category-name">Fisch-Typ</span>
+                                </a>
+                            </li>
+                            <li class="sr-gift-finder__category__list-item">
+                                <a class="sr-gift-finder__category-link" href="$httpUrl('Search-Show','cgid','gift-finder-raeuchertyp')$#category-descriptions" title="Smoke Type">
+                                    <img class="sr-gift-finder__category-image" src="pages/campaign/xmas2016/gift_finder_category_smoke.png?$staticlink$" alt="Smoke Type">
+                                    <span class="sr-gift-finder__category-name">Räucher-Typ</span>
+                                </a>
+                            </li>
+                            <li class="sr-gift-finder__category__list-item">
+                                <a class="sr-gift-finder__category-link" href="$httpUrl('Search-Show','cgid','gift-finder-bratentyp')$#category-descriptions" title="Broiler Type">
+                                    <img class="sr-gift-finder__category-image" src="pages/campaign/xmas2016/gift_finder_category_broiler.png?$staticlink$" alt="Broiler Type">
+                                    <span class="sr-gift-finder__category-name">BRATEN-Typ</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div> 
+
+                    <div class="sr-gift-finder__category-carousel-wrapper only-on-mobile">
+    <div class="sr-gift-finder__category__slider slider">
+        <div class="jcarousel-wrapper loaded sr-gift-finder__category__slider-wrapper">
+            <div class="jcarousel sr-gift-finder__category__carousel" data-autoplay="false" data-interval="7500" data-jcarousel="true" data-jcarouselautoscroll="true">
+                <ul class="sr-gift-finder__category-slides slides">
+                    <li class="sr-gift-finder__category__slide js_category-slide slide">
+                        <a class="sr-gift-finder__category__slide-link" href="$httpUrl('Search-Show','cgid','gift-finder-burgertyp')$" title="Burger Type">
+                            <img class="sr-gift-finder__category__slide-image" src="pages/campaign/xmas2016/gift_finder_category_burger.png?$staticlink$" alt="Burger Type">
+                        </a>
+                    </li>
+                    <li class="sr-gift-finder__category__slide js_category-slide slide">
+                        <a class="sr-gift-finder__category__slide-link" href="$httpUrl('Search-Show','cgid','gift-finder-steaktyp')$" title="Steak Type">
+                            <img class="sr-gift-finder__category__slide-image" src="pages/campaign/xmas2016/gift_finder_category_steak.png?$staticlink$" alt="Steak Type">
+                        </a>
+                    </li>
+                    <li class="sr-gift-finder__category__slide js_category-slide slide">
+                        <a class="sr-gift-finder__category__slide-link" href="$httpUrl('Search-Show','cgid','gift-finder-veggietyp')$" title="Veggie Type">
+                            <img class="sr-gift-finder__category__slide-image" src="pages/campaign/xmas2016/gift_finder_category_veggie.png?$staticlink$" alt="Veggie Type">
+                        </a>
+                    </li>
+                    <li class="sr-gift-finder__category__slide js_category-slide slide">
+                        <a class="sr-gift-finder__category__slide-link" href="$httpUrl('Search-Show','cgid','gift-finder-huehnchentyp')$" title="Chicken Type">
+                            <img class="sr-gift-finder__category__slide-image" src="pages/campaign/xmas2016/gift_finder_category_chicken.png?$staticlink$" alt="Chicken Type">
+                        </a>
+                    </li>
+                    <li class="sr-gift-finder__category__slide js_category-slide slide">
+                        <a class="sr-gift-finder__category__slide-link" href="$httpUrl('Search-Show','cgid','gift-finder-pizzatyp')$" title="Pizza Type">
+                            <img class="sr-gift-finder__category__slide-image" src="pages/campaign/xmas2016/gift_finder_category_pizza.png?$staticlink$" alt="Pizza Type">
+                        </a>
+                    </li>
+                    <li class="sr-gift-finder__category__slide js_category-slide slide">
+                        <a class="sr-gift-finder__category__slide-link" href="$httpUrl('Search-Show','cgid','gift-finder-wuerstchentyp')$" title="Banger Type">
+                            <img class="sr-gift-finder__category__slide-image" src="pages/campaign/xmas2016/gift_finder_category_banger.png?$staticlink$" alt="Banger Type">
+                        </a>
+                    </li>
+                    <li class="sr-gift-finder__category__slide js_category-slide slide">
+                        <a class="sr-gift-finder__category__slide-link" href="$httpUrl('Search-Show','cgid','gift-finder-backtyp')$" title="Baker Type">
+                            <img class="sr-gift-finder__category__slide-image" src="pages/campaign/xmas2016/gift_finder_category_baker.png?$staticlink$" alt="Baker Type">
+                        </a>
+                    </li>
+                    <li class="sr-gift-finder__category__slide js_category-slide slide">
+                        <a class="sr-gift-finder__category__slide-link" href="$httpUrl('Search-Show','cgid','gift-finder-fischtyp')$" title="Fish Type">
+                            <img class="sr-gift-finder__category__slide-image" src="pages/campaign/xmas2016/gift_finder_category_fish.png?$staticlink$" alt="Fish Type">
+                        </a>
+                    </li>
+                    <li class="sr-gift-finder__category__slide js_category-slide slide">
+                        <a class="sr-gift-finder__category__slide-link" href="$httpUrl('Search-Show','cgid','gift-finder-raeuchertyp')$" title="Smoke Type">
+                            <img class="sr-gift-finder__category__slide-image" src="pages/campaign/xmas2016/gift_finder_category_smoke.png?$staticlink$" alt="Smoke Type">
+                        </a>
+                    </li>
+                    <li class="sr-gift-finder__category__slide js_category-slide slide">
+                        <a class="sr-gift-finder__category__slide-link" href="$httpUrl('Search-Show','cgid','gift-finder-bratentyp')$" title="Broiler Type">
+                            <img class="sr-gift-finder__category__slide-image" src="pages/campaign/xmas2016/gift_finder_category_broiler.png?$staticlink$" alt="Broiler Type">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="jcarousel-navigation centered js_category-controls">
+                <a href="" class="jcarousel-control-prev icon-arrow-down-light sr-gift-finder__category-control sr-gift-finder__category-control_prev" data-jcarouselcontrol="true"></a>
+                <a href="" class="jcarousel-control-next icon-arrow-down-light sr-gift-finder__category-control sr-gift-finder__category-control_next" data-jcarouselcontrol="true"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sr-gift-finder__category-carousel__descriptions">
+        <ul class="sr-gift-finder__category-carousel__descriptions-list js_descriptions">
+            <li class="sr-gift-finder__category__slide__description current">
+                <span class="sr-gift-finder__category__slide-name">Burger-Typ</span>
+                <span class="sr-gift-finder__category__slide__description__content">Grillt nicht? Gibt’s nicht! Denn der Burger-Typ ist Meister der Improvisation. Aus dem was Kühlschrank und Vorratskammer hergeben, zaubert er leckere Burger-Kreationen – gerne auch mal vegetarisch. Und wenn er erst mal in Fahrt kommt, kennt seine kulinarische Kreativität keine Grenzen. Dafür hat er sich nicht nur zu Weihnachten einen Stern verdient.</span>
+            </li>
+            <li class="sr-gift-finder__category__slide__description">
+                <span class="sr-gift-finder__category__slide-name">STEAK-Typ</span>
+                <span class="sr-gift-finder__category__slide__description__content">Alles unter 4 cm Dicke ist Carpaccio! Und solch ein Firlefanz kommt dem Steak-Typ nicht auf den Rost. Bei ihm geht’s einfach, unverfälscht und grundehrlich zu. Für das perfekte Steak entwickelt er durchaus einen gewissen Ehrgeiz – lässt es aber auch ganz entspannt 10 Minuten über indirekter Hitze nachgaren. So bleibt mehr Zeit, um mit Freunden am Feuer zu quatschen.</span>
+            </li>
+            <li class="sr-gift-finder__category__slide__description">
+                <span class="sr-gift-finder__category__slide-name">VEGGIE-Typ</span>
+                <span class="sr-gift-finder__category__slide__description__content">Grün, grün, grün ist all mein Grillgut?! Nein, so einfach macht es sich der Veggie-Typ nicht. Schließlich bietet Mutter Natur das ganze Jahr über farbliche Abwechslung für raffinierte Rezepte. Da darf es auch mal rote Bete oder gelbe Paprika sein. Hauptsache gesund, kalorienarm und lecker – da werden selbst Fleischgriller grün vor Neid.</span>
+            </li>
+            <li class="sr-gift-finder__category__slide__description">
+                <span class="sr-gift-finder__category__slide-name">Hühnchen-Typ</span>
+                <span class="sr-gift-finder__category__slide__description__content">Ich wollt, ich wär ein Huhn – aber nur, wenn ich auf dem Rost des Hühnchen-Typs lande. Denn was der aus Geflügel zaubert hat Sterne-Niveau. Ohne Berührungsängste macht er sich an die gewissenhafte Zubereitung und zaubert seinen Grillabend-Klassiker Beer-Can-Chicken mit Rosmarin, Country Potatoes und Ingwer-Möhren aus dem Hut. Verzeihung, aus der Glut.</span>
+            </li>
+            <li class="sr-gift-finder__category__slide__description">
+                <span class="sr-gift-finder__category__slide-name">PIZZA-Typ</span>
+                <span class="sr-gift-finder__category__slide__description__content">Bella Italia auch am Grill! Für diesen Typ ist Pizza fast schon ein Grundnahrungsmittel. Von Eintönigkeit ist hier dennoch keine Spur – denn beim Belag blickt er gerne mal über den Pizzarand hinaus. So landen auf dem knusprigen Teig immer wieder ganz verschiedene Zutaten. Eigentlich simpel, dennoch höchst kreativ und immer lecker! Bravissimo!</span>
+            </li>
+            <li class="sr-gift-finder__category__slide__description">
+                <span class="sr-gift-finder__category__slide-name">WÜRSTCHEN-Typ</span>
+                <span class="sr-gift-finder__category__slide__description__content">Hör mir auf mit dem neumodischen Kram! Der Würstchen-Typ ist ein Griller der alten Schule: grundsolide und pragmatisch. Würstchen gehen halt immer. Wer hat auch schon Lust, zwei Stunden auf einen Braten zu warten? Er jedenfalls nicht. Was nicht heißt, dass er keinen Wert auf Qualität legt. Beim Metzger seines Vertrauens ist er oft gesehener Kunde weil er vor allem regionale Spezialitäten schätzt.</span>
+            </li>
+            <li class="sr-gift-finder__category__slide__description">
+                <span class="sr-gift-finder__category__slide-name">BACK-Typ</span>
+                <span class="sr-gift-finder__category__slide__description__content">Backe, backe, Weber … Beim Back-Typ klingt alles kinderleicht und seine Begeisterung macht schnell die Grillrunde. Trotzdem weiß man manchmal nicht so ganz, woran man bei ihm ist. Schließlich reichen seine Launen von süß bis würzig. Wer diese kreative Frohnatur aber erst mal näher kennen lernt, der sieht sofort: Mit ihm zusammen bekommt man am Grill alles gebacken.</span>
+            </li>
+            <li class="sr-gift-finder__category__slide__description">
+                <span class="sr-gift-finder__category__slide-name">Fisch-Typ</span>
+                <span class="sr-gift-finder__category__slide__description__content">Fischers Fritz grillt frische Fische. Und zwar am liebsten die, die er zusammen mit seinen Grillfreunden gerade aus dem See geangelt hat. Mit einem Spritzer Zitrone und frischen Kräutern vom Wegesrand – mehr braucht dieser Überlebenskünstler nicht. Außer vielleicht eine gut sortierte Fischtheke – schließlich geht auch die schönste Angelsaison mal zu Ende.</span>
+            </li>
+            <li class="sr-gift-finder__category__slide__description">
+                <span class="sr-gift-finder__category__slide-name">Räucher-Typ</span>
+                <span class="sr-gift-finder__category__slide__description__content">Eigentlich ist der Räucher-Typ wie ein Relikt aus längst vergangenen Zeiten. Denn wo heute alles „instant“ und „real time“ passieren muss, lässt er sich Zeit. Gaaaanz viel Zeit. Manche halten das für langweilig. Bis sie sein Pulled-Pork-Sandwich mit selbstgemachtem Cole Slaw probieren. Danach schätzen auch sie seine Ursprünglichkeit, seine Beharrlichkeit und sein Gespür für feinen Geschmack. Smoke on!</span>
+            </li>
+            <li class="sr-gift-finder__category__slide__description">
+                <span class="sr-gift-finder__category__slide-name">BRATEN-Typ</span>
+                <span class="sr-gift-finder__category__slide__description__content">Früher war Grillen für den Braten-Typ: Fleisch auf den Rost und warten, bis es schwarz wird. Heute besitzt er eine ganze Kochbuch-Bibliothek und hat für alles und jeden ein tolles Rezept. Und das gelingt ihm meist auch vorzüglich. Er hat den Kniff raus und die nötige Geduld – denn so ein Braten-Typ ist nichts für die schnelle Grillnummer.</span>
+            </li>
+        </ul>
+    </div> 
+
+
+</div> 
+
+                </div> 
+
+            </div> 
+
+            <div class="sr-gift-contest" id="sr-gift-contest">
+
+                <a name="sr-gift-contest"></a>
+
+                <div class="srgrid__row srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div
+                        class="srgrid__col srgrid__col_36_xs srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <img class="sr-gift-contest__illustration-text" src="pages/campaign/xmas2016/gift_contest_illustration_text.png?$staticlink$" alt="Winter grill party contest">
+                        <div class="sr-gift-contest__description">
+                            <p class="sr-gift-contest__slogan">das wird ein fest!</p>
+                            <p>Mach mit bei unserem Gewinnspiel und freu Dich jetzt schon auf Weihnachten – <strong>unser Hauptgewinn, eine exklusive Weber Grillparty, wird am 24.12.2016 ausgelost!</strong></p>
+                            <p><strong>Mit dem Weber Adventskalender hast du vom 01.12. bis 24.12.2016</strong> zusätzlich täglich die Gewinn-Chance auf fantastische Tagespreise!</p>
+                        </div>
+                        <a class="button button_default sr-gift-contest__button" href="$httpsUrl('PageSupportive-XmasPhase1')$">Jetzt gewinnen</a>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l">
+                        <img class="sr-gift-contest__grill" src="pages/campaign/xmas2016/gift_contest_grill_with_illustration_text.png?$staticlink$" alt="Grill illustration">
+                    </div>
+                </div>
+
+            </div> 
+
+        </div> 
+
+    </div> 
+
+    <div class="srgrid">
+
+        <div class="srgrid__container">
+
+            <div class="sr-winter-recipes" id="sr-winter-recipes">
+
+                <a name="sr-winter-recipes"></a>
+
+                <div class="sr-winter-recipes__header">
+                    <img class="sr-winter-recipes__illustration-text" src="pages/campaign/xmas2016/winter_recipes_illustration_text.png?$staticlink$" alt="Delicious winter recipes">
+                </div>
+
+                
+
+<div class="sr-winter-recipes__slider slider hide-on-mobile hide-on-tablet">
+    <div class="jcarousel-wrapper loaded sr-winter-recipes__carousel-wrapper">
+        <div class="jcarousel sr-winter-recipes__carousel sr-winter-recipes__carousel_desktop" data-autoplay="true" data-interval="7500" data-jcarousel="true" data-jcarouselautoscroll="true">
+            <ul class="sr-winter-recipes__slides slides">
+                <li class="sr-winter-recipes__slide slide">
+                    <div class="sr-winter-recipes__recipe-wrapper">
+                        <div class="srgrid">
+                            <div class="srgrid__row">
+                                <div class="srgrid__col srgrid__col_12_m srgrid__col_12_l flex-img">
+                                    <img class="sr-winter-recipe__burger-image" src="pages/campaign/xmas2016/winter_recipes_pumpkin_soup_large.jpg?$staticlink$" alt="Pumpkin soup">
+                                </div>
+                                <div class="srgrid__col srgrid__col_24_m srgrid__col_24_l">
+                                    <div class="sr-winter-recipe__header">
+                                        <h3 class="sr-winter-recipe__title">Kürbissuppe</h3>
+                                        <p class="sr-winter-recipe__portion-info">Für 6 Personen</p>
+                                    </div>
+                                    <div class="sr-winter-recipe__tabs-wrapper js_desktop-tabs-parent">
+                                        <ul class="sr-winter-recipe__tabs js_desktop-recipe-tabs">
+                                            <li class="sr-winter-recipe__tab-link current" data-tab="js_tab-desktop-1-1st">Zutaten</li>
+                                            <li class="sr-winter-recipe__tab-link" data-tab="js_tab-desktop-2-1st">Zubereitung</li>
+                                            <li class="sr-winter-recipe__tab-link" data-tab="js_tab-desktop-3-1st">PDF Download hier</li>
+                                        </ul>
+
+                                        <a href="http://www.weber.com/DE/de/grillrezepte" class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link--direct-link">Weitere Rezepte</a>
+
+                                        <div id="js_tab-desktop-1-1st"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content current">
+                                            <div class="sr-winter-recipe__tab-container">
+                                                <div class="srgrid">
+                                                    <div class="srgrid__row">
+                                                        <div class="srgrid__col srgrid__col_18_m">
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>1</strong> Kürbis, ca. 1,5 kg</li>
+                                                                <li><strong>1</strong> EL ungesalzene Butter</li>
+                                                                <li><strong>&#189;</strong> Tasse gehackte Zwiebel</li>
+                                                                <li><strong>&#189;</strong> Tasse trockener Weißwein</li>
+                                                                <li><strong>2</strong> Tassen Hühnerbrühe</li>
+                                                                <li><strong>&#189;</strong> Tasse Schlagsahne</li>
+                                                                <li>Salz</li>
+                                                                <li>Frisch gemahlener schwarzer Pfeffer</li>
+                                                                <li>Muskat und Kürbiskerne</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="srgrid__col srgrid__col_18_m">
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>Vorbereitungszeit:</strong> 30 Min.</li>
+                                                                <li><strong>Marinierzeit:</strong> 1 Std.</li>
+                                                                <li><strong>Grill-zeit:</strong> 3 Std.</li>
+                                                                <li><strong>Grillmethode:</strong> Direkte/Indirekte mittlere Hitze
+                                                                    (170-220 °C)
+                                                                </li>
+                                                                <li><strong>Empfohlenes Zubehör:</strong> Gourmet BBQ System – Dutch
+                                                                    Oven Einsatz
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="js_tab-desktop-2-1st"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content">
+                                            <div class="sr-winter-recipes__instructions">
+                                                <ol class="sr-winter-recipes__instructions__list">
+                                                    <li class="sr-winter-recipes__instructions__list-item">Grill für
+                                                        indirekte mittlere Hitze vorbereiten (170–220 °C).
+                                                    </li>
+                                                    <li class="sr-winter-recipes__instructions__list-item">Deckel des
+                                                        Kürbisses abschneiden und zur Seite legen. Mit großem Metalllöffel Kerne und Fasern aus dem Kürbis herauskratzen und entsorgen.
+                                                        Deckel wieder auf den Kürbis setzen.
+                                                    </li>
+                                                    <li class="sr-winter-recipes__instructions__list-item">Kürbis mit
+                                                        geschlossenem Deckel über indirekter mittlerer Hitze etwa 1,5
+                                                        bis 2
+                                                        Stunden grillen, bis das Kürbisfleisch ganz weich ist. Kürbis vom
+                                                        Grill nehmen und abkühlen
+                                                        lassen. Kürbis mit einem Löffel aushöhlen und das Kürbisfleisch
+                                                        zur Seite stellen.
+                                                    </li>
+                                                    <li class="sr-winter-recipes__instructions__list-item">Die Butter im
+                                                        Dutch Oven über mittlerer direkter Hitze zerlassen. Zwiebeln
+                                                        darin 2 bis 3 Minuten anschwitzen, aber nicht braun werden
+                                                        lassen. Gelegentlich umrühren. Wein
+                                                        dazugeben und etwa 5 Minuten köcheln lassen, bis die Flüssig-
+                                                        keit fast vollständig eingekocht
+                                                        ist. Kürbisfleisch und Hühnerbrühe dazugeben und gut umrühren.
+                                                        Zum Köcheln bringen und unter
+                                                        gelegentlichem Umrühren 20 Minuten köcheln lassen. Schlagsahne
+                                                        einrühren und erneut zum Köcheln
+                                                        bringen. Mit Salz und Pfaffer abschmecken. In den ausgehölten
+                                                        Kürbis füllen und gegebenenfalls
+                                                        etwas Muskat und Kürbiskerne darübergeben.
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <div id="js_tab-desktop-3-1st" class="sr-winter-recipe__tab-content js_desktop-tab-content">
+                                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/01_Kuerbissuppe.pdf?$staticlink$">Download</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="sr-winter-recipes__slide slide">
+                    <div class="sr-winter-recipes__recipe-wrapper">
+                        <div class="srgrid">
+                            <div class="srgrid__row">
+                                <div class="srgrid__col srgrid__col_12_m srgrid__col_12_l flex-img">
+                                    <img class="sr-winter-recipe__burger-image" src="pages/campaign/xmas2016/winter_recipes_saddle_large.jpg?$staticlink$" alt="Saddle">
+                                </div>
+                                <div class="srgrid__col srgrid__col_24_m srgrid__col_24_l">
+                                    <div class="sr-winter-recipe__header">
+                                        <h3 class="sr-winter-recipe__title">Rehrücken unter die Spekulatiuskruste</h3>
+                                        <p class="sr-winter-recipe__portion-info">Zutaten für 4 Personen</p>
+                                    </div>
+                                    <div class="sr-winter-recipe__tabs-wrapper js_desktop-tabs-parent">
+                                        <ul class="sr-winter-recipe__tabs js_desktop-recipe-tabs">
+                                            <li class="sr-winter-recipe__tab-link current" data-tab="js_tab-desktop-1-2nd">Zutaten</li>
+                                            <li class="sr-winter-recipe__tab-link" data-tab="js_tab-desktop-2-2nd">Zubereitung</li>
+                                            <li class="sr-winter-recipe__tab-link" data-tab="js_tab-desktop-3-2nd">PDF Download hier</li>
+                                        </ul>
+
+                                        <a href="http://www.weber.com/DE/de/grillrezepte" class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link--direct-link">Weitere Rezepte</a>
+
+                                        <div id="js_tab-desktop-1-2nd"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content current">
+                                            <div class="sr-winter-recipe__tab-container">
+                                                <div class="srgrid">
+                                                    <div class="srgrid__row">
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4
+                                                                class="sr-winter-recipes__instructions-headline">
+                                                                Rehrücken:</h4>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>1</strong> Rehrücken am Knochen
+                                                                    (küchenfertig)
+                                                                </li>
+                                                            </ul>
+                                                            <h4 class="sr-winter-recipes__instructions-headline">
+                                                                Würzmischung</h4>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>2</strong> EL Wacholderbeeren</li>
+                                                                <li><strong>1</strong> EL Pimentkörner</li>
+                                                                <li><strong>2</strong> EL Korianderkörner</li>
+                                                                <li><strong>1</strong> TL gemischte Pfefferkörner</li>
+                                                                <li><strong>1</strong> EL grobes Meersalz</li>
+                                                                <li><strong>1</strong> EL brauner Zucker</li>
+                                                                <li><strong>4</strong> Zweige Thymian</li>
+                                                                <li><strong>4</strong> Zweige Rosmarin</li>
+                                                                <li><strong>4</strong> Lorbeerblätter</li>
+                                                                <li><strong>150</strong> g flüssige Butter</li>
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4
+                                                                class="sr-winter-recipes__instructions-headline">
+                                                                Spekulatiuskruste</h4>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>200</strong> g Spekulatiuskekse</li>
+                                                                <li><strong>75</strong> g Butter, zimmerwarm</li>
+                                                                <li>Abrieb von jeweils einer Zitrone und Orange</li>
+                                                                <li>Salz und Pfeffer</li>
+                                                            </ul>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>Vorbereitungszeit:</strong> 30 Minuten,
+                                                                    Marinierzeit – 2 Stunden
+                                                                </li>
+                                                                <li><strong>Marinierzeit:</strong> 2 Std.</li>
+                                                                <li><strong>Grilldauer:</strong> 50 Minuten</li>
+                                                                <li><strong>Grillmethode:</strong> Indirekt mittlere
+                                                                    Hitze
+                                                                    170°C
+                                                                </li>
+                                                                <li><strong>Empfohlenes Zubehör:</strong> Digitales
+                                                                    Thermometer
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="js_tab-desktop-2-2nd"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content">
+                                            <div class="sr-winter-recipes__instructions">
+                                                <div class="srgrid">
+                                                    <div class="srgrid__row">
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">In der Küche:</h4>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Die Filets und Rückenstränge vom Knochen lösen und von Fett und Sehnen befreien.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Die Würzmischung zusammen im Mörser fein zermahlen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Die ausgelösten Fleischteile mit der Würzmischung rundherum einreiben.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Thymian-und Rosmarinzweige und Lorbeerblätter auf den ausgelösten Knochen legen, und nun jeweils das Filet unter die dünne Seite des Rückens legen und zurück auf die Kräuter auf den Knochen setzen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Mit Küchengarn fixieren und 2 Stunden abgedeckt im Kühlschrank marinieren lassen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Für die Kruste, die Kekse klein hacken und in eine Schüssel mit dem Abrieb und Butter gut vermengen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Mit Salz und Pfeffer abschmecken und zwischen Backpapier dünn ausrollen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Zum Erhärten in den Kühlschrank geben. Anschließend Rehrücken große Krustenstreifen zuschneiden.</li>
+                                                            </ol>
+                                                        </div>
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">Auf dem Grill:</h4>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Den Grill für indirekte Hitze (170°C) vorbereiten.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Den Rehrücken indirekt auf dem Grill platzieren und auf eine Kerntemperatur von 45°C grillen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Während der Grillzeit, den Rücken immer wieder mit der Butter bestreichen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Den Rücken vom Grill nehmen und locker abgedeckt etwa 15 Minuten ruhen lassen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Nun das Küchengarn vorsichtig entfernen und den Rücken mit der Kruste belegen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Erneut indirekt auf dem Grill platzieren und weiter grillen bis die Kruste geschmolzen ist und der Rehrücken eine Kerntemperatur von 56°C erreicht ist.</li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="js_tab-desktop-3-2nd" class="sr-winter-recipe__tab-content js_desktop-tab-content">
+                                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/02_Rehruecken_unter_der_Spekulatiuskruste.pdf?$staticlink$">Download</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="sr-winter-recipes__slide slide">
+                    <div class="sr-winter-recipes__recipe-wrapper">
+                        <div class="srgrid">
+                            <div class="srgrid__row">
+                                <div class="srgrid__col srgrid__col_12_m srgrid__col_12_l flex-img">
+                                    <img class="sr-winter-recipe__burger-image" src="pages/campaign/xmas2016/winter_recipes_snow_muffins_large.jpg?$staticlink$" alt="Snow Muffins">
+                                </div>
+                                <div class="srgrid__col srgrid__col_24_m srgrid__col_24_l">
+                                    <div class="sr-winter-recipe__header">
+                                        <h3 class="sr-winter-recipe__title">Schneemann Muffins vom Grill</h3>
+                                        <p class="sr-winter-recipe__portion-info">Für ca. 20 Stück</p>
+                                    </div>
+                                    <div class="sr-winter-recipe__tabs-wrapper js_desktop-tabs-parent">
+                                        <ul class="sr-winter-recipe__tabs js_desktop-recipe-tabs">
+                                            <li class="sr-winter-recipe__tab-link current" data-tab="js_tab-desktop-1-3rd">Zutaten</li>
+                                            <li class="sr-winter-recipe__tab-link" data-tab="js_tab-desktop-2-3rd">Zubereitung</li>
+                                            <li class="sr-winter-recipe__tab-link" data-tab="js_tab-desktop-3-3rd">PDF Download hier</li>
+                                        </ul>
+
+                                        <a href="http://www.weber.com/DE/de/grillrezepte" class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link--direct-link">Weitere Rezepte</a>
+
+                                        <div id="js_tab-desktop-1-3rd"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content current">
+                                            <div class="sr-winter-recipe__tab-container">
+
+                                                <div class="srgrid">
+                                                    <div class="srgrid__row">
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">Zutaten für den Teig:</h4>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>2</strong> Eier (Größe M)</li>
+                                                                <li><strong>75</strong> g Zucker</li>
+                                                                <li><strong>200</strong> ml Milch</li>
+                                                                <li><strong>100</strong> ml Sonnenblumenöl</li>
+                                                                <li><strong>1</strong> Prise Salz</li>
+                                                                <li>Mark von <strong>1</strong> Vanilleschote</li>
+                                                                <li><strong>250</strong> g Mehl</li>
+                                                                <li><strong>1</strong> TL Backpulver</li>
+                                                            </ul>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>Vorbereitungszeit:</strong> 15 Minuten</li>
+                                                                <li><strong>Zusätzliche Vorbereitungen:</strong> Deko – 30 Minuten</li>
+                                                                <li><strong>Grillzeit:</strong> 20 - 25 Minuten</li>
+                                                                <li><strong>Grilltemperatur:</strong> 180°C</li>
+                                                                <li><strong>Grillmethode:</strong> Indirekt</li>
+                                                                <li><strong>Zubehör:</strong> GBS Ebelskiver Einsatz</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">Zutaten für die Dekoration:</h4>
+                                                            <ul class="sr-winter-recipes__preparation-list">
+                                                                <li><strong>250</strong> g Puderzucker</li>
+                                                                <li>Saft einer Zitrone</li>
+                                                                <li>kleine Plastikzylinder (Bastelgeschäft)</li>
+                                                                <li>Puderzucker (zum Bestäuben)</li>
+                                                                <li>ca. <strong>50</strong> g flüssige Zartbitterschokolade</li>
+                                                                <li>weiße Trüffelpralinen</li>
+                                                                <li>ca. <strong>150</strong> g Marzipanrohmasse</li>
+                                                                <li>rote Lebensmittelfarbe</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="js_tab-desktop-2-3rd"
+                                             class="sr-winter-recipe__tab-content js_desktop-tab-content">
+                                            <div class="sr-winter-recipes__instructions">
+
+                                                <div class="srgrid">
+                                                    <div class="srgrid__row">
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">Zubereitung Muffins</h4>
+                                                            <h4 class="sr-winter-recipes__instructions-headline"><small>In der Küche:</small></h4>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Eier mit Zucker, Milch, Öl, Salz und Vanillemark in einer großen Schüssel verrühren.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Mehl mit Backpulver mischen, darüber sieben und locker mit einem großen Löffel unterheben.</li>
+                                                            </ol>
+                                                            <h4 class="sr-winter-recipes__instructions-headline"><small>Auf dem Grill:</small></h4>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Den Grill auf 180 Grad indirekte Hitze vorheizen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Papierförmchen in die Vertiefungen des Ebelskivers setzen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Muffin-Papierförmchen zu 3/4 mit Teig füllen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Auf dem Grill mit 180 Grad indirekter Hitze 20-25 Minuten goldbraun backen (Stäbchenprobe).</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Muffins anschließend auf einem Gitter auskühlen lassen.</li>
+                                                            </ol>
+                                                        </div>
+                                                        <div class="srgrid__col srgrid__col_18_m srgrid__col_18_l">
+                                                            <h4 class="sr-winter-recipes__instructions-headline">Zubereitung Dekoration</h4>
+                                                            <ol class="sr-winter-recipes__instructions__list">
+                                                                <li class="sr-winter-recipes__instructions__list-item">Puderzucker mit Zitronensaft zu einem dickflüssigen Guss verrühren, gleichmäßig über die Muffins verteilen und antrocknen lassen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Die weißen Trüffelpralinen als Schneemannköpfe auf den Muffins und auf jeden Kopf einen Plastikzylinder mit etwas Zuckerguss fixieren.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Marzipan mit roter Lebensmittelfarbe einfärben.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Marzipan mit Puderzucker oder zwischen Backpapier dünn ausrollen und in etwa 10 cm lange und 1 cm breite Streifen schneiden.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Jedem Schneemann einen roten Marzipanstreifen als Schal umlegen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Flüssige Schokolade in eine kleine Papierspritztüte füllen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Auf jede Pralinenkugel mit der Schokolade zwei Augen tupfen.</li>
+                                                                <li class="sr-winter-recipes__instructions__list-item">Abschließend die Muffins je nach Belieben mit Puderzucker bestäuben.</li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="js_tab-desktop-3-3rd" class="sr-winter-recipe__tab-content js_desktop-tab-content">
+                                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/03_Schneemann_Muffins_vom_Grill.pdf?$staticlink$">Download</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <span class="jcarousel-pagination sr-winter-recipes__carousel-pagination" data-jcarouselpagination="true">
+                                <a class="active" href="#1">1</a>
+                                <a href="#2">2</a>
+                                <a href="#3">3</a>
+                            </span>
+        </div>
+        <div class="jcarousel-navigation centered" id="sr_desktop-nav">
+            <a href="" class="jcarousel-control-prev icon-arrow-down-light sr-winter-recipes__carousel-control sr-winter-recipes__carousel-control_prev" data-jcarouselcontrol="true"></a>
+            <a href="" class="jcarousel-control-next icon-arrow-down-light sr-winter-recipes__carousel-control sr-winter-recipes__carousel-control_next" data-jcarouselcontrol="true"></a>
+        </div>
+    </div>
+</div>
+                
+
+
+<div class="sr-winter-recipes__headlines sr-winter-recipes__headlines_mobile hide-on-desktop">
+    <ul class="sr-winter-recipes__headlines-list js_headlines">
+        <li class="sr-winter-recipes__headline current">
+            <h3 class="sr-winter-recipes__headline__title">Kürbissuppe</h3>
+            <p class="sr-winter-recipes__headline__portion-info">Für 6 Personen</p>
+        </li>
+        <li class="sr-winter-recipes__headline">
+            <h3 class="sr-winter-recipes__headline__title">Rehrücken unter die Spekulatiuskruste</h3>
+            <p class="sr-winter-recipes__headline__portion-info">Zutaten für 4 Personen</p>
+        </li>
+        <li class="sr-winter-recipes__headline">
+            <h3 class="sr-winter-recipes__headline__title">Schneemann Muffins vom Grill</h3>
+            <p class="sr-winter-recipes__headline__portion-info">Für ca. 20 Stück</p>
+        </li>
+    </ul>
+</div>
+
+
+<div class="sr-winter-recipes__carousel sr-winter-recipes__carousel_mobile slider hide-on-desktop">
+    <div class="jcarousel-wrapper loaded">
+        <div class="jcarousel" data-autoplay="false" data-interval="7500" data-jcarousel="true" data-jcarouselautoscroll="true">
+            <ul class="slides">
+                <li class="slide sr-winter-recipes__carousel__slide js_recipe-slide active">
+                    <img class="sr-winter-recipes__carousel__image" src="pages/campaign/xmas2016/winter_recipes_pumpkin_soup_small.jpg?$staticlink$" alt="Pumpkin Soup">
+                </li>
+                <li class="slide sr-winter-recipes__carousel__slide js_recipe-slide">
+                    <img class="sr-winter-recipes__carousel__image" src="pages/campaign/xmas2016/winter_recipes_saddle_small.jpg?$staticlink$" alt="Saddle">
+                </li>
+                <li class="slide sr-winter-recipes__carousel__slide js_recipe-slide">
+                    <img class="sr-winter-recipes__carousel__image" src="pages/campaign/xmas2016/winter_recipes_snow_muffins_small.jpg?$staticlink$" alt="Snow Muffins">
+                </li>
+            </ul>
+        </div>
+        <div class="jcarousel-navigation centered">
+            <a href="" class="jcarousel-control-prev icon-arrow-down-light" data-jcarouselcontrol="true"></a>
+            <a href="" class="jcarousel-control-next icon-arrow-down-light" data-jcarouselcontrol="true"></a>
+        </div>
+    </div>
+</div>
+
+
+<div class="sr-winter-recipes__content sr-winter-recipes__content_mobile hide-on-desktop">
+    <ul class="sr-winter-recipes__content__list js_recipes-content">
+        <li class="sr-winter-recipes__content__list-item current">
+            <div class="sr-winter-recipe__tabs-wrapper js_mobile-tabs-parent">
+                <ul class="sr-winter-recipes__tabs sr-winter-recipes__tabs_mobile js_mobile-recipe-tabs">
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet current" data-tab="js_tab-mobile-1-1st">Zutaten</li>
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet" data-tab="js_tab-mobile-2-1st">Zubereitung</li>
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet hide-on-mobile" data-tab="js_tab-tablet-3-1st">PDF Download Hier</li>
+                </ul>
+
+                <div id="js_tab-mobile-1-1st" class="sr-winter-recipe__tab-content js_mobile-tab-content current">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        <div class="sr-winter-recipes__tab__button hide-on-tablet hide-on-desktop">
+                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/01_Kuerbissuppe.pdf?$staticlink$">PDF Download</a>
+                        </div>
+                        <div class="sr-winter-recipes__tab__button-second hide-on-desktop">
+                            <a class="button button_default button_mobile-download" href="http://www.weber.com/DE/de/grillrezepte">Weitere Rezepte</a>
+                        </div>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>1</strong> Kürbis, ca. 1,5 kg</li>
+                            <li><strong>1</strong> EL ungesalzene Butter</li>
+                            <li><strong>&#189;</strong> Tasse gehackte Zwiebel</li>
+                            <li><strong>&#189;</strong> Tasse trockener Weißwein</li>
+                            <li><strong>2</strong> Tassen Hühnerbrühe</li>
+                            <li><strong>&#189;</strong> Tasse Schlagsahne</li>
+                            <li>Salz</li>
+                            <li>Frisch gemahlener schwarzer Pfeffer</li>
+                            <li>Muskat und Kürbiskerne</li>
+                        </ul>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>Vorbereitungszeit:</strong> 30 Min.</li>
+                            <li><strong>Marinierzeit:</strong> 1 Std.</li>
+                            <li><strong>Grill-zeit:</strong> 3 Std.</li>
+                            <li><strong>Grillmethode:</strong> Direkte/Indirekte mittlere Hitze (170-220 °C)</li>
+                            <li><strong>Empfohlenes Zubehör:</strong> Gourmet BBQ System – Dutch Oven Einsatz</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="js_tab-mobile-2-1st" class="sr-winter-recipe__tab-content js_mobile-tab-content">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        <div class="sr-winter-recipes__tab__button hide-on-tablet hide-on-desktop">
+                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/01_Kuerbissuppe.pdf?$staticlink$">PDF
+                                Download</a>
+                        </div>
+                        <div class="sr-winter-recipes__instructions">
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Grill für indirekte mittlere Hitze vorbereiten (170–220 °C).</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Deckel des Kürbisses abschneiden und zur Seite legen. Mit großem Metalllö el
+                                    Kerne und Fasern aus dem Kürbis herauskratzen und entsorgen. Deckel wieder
+                                    auf den Kürbis setzen.
+                                </li>
+                                <li class="sr-winter-recipes__instructions__list-item">Kürbis mit geschlossenem Deckel über indirekter mittlerer Hitze etwa 1,5 bis 2
+                                    Stunden grillen, bis das Kürbis eisch ganz weich ist. Kürbis vom Grill nehmen und abkühlen
+                                    lassen. Kürbis mit einem Lö el aushöhlen und das Kürbis eisch zur Seite stellen.
+                                </li>
+                                <li class="sr-winter-recipes__instructions__list-item">Die Butter im Dutch Oven über mittlerer direkter Hitze zerlassen. Zwiebeln
+                                    darin 2 bis 3 Minuten anschwitzen, aber nicht braun werden lassen. Gelegentlich umrühren. Wein
+                                    dazugeben und etwa 5 Minuten köcheln lassen, bis die Flüssig- keit fast vollständig eingekocht
+                                    ist. Kürbis eisch und Hühnerbrühe dazugeben und gut umrühren. Zum Köcheln bringen und unter
+                                    gelegentlichem Umrühren 20 Minuten köcheln lassen. Schlagsahne einrühren und erneut zum Köcheln
+                                    bringen. Mit Salz und Pfe er abschmecken. In den ausgehölten Kürbis füllen und gegebenenfalls
+                                    etwas Muskat und Kürbiskerne darübergeben.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div id="js_tab-tablet-3-1st" class="sr-winter-recipe__tab-content js_mobile-tab-content hide-on-mobile">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        <div class="sr-winter-recipes__tab__button">
+                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/01_Kuerbissuppe.pdf?$staticlink$">PDF Download</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </li>
+        <li class="sr-winter-recipes__content__list-item">
+            <div class="sr-winter-recipe__tabs-wrapper js_mobile-tabs-parent">
+                <ul class="sr-winter-recipes__tabs sr-winter-recipes__tabs_mobile js_mobile-recipe-tabs">
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet current" data-tab="js_tab-mobile-1-2nd">Zutaten</li>
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet" data-tab="js_tab-mobile-2-2nd">Zubereitung</li>
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet hide-on-mobile" data-tab="js_tab-tablet-3-2nd">PDF Download Hier</li>
+                </ul>
+
+                <div id="js_tab-mobile-1-2nd" class="sr-winter-recipe__tab-content js_mobile-tab-content current">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        <div class="sr-winter-recipes__tab__button hide-on-tablet hide-on-desktop">
+                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/02_Rehruecken_unter_der_Spekulatiuskruste.pdf?$staticlink$">PDF Download</a>
+                        </div>
+                        <h4 class="sr-winter-recipes__instructions-headline">Rehrücken:</h4>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>1</strong> Rehrücken am Knochen (küchenfertig)</li>
+                        </ul>
+                        <h4 class="sr-winter-recipes__instructions-headline">Würzmischung</h4>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>2</strong> EL Wacholderbeeren</li>
+                            <li><strong>1</strong> EL Pimentkörner</li>
+                            <li><strong>2</strong> EL Korianderkörner</li>
+                            <li><strong>1</strong> TL gemischte Pfefferkörner</li>
+                            <li><strong>1</strong> EL grobes Meersalz</li>
+                            <li><strong>1</strong> EL brauner Zucker</li>
+                            <li><strong>4</strong> Zweige Thymian</li>
+                            <li><strong>4</strong> Zweige Rosmarin</li>
+                            <li><strong>4</strong> Lorbeerblätter</li>
+                            <li><strong>150</strong> g flüssige Butter</li>
+                        </ul>
+                        <h4 class="sr-winter-recipes__instructions-headline">Spekulatiuskruste</h4>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>200</strong> g Spekulatiuskekse</li>
+                            <li><strong>75</strong> g Butter, zimmerwarm</li>
+                            <li>Abrieb von jeweils einer Zitrone und Orange</li>
+                            <li>Salz und Pfeffer</li>
+                        </ul>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>Vorbereitungszeit:</strong> 30 Minuten, Marinierzeit – 2 Stunden</li>
+                            <li><strong>Marinierzeit:</strong> 2 Std.</li>
+                            <li><strong>Grilldauer:</strong> 50 Minuten</li>
+                            <li><strong>Grillmethode:</strong> Indirekt mittlere Hitze 170°C</li>
+                            <li><strong>Empfohlenes Zubehör:</strong> Digitales Thermometer</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="js_tab-mobile-2-2nd" class="sr-winter-recipe__tab-content js_mobile-tab-content">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        <div class="sr-winter-recipes__tab__button hide-on-tablet hide-on-desktop">
+                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/02_Rehruecken_unter_der_Spekulatiuskruste.pdf?$staticlink$">PDF
+                                Download</a>
+                        </div>
+                        <div class="sr-winter-recipes__instructions">
+                            <h4 class="sr-winter-recipes__instructions-headline">In der Küche:</h4>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Die Filets und Rückenstränge vom Knochen lösen und von Fett und Sehnen befreien.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Die Würzmischung zusammen im Mörser fein zermahlen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Die ausgelösten Fleischteile mit der Würzmischung rundherum einreiben.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Thymian-und Rosmarinzweige und Lorbeerblätter auf den ausgelösten Knochen legen, und nun jeweils das Filet unter die dünne Seite des Rückens legen und zurück auf die Kräuter auf den Knochen setzen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Mit Küchengarn fixieren und 2 Stunden abgedeckt im Kühlschrank marinieren lassen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Für die Kruste, die Kekse klein hacken und in eine Schüssel mit dem Abrieb und Butter gut vermengen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Mit Salz und Pfeffer abschmecken und zwischen Backpapier dünn ausrollen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Zum Erhärten in den Kühlschrank geben. Anschließend Rehrücken große Krustenstreifen zuschneiden.</li>
+                            </ol>
+                            <h4 class="sr-winter-recipes__instructions-headline">Auf dem Grill:</h4>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Den Grill für indirekte Hitze (170°C) vorbereiten.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Den Rehrücken indirekt auf dem Grill platzieren und auf eine Kerntemperatur von 45°C grillen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Während der Grillzeit, den Rücken immer wieder mit der Butter bestreichen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Den Rücken vom Grill nehmen und locker abgedeckt etwa 15 Minuten ruhen lassen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Nun das Küchengarn vorsichtig entfernen und den Rücken mit der Kruste belegen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Erneut indirekt auf dem Grill platzieren und weiter grillen bis die Kruste geschmolzen ist und der Rehrücken eine Kerntemperatur von 56°C erreicht ist.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div id="js_tab-tablet-3-2nd" class="sr-winter-recipe__tab-content js_mobile-tab-content hide-on-mobile">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        <div class="sr-winter-recipes__tab__button">
+                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/02_Rehruecken_unter_der_Spekulatiuskruste.pdf?$staticlink$">PDF Download</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </li>
+        <li class="sr-winter-recipes__content__list-item">
+            <div class="sr-winter-recipe__tabs-wrapper js_mobile-tabs-parent">
+                <ul class="sr-winter-recipes__tabs sr-winter-recipes__tabs_mobile js_mobile-recipe-tabs">
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet current" data-tab="js_tab-mobile-1-3rd">Zutaten</li>
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet" data-tab="js_tab-mobile-2-3rd">Zubereitung</li>
+                    <li class="sr-winter-recipe__tab-link sr-winter-recipe__tab-link_mobile sr-winter-recipe__tab-link_tablet hide-on-mobile" data-tab="js_tab-tablet-3-3rd">PDF Download Hier</li>
+                </ul>
+
+                <div id="js_tab-mobile-1-3rd" class="sr-winter-recipe__tab-content js_mobile-tab-content current">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        <div class="sr-winter-recipes__tab__button hide-on-tablet hide-on-desktop">
+                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/03_Schneemann_Muffins_vom_Grill.pdf?$staticlink$">PDF Download</a>
+                        </div>
+                        <h4 class="sr-winter-recipes__instructions-headline">Zutaten für den Teig:</h4>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>2</strong> Eier (Größe M)</li>
+                            <li><strong>75</strong> g Zucker</li>
+                            <li><strong>200</strong> ml Milch</li>
+                            <li><strong>100</strong> ml Sonnenblumenöl</li>
+                            <li><strong>1</strong> Prise Salz</li>
+                            <li>Mark von <strong>1</strong> Vanilleschote</li>
+                            <li><strong>250</strong> g Mehl</li>
+                            <li><strong>1</strong> TL Backpulver</li>
+                        </ul>
+                        <h4 class="sr-winter-recipes__instructions-headline">Zutaten für die Dekoration:</h4>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>250</strong> g Puderzucker</li>
+                            <li>Saft einer Zitrone</li>
+                            <li>kleine Plastikzylinder (Bastelgeschäft)</li>
+                            <li>Puderzucker (zum Bestäuben)</li>
+                            <li>ca. <strong>50</strong> g flüssige Zartbitterschokolade</li>
+                            <li>weiße Trüffelpralinen</li>
+                            <li>ca. <strong>150</strong> g Marzipanrohmasse</li>
+                            <li>rote Lebensmittelfarbe</li>
+                        </ul>
+                        <ul class="sr-winter-recipes__preparation-list">
+                            <li><strong>Vorbereitungszeit:</strong> 15 Minuten</li>
+                            <li><strong>Zusätzliche Vorbereitungen:</strong> Deko – 30 Minuten</li>
+                            <li><strong>Grillzeit:</strong> 20 - 25 Minuten</li>
+                            <li><strong>Grilltemperatur:</strong> 180°C</li>
+                            <li><strong>Grillmethode:</strong> Indirekt</li>
+                            <li><strong>Zubehör:</strong> GBS Ebelskiver Einsatz</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="js_tab-mobile-2-3rd" class="sr-winter-recipe__tab-content js_mobile-tab-content">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        <div class="sr-winter-recipes__tab__button hide-on-tablet hide-on-desktop">
+                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/03_Schneemann_Muffins_vom_Grill.pdf?$staticlink$">PDF
+                                Download</a>
+                        </div>
+                        <div class="sr-winter-recipes__instructions">
+                            <h4 class="sr-winter-recipes__instructions-headline">Zubereitung Muffins</h4>
+                            <h4 class="sr-winter-recipes__instructions-headline"><small>In der Küche:</small></h4>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Eier mit Zucker, Milch, Öl, Salz und Vanillemark in einer großen Schüssel verrühren.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Mehl mit Backpulver mischen, darüber sieben und locker mit einem großen Löffel unterheben.</li>
+                            </ol>
+                            <h4 class="sr-winter-recipes__instructions-headline"><small>Auf dem Grill:</small></h4>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Den Grill auf 180 Grad indirekte Hitze vorheizen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Papierförmchen in die Vertiefungen des Ebelskivers setzen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Muffin-Papierförmchen zu 3/4 mit Teig füllen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Auf dem Grill mit 180 Grad indirekter Hitze 20-25 Minuten goldbraun backen (Stäbchenprobe).</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Muffins anschließend auf einem Gitter auskühlen lassen.</li>
+                            </ol>
+                            <h4 class="sr-winter-recipes__instructions-headline">Zubereitung Dekoration</h4>
+                            <ol class="sr-winter-recipes__instructions__list">
+                                <li class="sr-winter-recipes__instructions__list-item">Puderzucker mit Zitronensaft zu einem dickflüssigen Guss verrühren, gleichmäßig über die Muffins verteilen und antrocknen lassen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Die weißen Trüffelpralinen als Schneemannköpfe auf den Muffins und auf jeden Kopf einen Plastikzylinder mit etwas Zuckerguss fixieren.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Marzipan mit roter Lebensmittelfarbe einfärben.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Marzipan mit Puderzucker oder zwischen Backpapier dünn ausrollen und in etwa 10 cm lange und 1 cm breite Streifen schneiden.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Jedem Schneemann einen roten Marzipanstreifen als Schal umlegen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Flüssige Schokolade in eine kleine Papierspritztüte füllen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Auf jede Pralinenkugel mit der Schokolade zwei Augen tupfen.</li>
+                                <li class="sr-winter-recipes__instructions__list-item">Abschließend die Muffins je nach Belieben mit Puderzucker bestäuben.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div id="js_tab-tablet-3-3rd" class="sr-winter-recipe__tab-content js_mobile-tab-content hide-on-mobile">
+                    <div class="sr-winter-recipe__tab-container js_read-more-container">
+                        <div class="sr-winter-recipes__tab__button">
+                            <a class="button button_default button_mobile-download" href="pages/campaign/xmas2016/pdf/03_Schneemann_Muffins_vom_Grill.pdf?$staticlink$">PDF Download</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </li>
+    </ul>
+</div>
+
+            </div> 
+
+        </div> 
+
+    </div> 
+
+    <div class="srgrid">
+
+        <div class="sr-free-cups" id="sr-free-cups">
+
+            <a name="sr-free-cups"></a>
+
+            <div class="srgrid__container">
+                <div class="srgrid__row srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                        <img class="sr-free-cups__illustration-text" src="pages/campaign/xmas2016/free_cups_illustration_text.png?$staticlink$" alt="Free cups">
+                        <div class="sr-free-cups__description">
+                            <p>Abholen & Geniessen</p>
+                            <p>Kauf’ dir bei deinem Weber Händler vom <strong>01.10.2016 – 24.12.2016</strong> einen Weber Grill deiner Wahl und nimm dir eine Gratis Tasse im Wert von 15 Euro mit!</p>
+                            <p>Nur erhältlich bei allen an der Weihnachtsaktion teilnehmenden Händler vor Ort. Diese findest du hier:</p>
+                        </div>
+                        <a class="button button_default sr-free-cups__button" href="$url('Stores-Find')$">händlerfinder</a>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                        <img class="sr-free-cups__tea-cup mood-image" src="pages/campaign/xmas2016/tea_cup_warm_mood.jpg?$staticlink$" alt="Warm tea cup">
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </div> 
+
+    <div class="srgrid">
+
+        <div class="srgrid__container">
+
+            <div class="sr-cta-section" id="sr-cta-section">
+
+                <a name="sr-cta-section"></a>
+
+                <div class="srgrid__row srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-cta-section__info red-container">
+                            <div class="sr-cta-section__description">
+                                <img class="sr-cta-section__illustration-text" src="pages/campaign/xmas2016/cta_illustration_with_text.png?$staticlink$" alt="Weber ID illustration with text">
+                                <div class="sr-cta-section__list-wrapper">
+                                    <ul class="sr-cta-section__list bullet-list">
+                                        <li class="sr-cta-section__list-item">Registriere Deinen Grill</li>
+                                        <li class="sr-cta-section__list-item">Exklusive Rezepte und Produkte</li>
+                                        <li class="sr-cta-section__list-item">Nützliche Tipps & Tricks</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a class="button button-trans-white button_default sr-cta-section__button" href="$httpsUrl('Account-Show')$">jetzt erstellen</a>
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_s srgrid__col_18_m srgrid__col_18_l flex-img">
+                        <div class="sr-cta-section__info black-container">
+                            <div class="sr-cta-section__description">
+                                <h2 class="sr-cta-section__headline">Alle Christmas-Aktionsprodukte und weitere tolle Produkte erlebst du bei deinem teilnehmenden Weber Händler.</h2>
+                            </div>
+                            <a class="button button_default sr-cta-section__button" href="$url('Stores-Find')$">mehr erfahren</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+        </div> 
+
+    </div> 
+
+    <div class="srgrid">
+
+        <div class="sr-footer">
+
+            <div class="srgrid__container">
+                <div class="srgrid__row srgrid__row_center srgrid__row_gapless_m srgrid__row_gapless_l">
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                        <a class="sr-footer__facebook-link" href="https://www.facebook.com/WeberGrills.DE.AT.CH" target="_blank" title="Weber Auf Facebook">
+                            <img class="sr-footer__facebook-icon" src="pages/campaign/xmas2016/footer_facebook_icon.jpg?$staticlink$" alt="Weber Facebook page">
+                            <span class="sr-footer__facebook-text">Weber Auf Facebook</span>
+                        </a>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                        <a class="sr-footer__back-to-top footer-back-to-top smooth-scrolling hide-on-print" href="#wrapper" title="Zurück nach oben">
+                            <span class="sr-footer__back-to-top-text back-to-top-text">Zurück nach oben</span>
+                            <span class="sr-footer__back-to-top-icon icon-arrow-top-light"></span>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+
+        </div> 
+
+    </div> 
+
+</div>

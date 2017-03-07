@@ -1,0 +1,76 @@
+<section class="black-container product-slider">
+    <div class="slider" style="background-image: url(pages/homepage/bg_row-2@1.5.jpg?$staticlink$)">
+        <div class="container">
+            <span class="subheadline">DAS BESTE ZUM FEST</span>
+            <span class="headline">Weber Winter Highlights</span>
+        </div>
+        <div class="jcarousel-wrapper full-width-container no-padding">
+            <div class="jcarousel">
+                <ul class="slides">
+                    <li class="slide">
+                        <div class="item ">
+                            <div class="item-top">
+                                <a href="$url('Product-Show', 'pid', '14502904')$" title="Master-Touch® GBS® 57cm,Copper">
+                                    <img alt="Master-Touch® GBS® 57cm,Copper" src="pages/homepage/master_touch_copper.png?$staticlink$" title="Master-Touch® GBS® 57cm,Copper" />
+                                </a>
+                            </div>
+                            <div class="item-bottom">
+                                <div class="item-details charcoal">
+                                    <p class="item-name">Master-Touch® GBS® 57cm,Copper</p>
+                                    <div class="item-add-to-cart">
+                                        <span class="vat-hint text-condensed text-grey">inkl. MWST, kostenloser Versand</span><span class="item-price text-grey">&euro; 349,00</span>
+                                        $include('Include-AddToCart', 'pid', '14502904', 'classes', 'button-text underlined small hide-on-mobile', 'qty', '1', 'text', 'In den Warenkorb', 'type', 'default')$
+                                        <a class="only-on-mobile" href="$httpsUrl('Cart-AddProduct', 'pid', '14502904')$" title="In den Warenkorb">In den Warenkorb </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div class="item ">
+                            <div class="item-top">
+                                <a href="$url('Product-Show', 'pid', '46803579')$" title="Spirit™ S-330™ Premium GBS™">
+                                    <img alt="Spirit™ S-330™ Premium GBS™" src="pages/homepage/s330_side.png?$staticlink$" title="Spirit™ S-330™ Premium GBS™" />
+                                </a>
+                            </div>
+                            <div class="item-bottom">
+                                <div class="item-details gas">
+                                    <p class="item-name">Spirit™ S-330™ Premium GBS™</p>
+                                    <div class="item-add-to-cart">
+                                        <span class="vat-hint text-condensed text-grey">inkl. MWST, kostenloser Versand</span><span class="item-price text-grey">&euro; 1.249,00</span>
+                                        $include('Include-AddToCart', 'pid', '46803579', 'classes', 'button-text underlined small hide-on-mobile', 'qty', '1', 'text', 'In den Warenkorb', 'type', 'default')$
+                                        <a class="only-on-mobile" href="$httpsUrl('Cart-AddProduct', 'pid', '46803579')$" title="In den Warenkorb">In den Warenkorb </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li><li class="slide">
+                        <div class="item ">
+                            <div class="item-top">
+                                <a href="$url('Product-Show', 'pid', '6531579')$" title="Genesis® E-330 GBS®, Black">
+                                    <img alt="Genesis® E-330 GBS®, Black" src="pages/homepage/genesis.png?$staticlink$" title="Genesis® E-330 GBS®, Black" />
+                                </a>
+                            </div>
+                            <div class="item-bottom">
+                                <div class="item-details gas">
+                                    <p class="item-name">Genesis® E-330 GBS®, Black</p>
+                                    <div class="item-add-to-cart">
+                                        <span class="vat-hint text-condensed text-grey">inkl. MWST, kostenloser Versand</span><span class="item-price text-grey">&euro; 1.599,00</span>
+$include('Include-AddToCart', 'pid', '6531579', 'classes', 'button-text underlined small hide-on-mobile', 'qty', '1', 'text', 'In den Warenkorb', 'type', 'default')$
+<a class="only-on-mobile" href="$httpsUrl('Cart-AddProduct', 'pid', '6531579')$" title="In den Warenkorb">In den Warenkorb </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="jcarousel-navigation centered">
+                <a href="" class="jcarousel-control-prev icon-arrow-left no-rotate text-grey"></a> 
+                <span class="jcarousel-pagination"></span>
+                <a href="" class="jcarousel-control-next icon-arrow-right no-rotate text-grey"></a>
+            </div>
+        </div>
+    </div>
+</section>

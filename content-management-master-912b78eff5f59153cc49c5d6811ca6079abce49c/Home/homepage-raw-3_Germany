@@ -1,0 +1,32 @@
+<section class="black-container">
+    <div class="full-width-container no-padding">
+        <div class="box-grid">
+            <div class="box box-col-50-50-100">
+                <div class="teaser box size-medium-small style-large" style="background-image: url(pages/homepage/row3/Teaser_Geschenk-1.jpg?$staticlink$)"> 
+                    <div class="box-content">
+                        <div class="box-content-inner">
+                            <span class="headline"><a href="$url('Search-Show', 'cgid', 'gift-finder-burgertyp')$" class="text-white" style="text-decoration:none">Geschenkefinder</a></span>
+                            <span class="subheadline"><a href="$url('Search-Show', 'cgid', 'gift-finder-burgertyp')$" class="text-white" style="text-decoration:none">FINDE DAS PERFEKTE GESCHENK FÜR JEDEN GRILLTYP.</a></span>
+                         <div class="button-ctr">
+                                <a href="$url('Search-Show', 'cgid', 'gift-finder-burgertyp')$" class="button button-inline button-red"> Mehr entdecken </a>
+                            </div>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="box box-col-50-50-100">
+                <div class="teaser box size-medium-small style-large" style="background-image: url(pages/homepage/row3/Teaser_BG-2.jpg?$staticlink$)"> 
+                    <div class="box-content">
+                        <div class="box-content-inner">
+                            <span class="headline"><a href="$url('Search-Show', 'cgid', '8894')$" class="text-white" title="iGrill-System">Das neue iGrill-System</a></span>
+                            <span class="subheadline"><a href="$url('Search-Show', 'cgid', '8894')$" class="text-white" title="Optimale Grillergebnisse">Optimale Grillergebnisse dank smarter Temperaturkontrolle</a></span>
+                            <div class="button-ctr">
+                                <a href="$url('Search-Show', 'cgid', '8894')$" title="Jetzt entdecken" class="button button-inline button-red"> Jetzt entdecken </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

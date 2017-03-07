@@ -1,0 +1,60 @@
+<style>
+    .xmas-phase2-form-ctr {
+        display: none !important;
+    }
+</style>
+
+<div class="sr-wrapper sr-wrapper_pending-day">
+
+    <div class="srgrid">
+
+        <div class="sr-advent-calendar sr-advent-calendar_right-section">
+            <div class="srgrid__row">
+                <div class="srgrid__col srgrid__col_36_xs srgrid__col_36_s srgrid__col_36_m srgrid__col_36_l">
+
+                    <div class="sr-advent-calendar__header">
+                        <img class="sr-advent-calendar__header-illustration-text only-on-desktop" src="pages/campaign/xmas2016/NL/phase2-5_nl-2.png?$staticlink$" alt="Slogan Illustration Text with Photo">
+                        <!--<h3 class="sr-advent-calendar__header__text headline-3">Eine exklusive Weber Grillparty hat gewonnen:</h3>-->
+                        <h2 class="sr-advent-calendar__header__winner-name text-uppercase">DAG 7 IN DE ADVENTSKALENDER…</h2>
+                        <hr class="sr-divider">
+                        <h5 class="sr-advent-calendar__header__winner-place text-uppercase">DE PRIJZEN</h5>
+                    </div> 
+
+                    <!--<h4 class="sr-advent-calendar__congrats-text headline-3">Glückwunsch an die Tagesgewinner:</h4>-->
+
+                    <div class="sr-advent-calendar__prizes">
+                        <div class="srgrid">
+                            <div class="srgrid__row">
+                                <div class="srgrid__col srgrid__col_36_xs srgrid__col srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                                    <h3 class="sr-advent-calendar__prize-winner headline-2 text-uppercase">BINNENKORT IN DE ADVENTSKALENDER
+…</h3>
+                                    <h5 class="sr-advent-calendar__prize-text headline-5 text-uppercase">NOG UIT TE PAKKEN</h5>
+                                    <div class="sr-advent-calendar__prize sr-advent-calendar__prize_current">
+                                        <a class="sr-advent-calendar__prize-link" href="$httpsUrl('Product-Show', 'pid', '6670')$" target="_blank" title="Prize Product">
+                                            <img class="sr-advent-calendar__prize__image" src="pages/campaign/xmas2016/badges/NL/handschoenen.png?$staticlink$" alt="Today's Prize Picture">
+                                            <h4 class="sr-advent-calendar__prize__title headline-3">Set van twee handschoenen kevlar (L/XL)</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="srgrid__col srgrid__col_36_xs srgrid__col srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                                    <h3 class="sr-advent-calendar__prize-winner headline-2 text-uppercase">BINNENKORT IN DE ADVENTSKALENDER…</h3>
+                                    <h5 class="sr-advent-calendar__prize-text headline-5 text-uppercase">NOG UIT TE PAKKEN</h5>
+                                    <div class="sr-advent-calendar__prize sr-advent-calendar__prize_friend">
+                                        <!--<a class="sr-advent-calendar__prize-link" href="$httpsUrl('Product-Show', 'pid', '7221')$" target="_blank" title="Prize Product"></a>-->
+                                            <img class="sr-advent-calendar__prize__image" src="pages/campaign/xmas2016/badges/NL/hurray.png?$staticlink$" alt="Friend's Prize Picture">
+                                            <h4 class="sr-advent-calendar__prize__title headline-3">Grill Academy workshop voor 16 personen</h4>
+                                       
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+            </div>
+        </div> 
+
+    </div> 
+
+</div>

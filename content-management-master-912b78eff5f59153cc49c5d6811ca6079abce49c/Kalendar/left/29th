@@ -1,0 +1,357 @@
+<div class="sr-wrapper sr-wrapper_current-day hide-on-mobile">
+
+    <div class="srgrid">
+
+        <div class="sr-advent-calendar sr-advent-calendar_left-section">
+            <div class="srgrid__row">
+                <div class="srgrid__col srgrid__col_36_xs srgrid__col_36_s srgrid__col_36_m srgrid__col_36_l">
+                    <div class="sr-advent-calendar__header only-on-tablet">
+                        <img class="sr-advent-calendar__header-illustration-text" src="pages/campaign/xmas2016/header_illustration_text.png?$staticlink$" alt="Slogan Illustration Text">
+                    </div>
+                    <div class="sr-advent-calendar__grill hide-on-mobile">
+                        <svg id="Advent_Calendar" data-name="Advent Calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="590" height="700" viewBox="0 0 590 700">
+                            <defs>
+                                <style>
+                                    .cls-1 a {
+                                        font-size: 40px;
+                                    }
+
+                                    .cls-1 a, .cls-2 a {
+                                        fill: #707070;
+                                        font-family: 'DIN Condensed', sans-serif;
+                                        font-weight: 700;
+                                        text-transform: uppercase;
+                                        text-decoration: none;
+                                    }
+
+                                    .cls-2 a {
+                                        font-size: 32.441px;
+                                        text-anchor: middle;
+                                    }
+
+                                    .pending,
+                                    .current,
+                                    .expired {
+                                        display: none;
+                                    }
+
+                                    .pending.active,
+                                    .current.active,
+                                    .expired.active {
+                                        display: block;
+                                    }
+
+                                    .day-link.is-active {
+                                        fill: #fff;
+                                    }
+
+                                </style>
+                            </defs>
+                            <g id="Grill" data-name="Master Touch Smoke Grey Grill">
+                                <image id="Master-Touch_Smoke_Grey_Grill" x="-10" y="-2" width="590" height="700" xlink:href="pages/campaign/xmas2016/advent-calendar-grill.png?$staticlink$" />
+                            </g>
+                            <g id="Charcoal_Briquettes" data-name="Charcoal Briquettes">
+                                <g id="day_15">
+                                    <image class="pending active" id="_15_charcoal_briquette" data-name="15_charcoal_briquette" x="271" y="51" width="76" height="86"
+                                           xlink:href="pages/campaign/xmas2016/15_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_15_charcoal_briquette" data-name="15_charcoal_briquette" x="255" y="22" width="102" height="120"
+                                           xlink:href="pages/campaign/xmas2016/15_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_15_charcoal_briquette" data-name="15_charcoal_briquette" x="270" y="52" width="78" height="86"
+                                           xlink:href="pages/campaign/xmas2016/15_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_22">
+                                    <image class="pending active" id="_22_charcoal_briquette" data-name="22_charcoal_briquette" x="368" y="91" width="76" height="86"
+                                           xlink:href="pages/campaign/xmas2016/22_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_22_charcoal_briquette" data-name="22_charcoal_briquette" x="352" y="62" width="102" height="120"
+                                           xlink:href="pages/campaign/xmas2016/22_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_22_charcoal_briquette" data-name="22_charcoal_briquette" x="367" y="92" width="78" height="86"
+                                           xlink:href="pages/campaign/xmas2016/22_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_23">
+                                    <image class="pending active" id="_23_charcoal_briquette" data-name="23_charcoal_briquette" x="113" y="101" width="83" height="87"
+                                           xlink:href="pages/campaign/xmas2016/23_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_23_charcoal_briquette" data-name="23_charcoal_briquette" x="90" y="76" width="111" height="117"
+                                           xlink:href="pages/campaign/xmas2016/23_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_23_charcoal_briquette" data-name="23_charcoal_briquette" x="114" y="103" width="83" height="85"
+                                           xlink:href="pages/campaign/xmas2016/23_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_06">
+                                    <image class="pending active" id="_06_charcoal_briquette" data-name="06_charcoal_briquette" x="71" y="139" width="71" height="82"
+                                           xlink:href="pages/campaign/xmas2016/06_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_06_charcoal_briquette" data-name="06_charcoal_briquette" x="49" y="107" width="97" height="120"
+                                           xlink:href="pages/campaign/xmas2016/06_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_06_charcoal_briquette" data-name="06_charcoal_briquette" x="72" y="140" width="71" height="82"
+                                           xlink:href="pages/campaign/xmas2016/06_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_14">
+                                    <image class="pending active" id="_14_charcoal_briquette" data-name="14_charcoal_briquette" x="41" y="181" width="78" height="75"
+                                           xlink:href="pages/campaign/xmas2016/14_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_14_charcoal_briquette" data-name="14_charcoal_briquette" x="41" y="181" width="78" height="77"
+                                           xlink:href="pages/campaign/xmas2016/14_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_14_charcoal_briquette" data-name="14_charcoal_briquette" x="41" y="181" width="77" height="74"
+                                           xlink:href="pages/campaign/xmas2016/14_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_19">
+                                    <image class="pending active" id="_19_charcoal_briquette" data-name="19_charcoal_briquette" x="177" y="84" width="69" height="80"
+                                           xlink:href="pages/campaign/xmas2016/19_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_19_charcoal_briquette" data-name="19_charcoal_briquette" x="155" y="52" width="94" height="118"
+                                           xlink:href="pages/campaign/xmas2016/19_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_19_charcoal_briquette" data-name="19_charcoal_briquette" x="177" y="85" width="69" height="79"
+                                           xlink:href="pages/campaign/xmas2016/19_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_13">
+                                    <image class="pending active" id="_13_charcoal_briquette" data-name="13_charcoal_briquette" x="195" y="144" width="69" height="78"
+                                           xlink:href="pages/campaign/xmas2016/13_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_13_charcoal_briquette" data-name="13_charcoal_briquette" x="175" y="112" width="92" height="116"
+                                           xlink:href="pages/campaign/xmas2016/13_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_13_charcoal_briquette" data-name="13_charcoal_briquette" x="196" y="145" width="68" height="78"
+                                           xlink:href="pages/campaign/xmas2016/13_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_01">
+                                    <image class="pending" id="_01_charcoal_briquette" data-name="01_charcoal_briquette" x="223" y="45" width="67" height="77"
+                                           xlink:href="pages/campaign/xmas2016/01_charcoal_briquette_pending.png?$staticlink$" />
+                                    <image class="current" id="_01_charcoal_briquette" data-name="01_charcoal_briquette" x="203" y="14" width="90" height="113"
+                                           xlink:href="pages/campaign/xmas2016/01_charcoal_briquette_current.png?$staticlink$" />
+                                    <image class="expired active" id="_01_charcoal_briquette" data-name="01_charcoal_briquette" x="224" y="47" width="66" height="76"
+                                           xlink:href="pages/campaign/xmas2016/01_charcoal_briquette_expired.png?$staticlink$" />
+                                </g>
+                                <g id="day_11">
+                                    <image class="pending active" id="_11_charcoal_briquette" data-name="11_charcoal_briquette" x="322" y="54" width="85" height="87"
+                                           xlink:href="pages/campaign/xmas2016/11_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_11_charcoal_briquette" data-name="11_charcoal_briquette" x="316" y="27" width="110" height="119"
+                                           xlink:href="pages/campaign/xmas2016/11_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_11_charcoal_briquette" data-name="11_charcoal_briquette" x="322" y="55" width="84" height="87"
+                                           xlink:href="pages/campaign/xmas2016/11_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_05">
+                                    <image class="pending active" id="_05_charcoal_briquette" data-name="05_charcoal_briquette" x="455" y="166" width="81" height="84"
+                                           xlink:href="pages/campaign/xmas2016/05_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_05_charcoal_briquette" data-name="05_charcoal_briquette" x="455" y="166" width="81" height="85"
+                                           xlink:href="pages/campaign/xmas2016/05_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_05_charcoal_briquette" data-name="05_charcoal_briquette" x="455" y="166" width="81" height="84"
+                                           xlink:href="pages/campaign/xmas2016/05_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_21">
+                                    <image class="pending active" id="_21_charcoal_briquette" data-name="21_charcoal_briquette" x="130" y="149" width="87" height="84"
+                                           xlink:href="pages/campaign/xmas2016/21_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_21_charcoal_briquette" data-name="21_charcoal_briquette" x="125" y="125" width="116" height="114"
+                                           xlink:href="pages/campaign/xmas2016/21_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_21_charcoal_briquette" data-name="21_charcoal_briquette" x="130" y="150" width="85" height="85"
+                                           xlink:href="pages/campaign/xmas2016/21_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_07">
+                                    <image class="pending active" id="_07_charcoal_briquette" data-name="07_charcoal_briquette" x="236" y="103" width="75" height="85"
+                                           xlink:href="pages/campaign/xmas2016/07_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_07_charcoal_briquette" data-name="07_charcoal_briquette" x="215" y="72" width="100" height="122"
+                                           xlink:href="pages/campaign/xmas2016/07_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_07_charcoal_briquette" data-name="07_charcoal_briquette" x="237" y="105" width="75" height="84"
+                                           xlink:href="pages/campaign/xmas2016/07_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_24">
+                                    <image class="pending active" id="_24_charcoal_briquette" data-name="24_charcoal_briquette" x="303" y="99" width="71" height="83"
+                                           xlink:href="pages/campaign/xmas2016/24_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_24_charcoal_briquette" data-name="24_charcoal_briquette" x="280" y="68" width="97" height="120"
+                                           xlink:href="pages/campaign/xmas2016/24_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_24_charcoal_briquette" data-name="24_charcoal_briquette" x="303" y="101" width="71" height="82"
+                                           xlink:href="pages/campaign/xmas2016/24_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_20">
+                                    <image class="pending active" id="_20_charcoal_briquette" data-name="20_charcoal_briquette" x="256" y="157" width="69" height="81"
+                                           xlink:href="pages/campaign/xmas2016/20_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_20_charcoal_briquette" data-name="20_charcoal_briquette" x="234" y="125" width="94" height="118"
+                                           xlink:href="pages/campaign/xmas2016/20_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_20_charcoal_briquette" data-name="20_charcoal_briquette" x="256" y="158" width="69" height="80"
+                                           xlink:href="pages/campaign/xmas2016/20_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_18">
+                                    <image class="pending active" id="_18_charcoal_briquette" data-name="18_charcoal_briquette" x="419" y="150" width="68" height="79"
+                                           xlink:href="pages/campaign/xmas2016/18_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_18_charcoal_briquette" data-name="18_charcoal_briquette" x="399" y="120" width="91" height="114"
+                                           xlink:href="pages/campaign/xmas2016/18_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_18_charcoal_briquette" data-name="18_charcoal_briquette" x="419" y="152" width="68" height="78"
+                                           xlink:href="pages/campaign/xmas2016/18_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_09">
+                                    <image class="pending active" id="_09_charcoal_briquette" data-name="09_charcoal_briquette" x="422" y="197" width="73" height="65"
+                                           xlink:href="pages/campaign/xmas2016/09_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_09_charcoal_briquette" data-name="09_charcoal_briquette" x="422" y="197" width="73" height="66"
+                                           xlink:href="pages/campaign/xmas2016/09_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_09_charcoal_briquette" data-name="09_charcoal_briquette" x="422" y="197" width="73" height="64"
+                                           xlink:href="pages/campaign/xmas2016/09_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_17">
+                                    <image class="pending active" id="_17_charcoal_briquette" data-name="17_charcoal_briquette" x="364" y="144" width="70" height="81"
+                                           xlink:href="pages/campaign/xmas2016/17_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_17_charcoal_briquette" data-name="17_charcoal_briquette" x="344" y="114" width="93" height="117"
+                                           xlink:href="pages/campaign/xmas2016/17_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_17_charcoal_briquette" data-name="17_charcoal_briquette" x="363" y="145" width="71" height="81"
+                                           xlink:href="pages/campaign/xmas2016/17_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_02">
+                                    <image class="pending" id="_02_charcoal_briquette" data-name="02_charcoal_briquette" x="308" y="151" width="83" height="87"
+                                           xlink:href="pages/campaign/xmas2016/02_charcoal_briquette_pending.png?$staticlink$" />
+                                    <image class="current active" id="_02_charcoal_briquette" data-name="02_charcoal_briquette" x="286" y="125" width="110" height="118"
+                                           xlink:href="pages/campaign/xmas2016/02_charcoal_briquette_current.png?$staticlink$" />
+                                    <image class="expired" id="_02_charcoal_briquette" data-name="02_charcoal_briquette" x="309" y="152" width="83" height="86"
+                                           xlink:href="pages/campaign/xmas2016/02_charcoal_briquette_expired.png?$staticlink$" />
+                                </g>
+                                <g id="day_10">
+                                    <image class="pending active" id="_10_charcoal_briquette" data-name="10_charcoal_briquette" x="106" y="193" width="69" height="72"
+                                           xlink:href="pages/campaign/xmas2016/10_charcoal_briquette_pending.png?$staticlink$" />
+                                    <image class="current" id="_10_charcoal_briquette" data-name="10_charcoal_briquette" x="106" y="193" width="72" height="72"
+                                           xlink:href="pages/campaign/xmas2016/10_charcoal_briquette_current.png?$staticlink$" />
+                                    <image class="expired" id="_10_charcoal_briquette" data-name="10_charcoal_briquette" x="106" y="193" width="68" height="72"
+                                           xlink:href="pages/campaign/xmas2016/10_charcoal_briquette_expired.png?$staticlink$" />
+                                </g>
+                                <g id="day_03">
+                                    <image class="pending active" id="_03_charcoal_briquette" data-name="03_charcoal_briquette" x="157" y="207" width="72" height="61"
+                                           xlink:href="pages/campaign/xmas2016/03_charcoal_briquette_pending.png?$staticlink$" />
+                                    <image class="current" id="_03_charcoal_briquette" data-name="03_charcoal_briquette" x="157" y="207" width="73" height="62"
+                                           xlink:href="pages/campaign/xmas2016/03_charcoal_briquette_current.png?$staticlink$" />
+                                    <image class="expired" id="_03_charcoal_briquette" data-name="03_charcoal_briquette" x="157" y="207" width="71" height="60"
+                                           xlink:href="pages/campaign/xmas2016/03_charcoal_briquette_expired.png?$staticlink$" />
+                                </g>
+                                <g id="day_16">
+                                    <image class="pending active" id="_16_charcoal_briquette" data-name="16_charcoal_briquette" x="207" y="201" width="75" height="66"
+                                           xlink:href="pages/campaign/xmas2016/16_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_16_charcoal_briquette" data-name="16_charcoal_briquette" x="207" y="201" width="75" height="66"
+                                           xlink:href="pages/campaign/xmas2016/16_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_16_charcoal_briquette" data-name="16_charcoal_briquette" x="207" y="201" width="75" height="66"
+                                           xlink:href="pages/campaign/xmas2016/16_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_08">
+                                    <image class="pending active" id="_08_charcoal_briquette" data-name="08_charcoal_briquette" x="265" y="211" width="82" height="57"
+                                           xlink:href="pages/campaign/xmas2016/08_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_08_charcoal_briquette" data-name="08_charcoal_briquette" x="265" y="211" width="84" height="57"
+                                           xlink:href="pages/campaign/xmas2016/08_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_08_charcoal_briquette" data-name="08_charcoal_briquette" x="265" y="211" width="83" height="56"
+                                           xlink:href="pages/campaign/xmas2016/08_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_12">
+                                    <image class="pending active" id="_12_charcoal_briquette" data-name="12_charcoal_briquette" x="360" y="204" width="86" height="62"
+                                           xlink:href="pages/campaign/xmas2016/12_charcoal_briquette_pending.png?$staticlink$"/>
+                                    <image class="current" id="_12_charcoal_briquette" data-name="12_charcoal_briquette" x="360" y="204" width="86" height="62"
+                                           xlink:href="pages/campaign/xmas2016/12_charcoal_briquette_current.png?$staticlink$"/>
+                                    <image class="expired" id="_12_charcoal_briquette" data-name="12_charcoal_briquette" x="360" y="204" width="85" height="62"
+                                           xlink:href="pages/campaign/xmas2016/12_charcoal_briquette_expired.png?$staticlink$"/>
+                                </g>
+                                <g id="day_04">
+                                    <image class="pending active" id="_04_charcoal_briquette" data-name="04_charcoal_briquette" x="316" y="209" width="67" height="59"
+                                           xlink:href="pages/campaign/xmas2016/04_charcoal_briquette_pending.png?$staticlink$" />
+                                    <image class="current" id="_04_charcoal_briquette" data-name="04_charcoal_briquette" x="316" y="209" width="70" height="59"
+                                           xlink:href="pages/campaign/xmas2016/04_charcoal_briquette_current.png?$staticlink$" />
+                                    <image class="expired" id="_04_charcoal_briquette" data-name="04_charcoal_briquette" x="316" y="209" width="67" height="58"
+                                           xlink:href="pages/campaign/xmas2016/04_charcoal_briquette_expired.png?$staticlink$" />
+                                </g>
+                            </g>
+                            <g id="Calendar_Days" data-name="Calendar Days">
+                                <text id="_15" data-name="15" class="cls-1" transform="translate(289 93) rotate(21.255)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '15')$" class="day-link">15</a>
+                                </text>
+                                <text id="_22" data-name="22" class="cls-1" transform="translate(390 133) rotate(21.111)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '22')$" class="day-link">22</a>
+                                </text>
+                                <text id="_23" data-name="23" class="cls-1" transform="matrix(0.774, -0.633, 0.633, 0.774, 145, 160)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '23')$" class="day-link">23</a>
+                                </text>
+                                <text id="_6" data-name="6" class="cls-1" transform="translate(102 189) rotate(-11.552)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '6')$" class="day-link">6</a>
+                                </text>
+                                <text id="_14" data-name="14" class="cls-1" transform="matrix(0.914, -0.405, 0.405, 0.914, 69, 240)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '14')$" class="day-link">14</a>
+                                </text>
+                                <text id="_19" data-name="19" class="cls-1" transform="translate(194 137) rotate(-6.115)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '19')$" class="day-link">19</a>
+                                </text>
+                                <text id="_13" data-name="13" class="cls-1" transform="translate(213 193) rotate(-1.418)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '13')$" class="day-link">13</a>
+                                </text>
+                                <text id="_1" data-name="1" class="cls-2" transform="translate(256 97) scale(1.238 1.233)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '1')$" class="day-link is-active">1</a>
+                                </text>
+                                <text id="_11" data-name="11" class="cls-1" transform="matrix(0.744, 0.668, -0.668, 0.744, 348, 91)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '11')$" class="day-link">11</a>
+                                </text>
+                                <text id="_5" data-name="5" class="cls-1" transform="translate(485 210) rotate(31.356)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '5')$" class="day-link">5</a>
+                                </text>
+                                <text id="_21" data-name="21" class="cls-1" transform="translate(158 185) rotate(48.91)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '21')$" class="day-link">21</a>
+                                </text>
+                                <text id="_7" data-name="7" class="cls-1" transform="translate(270 157) rotate(-23.963)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '7')$" class="day-link">7</a>
+                                </text>
+                                <text id="_24" data-name="24" class="cls-1" transform="matrix(1.054, -0.186, 0.186, 1.057, 321, 153)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '24')$" class="day-link">24</a>
+                                </text>
+                                <text id="_20" data-name="20" class="cls-1" transform="translate(275 208) rotate(-9.374)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '20')$" class="day-link">20</a>
+                                </text>
+                                <text id="_18" data-name="18" class="cls-1" transform="translate(435 192) rotate(3.47)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '18')$" class="day-link">18</a>
+                                </text>
+                                <text id="_9" data-name="9" class="cls-1" transform="matrix(0.902, -0.431, 0.431, 0.902, 456, 249)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '9')$" class="day-link">9</a>
+                                </text>
+                                <text id="_17" data-name="17" class="cls-1" transform="translate(380 187) rotate(14.536)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '17')$" class="day-link">17</a>
+                                </text>
+                                <text id="_2" data-name="2" class="cls-1" transform="translate(348 203) rotate(-37.639)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '2')$" class="day-link is-active">2</a>
+                                </text>
+                                <text id="_10" data-name="10" class="cls-1" x="121" y="243">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '10')$" class="day-link">10</a>
+                                </text>
+                                <text id="_3" data-name="3" class="cls-1" transform="matrix(0.96, -0.28, 0.28, 0.96, 188, 256)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '3')$" class="day-link">3</a>
+                                </text>
+                                <text id="_16" data-name="16" class="cls-1" transform="translate(223 245) rotate(23.521)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '16')$" class="day-link">16</a>
+                                </text>
+                                <text id="_8" data-name="8" class="cls-1" transform="translate(302 263) rotate(-37.102)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '8')$" class="day-link">8</a>
+                                </text>
+                                <text id="_12" data-name="12" class="cls-1" transform="matrix(0.584, 0.812, -0.812, 0.584, 387, 234)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '12')$" class="day-link">12</a>
+                                </text>
+                                <text id="_4" data-name="4" class="cls-1" transform="translate(341 256) rotate(4.264)">
+                                    <a xlink:href="$httpsUrl('PageSupportive-XmasPhase2', 'day', '4')$" class="day-link">4</a>
+                                </text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </div> 
+
+</div> 
+
+
+
+
+<div class="sr-wrapper sr-wrapper_current-day only-on-mobile">
+
+    <div class="srgrid">
+
+        <div class="sr-advent-calendar sr-advent-calendar_mobile">
+            <div class="srgrid__row">
+                <div class="srgrid__col srgrid__col_36_xs srgrid__col_36_s srgrid__col_36_m srgrid__col_36_l">
+                    <div class="sr-advent-calendar__header_mobile">
+                        <img class="sr-advent-calendar__header_mobile__illustration-text" src="pages/campaign/xmas2016/header_illustration_text.png?$staticlink$" alt="Slogan Illustration Text">
+                    </div>
+                    <div class="sr-advent-calendar__information">
+                        <h3 class="sr-advent-calendar__information__headline text-uppercase">Leider funktioniert der Kalender nicht auf mobilen Geräten.</h3>
+                        <p class="sr-advent-calendar__information__text"> Bitte wechseln Sie zu einem größeren Bildschirm, um die Kalenderfunktion nutzen zu können.</p>
+                    </div>
+                    <div class="sr-advent-calendar__links">
+                        <a class="button button_default sr-advent-calendar__link" href="$url('Stores-Find')$">Händlerfinder</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </div> 
+
+</div>

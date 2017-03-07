@@ -1,0 +1,45 @@
+<div class="sr-wrapper sr-wrapper_current-day">
+
+    <div class="srgrid">
+
+        <div class="sr-advent-calendar sr-advent-calendar_right-section">
+            <div class="srgrid__row">
+                <div class="srgrid__col srgrid__col_36_xs srgrid__col_36_s srgrid__col_36_m srgrid__col_36_l">
+
+                    <div class="sr-advent-calendar__header">
+                        <!--<img class="sr-advent-calendar__header-illustration-text only-on-desktop" src="pages/campaign/xmas2016/NL/phase2-5_nl-2.png?$staticlink$" alt="Slogan Illustration Text">-->
+                        <!--<h2 class="sr-advent-calendar__header__text headline-2">Doe mee en maak kans op de dagprijs en de hoofdprijs!</h2>-->
+                    </div> 
+
+                    <div class="sr-advent-calendar__prizes">
+                        <div class="srgrid">
+                            <div class="srgrid__row">
+                                <div class="srgrid__col srgrid__col_36_xs srgrid__col srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                                    <h5 class="sr-advent-calendar__prize-text headline-5 text-uppercase">Dagprijs:</h5>
+                                    <div class="sr-advent-calendar__prize sr-advent-calendar__prize_current">
+                                        <a class="sr-advent-calendar__prize-link" href="$httpsUrl('Product-Show', 'pid', '72221')$" target="_blank" title="Prize Product">
+                                            <img class="sr-advent-calendar__prize__image" src="pages/campaign/xmas2016/badges/NL/igrill2.png?$staticlink$" alt="Today's Prize Picture">
+                                            <h4 class="sr-advent-calendar__prize__title headline-3">iGrill 2</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="srgrid__col srgrid__col_36_xs srgrid__col srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                                <h5 class="sr-advent-calendar__prize-text headline-5 text-uppercase">Hoofdprijs:</h5>
+                                    <div class="sr-advent-calendar__prize sr-advent-calendar__prize_friend">
+                                        <!--<a class="sr-advent-calendar__prize-link" href="$httpsUrl('Product-Show', 'pid', '14502904')$" target="_blank" title="Prize Product">-->
+                                            <img class="sr-advent-calendar__prize__image" src="pages/campaign/xmas2016/badges/NL/hurray.png?$staticlink$" alt="Friend's Prize Picture">
+                                            <h4 class="sr-advent-calendar__prize__title headline-3">Grill Academy workshop voor 16 personen</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+            </div>
+        </div> 
+
+    </div> 
+
+</div>

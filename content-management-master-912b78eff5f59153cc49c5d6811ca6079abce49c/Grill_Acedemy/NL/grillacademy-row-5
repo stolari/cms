@@ -1,0 +1,54 @@
+<section class="container tips-and-tricks text-center grillacademy-slider slider">
+    <h1>Tips & Tricks</h1>
+    <div class="jcarousel-wrapper">
+        <div class="jcarousel three-part">
+            <ul class="slides">
+                <li class="slide teaser box size-square style-small multi-line force-square">
+                    <div class="box-content">
+                        <div class="box-content-inner">
+                            <span class="headline">Mijn Weber barbecue aansteken</span>
+                            <div class="button-ctr">
+                                <a href="$url('Page-Show', 'cid', 'fc4')$" title="Learn more" class="button button-inline">Meer informatie</a>
+                            </div>
+                        </div>
+                    </div>
+                    <picture>
+                        <img src="navigation/grillAcademy/tipsAndTricks/lighting-the-grill_slot5_guide-tipp3_1to1.jpg?$staticlink$" alt="Mijn Weber barbecue aansteken">
+                    </picture>
+                </li>
+                <li class="slide teaser box size-square style-small multi-line force-square">
+                    <div class="box-content">
+                        <div class="box-content-inner">
+                            <span class="headline">
+DE VIER GRILLMETHODEN VAN WEBER</span>
+                            <div class="button-ctr">
+                                <a href="$url('Page-Show', 'cid', 'fc1')$" title="Learn more" class="button button-inline">Meer informatie</a>
+                            </div>
+                        </div>
+                    </div>
+                    <picture>
+                        <img src="navigation/grillAcademy/tipsAndTricks/cooking-methods_slot5_guide-tipp4_1to1.jpg?$staticlink$" alt="
+De drie grillmethoden van Weber">
+                    </picture>
+                </li>
+                <li class="slide teaser box size-square style-small multi-line force-square">
+                    <div class="box-content">
+                        <div class="box-content-inner">
+                            <span class="headline">Onderhoud</span>
+                            <div class="button-ctr">
+                                <a href="$url('Page-Show', 'cid', 'fc5')$" title="Learn more" class="button button-inline">Meer informatie</a>
+                            </div>
+                        </div>
+                    </div>
+                    <picture>
+                        <img src="navigation/grillAcademy/tipsAndTricks/cleaning_slot5_guide-tipp6_1to1.jpg?$staticlink$" alt="Onderhoud">
+                    </picture>
+                </li>
+            </ul>
+        </div>
+        <div class="jcarousel-navigation hide-on-desktop">
+            <span class="jcarousel-pagination" data-jcarouselpagination="true"><a href="#1" class="active">1</a><a href="#2">2</a><a href="#3">3</a></span>
+        </div>
+    </div>
+    <div class="text-center"><a href="$url('Page-TipsAndTricks')$" class="button">Alle Tips & Tricks laten zien</a></div>
+</section>

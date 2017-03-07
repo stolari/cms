@@ -1,0 +1,42 @@
+<div class="custom-content">
+<h2 class="headline-2">ALLE WORKSHOPS</h2>
+<p class="text-grey">Wij adviseren u eerst de Basic workshop te volgen, voordat u zich inschrijft voor een vervolgworkshop (Exclusive, Smoking, The Art of Grilling of Kerst). In de vervolgworkshops worden namelijk een aantal technieken gehandteerd, welke in de Basic workshop uitgebreid aan bod komen.<br><br>Weber biedt ook speciale business arrangementen aan. Bekijk <a href="https://www.grillacademy.nl/business.php" target="_blank">hier</a> de mogelijkheden.</p>
+
+    <div class="columns">
+        <div>
+            <a href="$url('Page-Show', 'cid', 'nav23')$"><img alt="Maak kennis met alle basisbarbecuetechnieken" src="navigation/grillAcademy/courses/basic_slot10_haehnchen_3to2.jpg?$staticlink$" title="Maak kennis met alle basisbarbecuetechnieken"></a>
+            <br>
+            <span class="text-condensed headline-5">Weber Grill Academy "Basic"</span>
+            <p class="text-grey">Tijdens deze workshop maakt u kennis met alle basis barbecuetechnieken.</p>
+        </div>
+        <div>
+            <a href="$url('Page-Show', 'cid', 'nav28')$"><img alt="Exclusief barbecue genot" src="navigation/grillAcademy/courses/exclusive_slot10_beef-nebraska_3to2.jpg?$staticlink$" title="Exclusief barbecue genot"></a>
+            <br>
+            <span class="text-condensed headline-5">Weber Grill Academy  "Exclusive"</span>
+            <p class="text-grey">Deze workshop is geschikt voor de meer gevorderde barbecueër en is de vervolgworkshop op de Basic workshop.</p>
+        </div>
+    </div>
+    <div class="columns">
+        <div>
+            <a href="$url('Page-Show', 'cid', 'nav34')$"><img alt="Roken met Weber" src="navigation/grillAcademy/courses/smoking_slot10_saiblingfilet_3to2.jpg?$staticlink$" title="Roken met Weber"></a>
+            <br>
+            <span class="text-condensed headline-5">Weber Grill Academy "Smoking"</span>
+            <p class="text-grey">Voor personen die graag willen leren roken met een Weber barbecue of Smokey Mountain Cooker.</p>
+        </div>
+        <div>
+            <a href="$url('Page-Show', 'cid', 'grillAcademy-summitCourse')$"><img alt="Erleben Sie die Atmosphäre und den Geruch von glühenden Brikkets und erlernen Sie die Kunst des Holzkohlegrillens"src="navigation/grillAcademy/courses/summit_slot10_kalbshuefte3_3to2.jpg?$staticlink$" title="The art of grilling - featuring Summit™ Charcoal Grill"></a>
+            <br>
+            <span class="text-condensed headline-5">Weber Grill Academy "The Art of Grilling"</span>
+            <p class="text-grey">Deze workshop is geschikt voor de meer gevorderde barbecueër en is speciaal voor de Summit™ charcoal grill samengesteld. </p>
+        </div>
+    </div>
+    <div class="columns">
+        <div>
+            <a href="$url('Page-Show', 'cid', '36834')$"><img alt="Kerstdiner bereiden op de barbecue?"src="navigation/grillAcademy/courses/culinaric-trip-around-the-world_slot10_ebelskiver_3to2.jpg?$staticlink$" title="Kerstdiner bereiden op de barbecue?"></a>
+            <br>
+            <span class="text-condensed headline-5">Weber Grill Academy "Kerst"</span>
+            <p class="text-grey">Voor personen die graag een kerstdiner willen bereiden op de barbecue.</p>
+        </div>
+    </div>
+    
+</div>

@@ -1,0 +1,30 @@
+<div class="custom-content">
+
+    <p class="text-grey">Hier finden Sie aktuelle Informationen zu unserem Unternehmen, unseren Produkten und Services. Bei weiteren Fragen, Wünschen und Anregungen wenden Sie sich bitte an unsere Presseagentur Himmelhoch GmbH.</p>
+<div class="columns">
+    <div>
+       <a href="$url('Page-Show','cid','pressReleases')$"> <img src="pages/company/pressSection/press_slot10_magazin_3to2.jpg?$staticlink$"></a>
+        <br>
+        <span class="text-condensed headline-5">Pressemitteilungen</span>
+        <p class="text-grey">Hier haben wir alle Pressemitteilungen von Weber für Sie bereitgestellt.</p>
+        <a href="$url('Page-Show', 'cid', 'pressReleases')$" class="button">Mehr erfahren</a>
+    </div>
+    <div>
+        
+        <span class="text-condensed headline-5">Presseanfragen</span>
+        <p class="text-grey">Für Presseanfragen wenden Sie sich bitte an unsere PR-Agentur:<br><br>
+<strong>Himmelhoch GmbH</strong><br>
+Alser Straße 45/6<br>
+1080 Wien<br>
+Austria<br>
+<a href="http://www.himmelhoch.at">www.himmelhoch.at</a><br>
+Ihre Ansprechpartnerin:<br><br>
+Daniela Dworzak<br>
++43 (0) 676 4327008<br> 
+E-Mail: <a href="mailto:daniela.dworzak@himmelhoch.att">daniela.dworzak@himmelhoch.at</a></p>
+    </div>
+</div>
+
+
+
+</div>

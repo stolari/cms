@@ -1,0 +1,211 @@
+<div class="wc-wrapper" style="background-image: url(pages/campaign/b2b-landingpage/bg_black.jpg?$staticlink$)">
+
+    <section class="sr_main-teaser">
+        <div class="teaser box size-large style-large" style="background-image: url(pages/campaign/b2b-landingpage/teaser1.jpg?$staticlink$)">
+            <div class="box-content">
+                <div class="box-content-inner">
+                    <span class="subheadline">Business to business</span>
+                    <span class="headline">Promotions, Incentives & Events</span>
+                </div>
+            </div>
+        </div>
+
+        <!--<img class="wc-responsive-image wem-grill-testimonial" src="pages/campaign/b2b-landingpage/teaser1.jpg?$staticlink$">-->
+
+        <!--<div class="sr_b2b-content-overlay">-->
+        <!--<div class="row">-->
+        <!--<div class="wc-col-xs-16 wc-col-xs-offset-2 wc-col-md-15 wc-col-md-offset-4 wc-col-lg-15 wc-col-lg-offset-4">-->
+        <!--<div class="text-condensed-thin">Business to business</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+        <!--<div class="wc-col-xs-16 wc-col-xs-offset-2 wc-col-md-15 wc-col-md-offset-4 wc-col-lg-15 wc-col-lg-offset-4">-->
+        <!--<div class="text-handwritten">Promotions, Incentives & Events</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+    </section>
+
+    <section class="sr_content-teaser">
+        <div class="full-width-container">
+
+            <h1 class="headline sr_headline-big sr_headline-big--content-teaser">Merkversterkende strategieën</h1>
+
+            <div class="row">
+                <div class="wc-col-xs-36 wc-col-sm-14 wc-col-sm-offset-4 wc-col-md-14 wc-col-md-offset-4 wc-col-lg-14 wc-col-lg-offset-4"></div>
+                <div class="wc-col-xs-36 wc-col-sm-14 wc-col-md-14 wc-col-lg-12 sr_content-container">
+                    <img class="sr_content-img-1" src="pages/campaign/b2b-landingpage/content-img_1.png?$staticlink$">
+                    <h2 class="sr_copy-subheadline">Weber als waardevol geschenk</h2>
+                    <div class="text-condensed sr_copy-container__copy">
+                        Met een Weber barbecue geeft u uw relaties of medewerkers een stijlvol en duurzaam cadeau van een internationaal topmerk. U spreekt uw waardering uit en u zult gewaardeerd worden. Ideaal als verjaardagsgeschenk, kerstpakket of gewoon zomaar.
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="wc-col-xs-36 wc-col-sm-14 wc-col-sm-offset-4 wc-col-md-14 wc-col-md-offset-4 wc-col-lg-12 wc-col-lg-offset-6 sr_content-container">
+                    <img class="sr_content-img-2" src="pages/campaign/b2b-landingpage/content-img_2.png?$staticlink$">
+                    <h2 class="sr_copy-subheadline">Weber als spaarprogramma</h2>
+                    <div class="text-condensed sr_copy-container__copy">
+                        Met een spaaractie of loyaliteitsprogramma verhoogt u uw omzet en bindt u uw klanten. Hierbij is het bewezen dat opname van gerenommeerde A-merken essentieel is voor succes. Met Weber verhoogt u de waarde en de aantrekkelijkheid van uw actie en wordt uw aanbod onweerstaanbaar.
+                    </div>
+                </div>
+                <div class="wc-col-xs-36 wc-col-sm-14 wc-col-md-14 wc-col-lg-14"></div>
+            </div>
+
+            <div class="row">
+                <div class="wc-col-xs-36 wc-col-sm-14 wc-col-sm-offset-4 wc-col-md-14 wc-col-md-offset-4 wc-col-lg-14 wc-col-lg-offset-4"></div>
+                <div class="wc-col-xs-36 wc-col-sm-14 wc-col-md-14 wc-col-lg-12 sr_content-container">
+                    <img class="sr_content-img-3" src="pages/campaign/b2b-landingpage/content-img_3.png?$staticlink$">
+                    <h2 class="sr_copy-subheadline">Weber als hoofdprijs</h2>
+                    <div class="text-condensed sr_copy-container__copy">
+                        Verhoog de respons op uw actie of prijsvraag met een Weber barbecue, buitenkeuken, accessoire of Weber® Grill Academy evenement in het prijzenpakket. Op die manier wint iedereen. U zeker!
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="sr_button-container center-content">
+
+                <a href="$url('Page-Show', 'cid', '56744')$" class="button">Meer op onze inspiratiewall</a>
+
+
+                <!-- <button class="button">Meer op onze inspiratiewall</button>-->
+            </div>
+
+        </div>
+    </section>
+
+    <section class="sr_content-partner">
+        <div class="full-width-container">
+
+            <h1 class="headline headline-1 sr_headline-big sr_headline-big--partner">Een greep uit onze internationale referenties</h1>
+
+            <img src="pages/campaign/b2b-landingpage/Modul3_Logo_1.png?$staticlink$">
+            <img src="pages/campaign/b2b-landingpage/Modul3_Logo_2.png?$staticlink$">
+            <img src="pages/campaign/b2b-landingpage/Modul3_Logo_3.png?$staticlink$">
+            <img src="pages/campaign/b2b-landingpage/Modul3_Logo_4.png?$staticlink$">
+            <img src="pages/campaign/b2b-landingpage/Modul3_Logo_5.png?$staticlink$">
+            <img src="pages/campaign/b2b-landingpage/Modul3_Logo_6.png?$staticlink$">
+            <img src="pages/campaign/b2b-landingpage/Modul3_Logo_7.png?$staticlink$">
+
+        </div>
+    </section>
+
+    <section class="sr_content-teaser sr_content-teaser-2">
+        <div class="full-width-container">
+
+            <h1 class="headline sr_headline-big sr_headline-big--content-teaser sr_headline-big--content-teaser-2">Personal Touch</h1>
+            <h2 class="sr_copy-subheadline-wide">Mogelijkheden voor barbecues</h2>
+
+            <div class="row">
+                <div class="wc-col-xs-36 wc-col-sm-14 wc-col-sm-offset-4 wc-col-md-12 wc-col-md-offset-4 wc-col-lg-12 wc-col-lg-offset-4"></div>
+                <div class="wc-col-xs-36 wc-col-sm-14 wc-col-md-15 wc-col-lg-13 sr_content-container">
+                    <img class="sr_content-img-4" src="pages/campaign/b2b-landingpage/content-img_4.png?$staticlink$">
+                    <div class="text-condensed sr_copy-container__copy sr_copy-container__copy-4">
+                        Personaliseer uw weber barbecue met uw bedrijfslogo! Uw logo wordt door middel van een extra emaillering op de deksel gebrand. Het logo kan niet vervagen, bladderen of schilferen.
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="wc-col-xs-36 wc-col-sm-14 wc-col-sm-offset-4 wc-col-md-15 wc-col-md-offset-4 wc-col-lg-13 wc-col-lg-offset-6 sr_content-container sr_content-container-2">
+                    <img class="sr_content-img-5" src="pages/campaign/b2b-landingpage/content-img_5.png?$staticlink$">
+                    <h2 class="sr_copy-subheadline">Handvat Personalisatie (“Doming“) - WEBER®Q®</h2>
+                    <div class="text-condensed sr_copy-container__copy">
+                        Laat uw firmalogo op het handvat van een Weber Q® barbecue plaatsen. Er zijn verschillende kleuren beschikbaar. De grootte is afhankelijk van het model van de barbecue.
+                    </div>
+                </div>
+                <div class="wc-col-xs-36 wc-col-sm-14 wc-col-md-12 wc-col-lg-12"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="wqc-weber-q">
+        <div class="full-width-container no-padding">
+            <div class="wqc-content-container wc-container-fluid">
+                <div class="sr_rotation-copy-wrapper">
+                    <h1 class="headline headline-1 sr_headline-big sr_headline-big--rotation">WEBER® accessoires</h1>
+                    <div class="text-condensed-thin sr_rotation-copy">
+                        Personaliseer een tool set of een peper- of zoutmolen met uw bedrijfslogo en/of in uw bedrijfskleur. De accessoires worden tevens in een aantrekkelijke geschenkverpakking geleverd.
+                    </div>
+                </div>
+                <div id="wqc-grill-rotation" class="wqc-grill-rotation swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-color="#86a267" data-link="$httpsUrl('Product-Show', 'pid', '51200079')$">
+                            <img class="wc-responsive-image" src="pages/campaign/b2b-landingpage/content-slider_green.jpg?$staticlink$">
+                        </div>
+                        <div class="swiper-slide" data-color="#f8efae" data-link="$httpsUrl('Product-Show', 'pid', '51080079')$">
+                            <img class="wc-responsive-image" src="pages/campaign/b2b-landingpage/content-slider_yellow.jpg?$staticlink$">
+                        </div>
+                        <div class="swiper-slide" data-color="#a3c0e2" data-link="$httpsUrl('Product-Show', 'pid', '51070079')$">
+                            <img class="wc-responsive-image" src="pages/campaign/b2b-landingpage/content-slider_blue.jpg?$staticlink$">
+                        </div>
+                        <div class="fade-bg">
+                            <img class="wc-responsive-image" src="pages/campaign/weberq/grill-rotation-black.png?$staticlink$">
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                </div>
+
+                <div class="sr_rotation-hint">
+                    <img src="pages/campaign/b2b-landingpage/content-slider_arrow.png?$staticlink$">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wqc-weber-q">
+        <div class="wqc-background-video sr_background-video">
+            <div class="wqc-background-video-wrapper">
+                <video preload="metadata" autoplay loop muted>
+                    <source src="pages/campaign/b2b-landingpage/B2B_NL_bg-video.webm?$staticlink$" type="video/webm">
+                    <source src="pages/campaign/b2b-landingpage/B2B_NL_bg-video.mp4?$staticlink$" type="video/mp4">
+                    <source src="pages/campaign/b2b-landingpage/B2B_NL_bg-video.ogv?$staticlink$" type="video/ogg">
+                </video>
+                <div class="wqc-content-overlay sr_content-overlay">
+                    <div class="row">
+                        <div class="wc-col-xs-32 wc-col-xs-offset-2 wc-col-md-26 wc-col-md-offset-5 wc-col-lg-16 wc-col-lg-offset-10">
+                            <div class="text-handwritten text-center">Weber als bedrijfsevent</div>
+                        </div>
+                    </div>
+                    <div class="sr_button-container center-content">
+                        <a class="button" href="https://www.grillacademy.nl">Bekijk hier onze locaties</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sr_content-academy">
+        <div class="full-width-container">
+
+            <img src="pages/campaign/b2b-landingpage/Modul6_Grillacademy.png?$staticlink$">
+
+            <h1 class="headline sr_headline-big">De Weber Grill Academy</h1>
+
+            <h2 class="sr_copy-subheadline-academy">Bij u</h2>
+            <div class="text-condensed sr_academy-copy">
+                Het gemak van een Weber® Grill Academy workshop op locatie: u hoeft niet te reizen, wij komen gewoon bij u! Vanaf groepen van 16 personen kunnen wij een complete Grill Academy workshop verzorgen op locatie. Onze gecertificeerde Grill Masters zorgen voor een middag en/of avond vol vermaak.
+            </div>
+
+            <h2 class="sr_copy-subheadline-academy">BIJ ONS</h2>
+            <div class="text-condensed sr_academy-copy">
+                Het evenement zal bol staan van culinaire gerechten, het barbecueën met verschillende grillmethodes en gebruik van allerlei Weber accessoires om zo nog beter te leren barbecueën. Ook kunt u bijvoorbeeld een wedstrijdelement verwachten of juist een Weber® Grill Academy workshop met teambuilding als thema. Daarnaast kunt u ook het culinaire gedeelte een thema geven zoals 'Aziatisch' of juist 'Amerikaans'. Neem contact met ons op voor de mogelijkheden!
+            </div>
+
+            <div class="sr_button-container center-content">
+                <a class="button" href="$httpsUrl('CustomerService-ContactUs')$">NEEM CONTACT MET ONS OP</a>
+                
+                <!--$httpsUrl('<pipeline>' [, '<key1>', '<value1>', '<key2>', '<value2>', ...])$-->
+            </div>
+
+        </div>
+    </section>
+
+</div>

@@ -1,0 +1,58 @@
+<style>
+    .xmas-phase2-form-ctr {
+        display: none !important;
+    }
+</style>
+
+<div class="sr-wrapper sr-wrapper_pending-day">
+
+    <div class="srgrid">
+
+        <div class="sr-advent-calendar sr-advent-calendar_right-section">
+            <div class="srgrid__row">
+                <div class="srgrid__col srgrid__col_36_xs srgrid__col_36_s srgrid__col_36_m srgrid__col_36_l">
+
+                    <div class="sr-advent-calendar__header">
+                        <img class="sr-advent-calendar__header-illustration-text only-on-desktop" src="pages/campaign/xmas2016/header_illustration_text_with_photo.png?$staticlink$" alt="Slogan Illustration Text with Photo">
+                        <!--<h3 class="sr-advent-calendar__header__text headline-3">Eine exklusive Weber Grillparty hat gewonnen:</h3>-->
+                        <h2 class="sr-advent-calendar__header__winner-name text-uppercase">Tag 9 im Adventskalender…</h2>
+                        <hr class="sr-divider">
+                        <h5 class="sr-advent-calendar__header__winner-place text-uppercase">Die Preise</h5>
+                    </div> 
+
+                    <!--<h4 class="sr-advent-calendar__congrats-text headline-3">Glückwunsch an die Tagesgewinner:</h4>-->
+
+                    <div class="sr-advent-calendar__prizes">
+                        <div class="srgrid">
+                            <div class="srgrid__row">
+                                <div class="srgrid__col srgrid__col_36_xs srgrid__col srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                                    <h3 class="sr-advent-calendar__prize-winner headline-2 text-uppercase">Demnächst im Adventskalender…</h3>
+                                    <h5 class="sr-advent-calendar__prize-text headline-5 text-uppercase">Für dich</h5>
+                                    <div class="sr-advent-calendar__prize sr-advent-calendar__prize_current">
+                                       <a class="sr-advent-calendar__prize-link" href="$httpsUrl('Product-Show', 'pid', '51080079')$" target="_blank" title="Prize Product">
+                                           <img class="sr-advent-calendar__prize__image" src="pages/campaign/xmas2016/badges/51080079.png?$staticlink$" alt="Today's Prize Picture">
+                                             <h4 class="sr-advent-calendar__prize__title headline-3">Weber Q 1200 Blue</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="srgrid__col srgrid__col_36_xs srgrid__col srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                                    <h3 class="sr-advent-calendar__prize-winner headline-2 text-uppercase">Demnächst im Adventskalender…</h3>
+                                    <h5 class="sr-advent-calendar__prize-text headline-5 text-uppercase">Für deinen Freund</h5>
+                                    <div class="sr-advent-calendar__prize sr-advent-calendar__prize_friend">
+                                        <a class="sr-advent-calendar__prize-link" href="$httpsUrl('Product-Show', 'pid', '6645')$" target="_blank" title="Prize Product">
+                                            <img class="sr-advent-calendar__prize__image" src="pages/campaign/xmas2016/badges/6645.png?$staticlink$" alt="Friend's Prize Picture">
+                                           <h4 class="sr-advent-calendar__prize__title headline-3">Weber Premium Grillbesteck Kompakt, 2- teilig</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+            </div>
+        </div> 
+
+    </div> 
+
+</div>

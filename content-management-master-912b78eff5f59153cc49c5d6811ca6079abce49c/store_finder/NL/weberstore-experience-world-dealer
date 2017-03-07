@@ -1,0 +1,25 @@
+<div class="container-light text-center">
+    <img src="pages/storelocator/weber_experience_certified_store@1.5.png?$staticlink$" width="120" height="120" alt="Weber Certified Store" />
+    <h4>Weber World Experience dealer</h4>
+    <div class="weber-dealer-rating">
+		<span class="rating"></span>
+		<span class="rating"></span>
+		<span class="rating"></span>
+		<span class="rating"></span>
+		<span class="rating"></span>
+		<span class="rating"></span>
+    </div>
+    <p class="callout">
+        De geautoriseerde Weber World Experience dealer, die in zijn grote showroom het volledige Weber assortiment laat zien en u vakbekwaam en uitgebreid kan adviseren. Bovendien is de dealer Weber-Service Partner en organiseert hij jaarlijks minstens 20 live Weber barbecueworkshops.
+    </p>
+</div>
+
+<!--.what follows is the grill academy content which was added previously in this way to NL
+
+<div class="container-light text-center">
+    <img src="pages/storelocator/grill_academy_logo@1.5.png?$staticlink$" width="250" alt="Grill Academy Logo" />
+    <h4 class="headline">Weber Grill Academy</h4>
+    <p class="callout">
+         Leg meer op de barbecue dan alleen worstjes! Ontdek speciale recepten, Weber grillmethodes en de nieuwste grilltechnieken en word - met hulp van onze grillmasters - zelf een expert.
+    </p>
+</div>-->
