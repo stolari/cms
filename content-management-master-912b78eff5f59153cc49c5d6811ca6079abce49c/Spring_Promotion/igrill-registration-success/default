@@ -1,0 +1,37 @@
+<div class="sr-wrapper sr-wrapper--registration">
+
+    <div class="srgrid sr-registration-thanks-wrapper">
+
+    <div class="srgrid__container">
+
+        <div class="sr-registration-thanks" id="sr-registration-thanks">
+
+            <div class="srgrid__row srgrid__row_around_m srgrid__row_around_l">
+                <div class="srgrid__col srgrid__col_36_xs srgrid__col_36_s srgrid__col_30_m srgrid__col_30_l">
+                    <div class="sr-registration-thanks__content-wrap" style="background-image: url('pages/campaign/spring2017-promotion/promotion_texture_bg.png?$staticlink$')">
+
+                        <div class="sr-registration-thanks__content">
+
+                            <div class="srgrid__row srgrid__row_gapless srgrid__row_center">
+                                <div class="srgrid__col srgrid__col_32_xs srgrid__col_28_s srgrid__col_24_m srgrid__col_24_l">
+                                    <h4 class="sr-registration-thanks__headline">Thanks for registering your grill</h4>
+                                    <p class="sr-registration-thanks__text">As soon as the promotion phase has ended we
+                                        will check if your purchase is eligible for the free iGRILL 3. With a successful
+                                        confirmation we send the new iGRILL 3 to the address you registered. Please have
+                                        a little patience. Meanwhile, look for more <a class="sr-registration-thanks__accessories-link" href="http://www.weber.com/DE/de/zubehoer/zubereiten/gourmet-bbq-system-%28gbs%29/" title="Accessories for Genesis II Grill">accessories</a> for your Genesis II to make your grilling experience even better.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>

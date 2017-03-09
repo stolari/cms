@@ -10,18 +10,18 @@
         <a href="$url('Page-Show', 'cid', 'pressReleases')$" class="button">Mehr erfahren</a>
     </div>
     <div>
-        
+
         <span class="text-condensed headline-5">Presseanfragen</span>
         <p class="text-grey">Für Presseanfragen wenden Sie sich bitte an unsere PR-Agentur:<br><br>
 <strong>Himmelhoch GmbH</strong><br>
 Alser Straße 45/6<br>
 1080 Wien<br>
 Austria<br>
-<a href="http://www.himmelhoch.at">www.himmelhoch.at</a><br>
+<a href="http://www.himmelhoch.at">www.himmelhoch.at</a><br><br>
 Ihre Ansprechpartnerin:<br><br>
 Daniela Dworzak<br>
-+43 (0) 676 4327008<br> 
-E-Mail: <a href="mailto:daniela.dworzak@himmelhoch.att">daniela.dworzak@himmelhoch.at</a></p>
++43 (0) 676 4327008<br>
+E-Mail: <a href="mailto:daniela.dworzak@himmelhoch.at">daniela.dworzak@himmelhoch.at</a></p>
     </div>
 </div>
 

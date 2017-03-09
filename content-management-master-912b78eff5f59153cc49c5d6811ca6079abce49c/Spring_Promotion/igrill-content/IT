@@ -1,0 +1,106 @@
+<div class="sr-wrapper sr-wrapper--bottom">
+
+    <div class="srgrid">
+
+    <div class="srgrid__container">
+
+        <div class="sr-combination" id="sr-combination">
+
+            <h2 class="sr-combination__headline">Una combinazione perfetta <span
+                    class="sr-combination__headline__lean-text">per risultati sempre deliziosi</span></h2>
+
+            <div class="sr-combination__description-wrap">
+                <p class="sr-combination__description">Cucinare sul barbecue non è mai stato così facile.</p>
+                <p class="sr-combination__description">Il nuovo barbecue a gas Genesis® II, assieme all’innovativo termometro digitale Bluetooth iGrill 3, assicurano risultati sempre perfetti. Con modelli dotati di 2-6 bruciatori, il Genesis® II è ideale per ogni stile di vita e l’iGrill 3 è il compagno fedele che controlla la cottura mentre tu ti diverti con gli amici. Basta installare l’iGrill 3 il sul ripiano laterale del Genesis® II e sincronizzarlo con l’app iGrill sul tuo smartphone o altro dispositivo compatibile. Collega fino a quattro sonde della temperatura e controlla le tue bistecche, il pollo o il tuo arrosto contemporaneamente.</p>
+                <p class="sr-combination__description">Clicca sui pulsanti sotto per ulteriori informazioni.</p>
+            </div>
+
+            <div class="sr-combination__products">
+                <div class="srgrid__row srgrid__row_gapless sr-overflow-visible">
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_18_s srgrid__col_16_m srgrid__col_16_l sr-overflow-visible">
+                        <div class="sr-combination__product-wrap sr-overflow-visible">
+                            <div class="sr-combination__image-wrap sr-overflow-visible">
+                                <img class="sr-combination__grill-image" src="pages/campaign/spring2017-promotion/promotion_genesis_grill.png?$staticlink$" alt="Genesis® II Grill">
+                            </div>
+                            <a class="button button-red button--custom sr-combination__product-link" href="https://www.weber.com/IT/it/genesis-ii" title="Learn more about the GENESIS® II">Scopri di più sul Genesis® II</a>
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_4_s srgrid__col_4_m srgrid__col_4_l">
+                        <div class="sr-combination__image-wrap sr-combination__image-wrap--plus">
+                            <img class="sr-combination__plus-sign" src="pages/campaign/spring2017-promotion/promotion_plus_sign.svg?$staticlink$" alt="Plus">
+                        </div>
+                    </div>
+                    <div class="srgrid__col srgrid__col_36_xs srgrid__col_14_s srgrid__col_16_m srgrid__col_16_l">
+                        <div class="sr-combination__product-wrap">
+                            <div class="sr-combination__image-wrap sr-combination__image-wrap--igrill">
+                                <img class="sr-combination__igrill-image" src="pages/campaign/spring2017-promotion/promotion_igrill.png?$staticlink$" alt="iGrill 3">
+                            </div>
+                            <a class="button button-red button--custom sr-combination__product-link" href="http://www.weberstephen.it/le-nostre-gamme/prodotti-e-accessori/termometri-igrill-e8y5.aspx" title="Learn more about the iGrill 3">Scopri l’iGrill</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <div class="srgrid">
+
+    <div class="srgrid__container">
+
+        <div class="sr-app" id="sr-app">
+
+            <div class="srgrid__row srgrid__row_gapless srgrid__row_around_s srgrid__row_around_m srgrid__row_around_l">
+                <div class="srgrid__col srgrid__col_36_xs srgrid__col_34_s srgrid__col_30_m srgrid__col_30_l">
+                    <div class="sr-app__content-wrap" style="background-image: url('pages/campaign/spring2017-promotion/promotion_texture_bg.png?$staticlink$')">
+
+                        <div class="srgrid__row srgrid__row_gapless">
+                            <div
+                                class="srgrid__col srgrid__col_order_2_xs srgrid__col_order_1_s srgrid__col_middle srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                                <div class="sr-app__description">
+                                    <h2 class="sr-app__headline">Griglia con gli amici</h2>
+                                    <h4 class="sr-app__subline">Mentre l’app iGrill controlla cosa succede sotto il coperchio</h4>
+                                    <p class="sr-app__text">Ciascun barbecue Genesis® II e Genesis® II LX è iGrill® 3 Ready. Basta installare il termometro digitale Bluetooth iGrill® 3 sul ripiano laterale e quindi scaricare l’app Weber® iGrill®* sul dispositivo mobile. Sincronizza l’iGrill® con il tuo Genesis® II o Genesis® II LX.</p>
+                                    <div class="sr-app__description__stores">
+                                        <a href="https://play.google.com/store/apps/details?id=com.weber.igrill&hl=it" class="sr-app__store-link sr-app__store-link--google" style="background-image: url('pages/campaign/spring2017-promotion/promotion_google_play.png?$staticlink$')">Google Play</a>
+
+                                        <a href="https://itunes.apple.com/it/app/weber-igrill/id400796680?mt=8" class="sr-app__store-link sr-app__store-link--apple" style="background-image: url('pages/campaign/spring2017-promotion/promotion_app_store.png?$staticlink$')">App Store</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="srgrid__col srgrid__col_order_1_xs srgrid__col_order_2_s srgrid__col_36_xs srgrid__col_18_s srgrid__col_18_m srgrid__col_18_l">
+                                <div class="sr-app__igrill-app" style="background-image: url('pages/campaign/spring2017-promotion/promotion_igrill_app.jpg?$staticlink$')">&nbsp;</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <div class="srgrid sr-footer" id="sr-footer">
+    <div class="srgrid__container">
+
+        <div class="srgrid__row">
+            <div class="srgrid__col">
+                <div class="sr-footer__links">
+                    <a class="sr-footer__link" href="#">Weber.com</a>
+                    <a class="sr-footer__link" href="#">Terms &amp; Conditions</a>
+                    <a class="sr-footer__link" href="#">Imprint</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
