@@ -1,0 +1,19 @@
+<li class="slide">
+                             <div class="item">
+                                 <div class="item-top">
+                                     <a href="$url('Product-Show', 'pid', '61010179')$" title="Genesis® II E-310 GBS®">
+                                         <img alt="Genesis® II E-310 GBS®" src="pages/homepage/Genesis_II_E-310_left-angle-spring.png?$staticlink$" title="Genesis® II E-310 GBS®" />
+                                     </a>
+                                 </div>
+                                 <div class="item-bottom">
+                                     <div class="item-details gas">
+                                         <p class="item-name">Genesis® II E-310 GBS®</p>
+                                         <div class="item-add-to-cart">
+                                             <span class="vat-hint text-condensed text-grey">inkl. MWST, kostenloser Versand</span><span class="item-price text-grey">&euro; 999,00</span>
+                                             $include('Include-AddToCart', 'pid', '61010179', 'classes', 'button-text underlined small hide-on-mobile', 'qty', '1', 'text', 'In den Warenkorb', 'type', 'default')$
+                                             <a class="only-on-mobile" href="$httpsUrl('Cart-AddProduct', 'pid', '61010179')$" title="In den Warenkorb">In den Warenkorb </a>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </li>
