@@ -1,3 +1,47 @@
+<style>
+    .legaltext {
+        position: absolute;
+        right: 20px;
+        bottom: 10px;
+        margin-left: 20px;
+        max-width: 670px;
+        font-size: 11px;
+        line-height: 14px;
+        color: #bebebe;
+        text-align: left;
+    }
+
+    .bubble-container {
+        position: absolute;
+        z-index: 1;
+        top: 60px;
+        right: 160px;
+    }
+
+    .bubble-image {
+        width: 160px;
+        height: auto;}
+
+
+        @media (max-width: 793px) {
+            .bubble-image  {
+                width: 60px
+            }
+
+     .bubble-container {
+        top: 45px;
+        right: 100px;
+    }
+    }
+
+ @media (max-width: 640px) {
+  .bubble-container {
+    display: none;
+    opacity: 0;
+  }
+}
+</style>
+
 <section class="black-container image-slider">
     <div class="slider">
         <div class="jcarousel-wrapper full-width-container no-padding">
@@ -5,21 +49,13 @@
                 <ul class="slides">
 
 
-                    <li class="slide teaser-homepage" style="background-image: url(pages/homepage/row1/170517_Hero_Teaser_WOK.jpg?$staticlink$); background-position-x: right;">
-                        <div class="col-left">
-                            <h2 class="headline text-condensed headline-1 text-white"><a href="$httpsUrl('GiftCert-Purchase')$" class="text-white" style="text-decoration:none">Begrüße den Sommer!</a></h2>
-                            <!--<h3 class="text-condensed text-white headline-6"><a href="$httpsUrl('GiftCert-Purchase')$" class="text-white" style="text-decoration:none">Mit dem Genesis II und dem Gourmet BBQ System kreierst du ganz leicht leckere Sommergerichte.<br>Bestell dein Lieblingsmodell bis zum 11. Juni und freu dich auf ein gratis Wok-Set!*</a></h3>
-<div class="form-row form-row-button">-->
-<h3 class="text-condensed text-white headline-6"><a href="$httpsUrl('GiftCert-Purchase')$" class="text-white" style="text-decoration:none">Bestell ein Genesis II bis zum 11. Juni und freu dich auf ein gratis Wok-Set</a></h3>
-<div class="form-row form-row-button">
-                           <a href="http://www.weber.com/DE/de/grills/gasgrills/genesis-ii/" class="button"><h4 class="headline-inherit">Jetzt bestellen</h4></a>
-                           <a href="$url('Stores-Find', 'storetypes[]', 'wok_weeks')$" class="button"><h4 class="headline-inherit">Teilnehmende Händler</h4></a>
-                         </div>
-                        </div>
-                    </li>
 
 
 
+
+
+
+<!--Genesis II-->
 
                     <li class="slide teaser-homepage" style="background-image: url(pages/homepage/teaser_homepage_friends_together_170420.jpg?$staticlink$)">
                         <div class="col-left">
@@ -33,14 +69,23 @@
                         </div>
                     </li>
 
+<!--thomas müller -->
+
+                    <li class="slide teaser-homepage" style="background-image: url(pages/homepage/row1/170517_TM_Hero_Teaser.jpg?$staticlink$)">
+                        <div class="col-left">
+                            <h2 class="headline text-condensed headline-1 text-white"><a href="$httpsUrl('PageSupportive-FanMeeting')$" class="text-white" style="text-decoration:none">Die Weber Fankonferenz mit Thomas Müller</a></h2>
+                            <h3 class="text-condensed text-white headline-6"><a href="$httpsUrl('PageSupportive-FanMeeting')$" class="text-white" style="text-decoration:none"> Gewinne eine Reise zum Fanevent des Jahres und triff Thomas Müller in München zur exklusiven Frage- und Grillrunde!</a></h3>
+                            <div class="form-row form-row-button">
+                                <a href="$httpsUrl('PageSupportive-FanMeeting')$" class="button"><h4 class="headline-inherit">Zum Gewinnspiel</h4></a>
+
+                            </div>
+                        </div>
+                    </li>
 
 
 
 
-
-
-
-
+<!--gift certificates-->
 
 
 
@@ -53,18 +98,9 @@
                             <a href="$httpsUrl('GiftCert-Purchase')$" class="button"><h4 class="headline-inherit">Jetzt kaufen</h4></a>
                         </div>
                     </li>
-                    <!--<a href="$httpsUrl(PageSupportive-LandingPageSummitCharcoal)$" class="text-white" style="text-decoration:none">-->
 
 
-
-
-                    <!--<li class="slide teaser-homepage" style="background-image: url(pages/homepage/row1/hero_grillon_bg.jpg?$staticlink$)">
-                                            <div class="col-left">
-                                                <h2 class="headline text-condensed headline-1 text-white"><a href="$httpsUrl(PageSupportive-GrillOnLanding)$" class="text-white" style="text-decoration:none">Weber Event Catering</a></h2>
-                                                <h3 class="text-condensed text-white headline-6"><a href="$httpsUrl(PageSupportive-GrillOnLanding)$" class="text-white" style="text-decoration:none">Du planst eine Veranstaltung und suchst einen Catering-Service<br>mit dem gewissen Extra? Dann bist Du hier richtig!</a></h3>
-                                                <a href="$httpsUrl(PageSupportive-GrillOnLanding)$" class="button"><h4 class="headline-inherit">Erfahre mehr</h4></a>
-                                            </div>
-                                        </li>-->
+                  <!--summitcharchoal-->
 
 
                     <li class="slide teaser-homepage" style="background-image: url(pages/homepage/teaser_homepage_summit3.jpg?$staticlink$)">
@@ -77,6 +113,10 @@
 
 
 
+<!--WOS-->
+
+
+
                     <li class="slide teaser-homepage" style="background-image: url(/pages/homepage/teaser_homepage_weber-original-stores.jpg?$staticlink$)">
                         <div class="col-left">
                             <h2 class="headline text-condensed headline-1 text-white"><a href="$httpsUrl('Page-Show', 'cid', 'nav65')$" class="text-white" style="text-decoration:none">360 Grad Markenwelt:<br>Weber  Original Stores</a></h2>
@@ -85,6 +125,8 @@
                         </div>
                     </li>
 
+
+<!--weber q-->
 
 
                     <li class="slide teaser-homepage" style="background-image: url(pages/homepage/teaser_homepage_color-q-v4.jpg?$staticlink$)">
