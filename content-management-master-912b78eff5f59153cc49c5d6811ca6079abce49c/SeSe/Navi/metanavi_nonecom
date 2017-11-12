@@ -1,0 +1,104 @@
+CH FR
+
+
+
+<div class="meta-nav hide-on-mobile">
+   <div class="slot metanav-left">
+      <div class="html-slot-container">
+         <!--<h5 class="text-condensed-thin headline-5"><br>Offizielle Weber ® Website</h5>-->
+      </div>
+   </div>
+   <div class="content-asset">
+      <nav>
+         <ul>
+            <li>
+               <a href="http://fr.weberstephen.ch/Recherche-des-revendeurs/Recherche-des-revendeurs.aspx?search=6072&distance=180" title="Stores" data-category="Dealer_Finder">
+               RECHERCHE DE REVENDEURS
+               </a>
+            </li>
+            <li>
+               <a href="http://fr.weberstephen.ch/L’entreprise.aspx" title="Company">
+               L’ENTREPRISE
+               </a>
+            </li>
+            <li>
+               <a href="https://www.weber.com/campaign/CH/de/wintergriller/social/" title="Deutsch">
+               Deutsch
+               </a>
+            </li>
+         </ul>
+      </nav>
+   </div>
+$include('Include-MultiMarketingCountryDisplay')$
+</div>
+
+CH DE
+
+<div class="meta-nav hide-on-mobile">
+   <div class="slot metanav-left">
+      <div class="html-slot-container">
+         <!--<h5 class="text-condensed-thin headline-5"><br>Offizielle Weber ® Website</h5>-->
+      </div>
+   </div>
+   <div class="content-asset">
+      <nav>
+         <ul>
+            <li>
+               <a href="http://www.weberstephen.ch/Händlersuche/Premium-Partner-vor-Ort.aspx" title="Stores" data-category="Dealer_Finder">
+               WEBER HÄNDLER
+               </a>
+            </li>
+            <li>
+               <a href="http://www.weberstephen.ch/Unternehmen.aspx" title="Company">
+              UNTERNEHMEN
+               </a>
+            </li>
+            <li>
+               <a href="http://www.weberstephen.ch/Service/Newsletter-bestellen.aspx" title="Newsletter">
+               Newsletter
+               </a>
+            </li>
+            <li>
+               <a href="https://www.weber.com/campaign/CH/fr/wintergriller/social" title="Français">
+              Français
+               </a>
+            </li>
+         </ul>
+      </nav>
+   </div>
+$include('Include-MultiMarketingCountryDisplay')$
+</div>
+
+<!--<a href="$httpUrl('Newsletter-Show')$" title="Français">-->
+
+
+
+<div class="meta-nav hide-on-mobile">
+   <div class="slot metanav-left">
+      <div class="html-slot-container">
+         <!--<h5 class="text-condensed-thin headline-5"><br>Offizielle Weber ® Website</h5>-->
+      </div>
+   </div>
+   <div class="content-asset">
+      <nav>
+         <ul>
+            <li>
+               <a href="http://fr.weberstephen.ch/Recherche-des-revendeurs/Recherche-des-revendeurs.aspx?search=6072&distance=180" title="Stores" data-category="Dealer_Finder">
+               RECHERCHE DE REVENDEURS
+               </a>
+            </li>
+            <li>
+               <a href="http://fr.weberstephen.ch/L’entreprise.aspx" title="Company">
+               L’ENTREPRISE
+               </a>
+            </li>
+            <!--<li>
+               <a href="$httpUrl('Newsletter-Show')$" title="Newsletter">
+               Newsletter
+               </a>
+            </li>-->
+         </ul>
+      </nav>
+   </div>
+$include('Include-MultiMarketingCountryDisplay')$
+</div>

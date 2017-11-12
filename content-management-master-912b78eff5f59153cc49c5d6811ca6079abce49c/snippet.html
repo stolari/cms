@@ -1,6 +1,9 @@
 CATEGORY = href="$url('Search-Show', 'cgid', '8897')$"
 
 
+FOLDER = href="$url('Search-ShowContent', 'seasonal-recipes')$"
+
+
 CONTENT ASSET = href="$url('Page-Show', 'cid', 'Nav6300001')$"
 
 
@@ -28,6 +31,23 @@ Pipeline
 
 CustomerService-ContactUs
 
+GiftCert-Purchase
+Campaign-SecondSeasonSocialCompetition
+Campaign-SecondSeasonAdventCalendar
+Campaign-SecondSeasonAdventCalendar (app_weber_controllers)
+<a href="$httpsUrl('Campaign-SecondSeasonAdventCalendar')$"
+<a href="$httpsUrl('Campaign-SecondSeasonGifting')$"
+Campaign-SecondSeasonGifting
+<a href="$httpsUrl('Campaign-SecondSeasonSocialCompetition')$"
 
 
     <a href="$httpsUrl('CustomerService-ContactUs')$">
+
+      <a href="$httpsUrl('seasonal-recipes')$">
+
+ Search-ShowContent (app_weber_pipelines)
+
+
+ includes
+
+  <li class="slide"><div class="rm-ecom-product">$include('Include-ProductHitTile', 'pid', 'XXXX', 'showpricing', 'true', 'showaddtocart', 'true', 'showpromotion', 'true')$</div>
