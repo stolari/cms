@@ -1,0 +1,12 @@
+<head>
+    <link rel="stylesheet" href="customScript/components/bundle-20180216_01.css?$staticlink$" title="external style sheet">
+</head>
+
+<section class="template-hero-plp template-block-wrapper block-hero component-margin-top- component-margin-bottom- " style="background-image: url(/pages/campaign/igrill/spring-confirmation-page.jpg?$staticlink$); clip-path: url(#clip-hero-shape);"
+    data-component="hero-plp">
+    <div class="content-wrapper">
+    <h1 class="template-heading h1 type-texture white upper title">
+        Grazie per la tua registrazione!
+    </h1>
+    </div>
+</section>

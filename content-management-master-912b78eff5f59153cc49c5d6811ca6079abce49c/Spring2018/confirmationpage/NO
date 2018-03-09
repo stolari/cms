@@ -1,0 +1,21 @@
+<!--old ignor do not paste-->
+
+<div class="rm-container rm-container--advent-calendar-preview"><div class="rm-row rm-row--advent-calendar-preview-hero"><div class="rm-teaser-box rm-teaser-box--hero" style="background-image: url(/assets/images/advent-calendar/preview/heroteaser.jpg?$staticlink$)"><!--<div class="rm-stamp rm-stamp--left rm-stamp--xl"><div class="rm-stamp__content">Daily Prizes</div></div>--><div class="rm-teaser-box__content">
+<h2 class="rm-teaser-box__title">Takk for din registrering!</h2><div class="rm-teaser-box__text text-default text-white">Du vil motta en påminnelse når vår julekalender starter. </div><!--hide<a href="#" class="button">Remind me when it starts</a>--></div></div></div><div class="rm-row rm-row--advent-calendar-preview-calendar"></div></div>
+<div class="rm-row rm-row--advent-calendar-preview-products"><div class="rm-row rm-row--submission-product-carousel"><div class="rm-product-carousel"><h2 class="rm-product-carousel__title">Perfekt for ferien</h2><div class="rm-product-carousel__carousel"><div class="slider"><div class="jcarousel-wrapper"><div class="jcarousel three-part"><ul class="slides"><li class="slide"><div class="rm-product"><img class="rm-product__image" src="/assets/images/products/GenIIE410.jpg?$staticlink$" alt=""><div class="rm-product__text"><div class="rm-product__name">Genesis© II-E 410 GBS©</div></div></div><li class="slide"><div class="rm-product"><img class="rm-product__image" src="/assets/images/products/2.jpg?$staticlink$" alt=""><div class="rm-product__text"><div class="rm-product__name">iGrill Mini</div></div></div><li class="slide"><div class="rm-product"><img class="rm-product__image" src="/assets/images/products/3.jpg?$staticlink$" alt=""><div class="rm-product__text"><div class="rm-product__name">Kettle Charcoal Barbecue 57cm</div></div></div></ul></div><div class="jcarousel-navigation"><a href="#" class="jcarousel-control-prev icon icon-arrow-down-light"></a> <span class="jcarousel-pagination only-on-mobile"></span> <a href="#" class="jcarousel-control-next icon icon-arrow-down-light"></a></div></div></div></div><div class="rm-product-carousel__footer"><a href="http://www.webergrill.no/finn-din-forhandler.aspx" class="button">Finn nærmeste Weber-forhandler</a></div></div></div></div>
+
+
+<!--new-->
+
+<head>
+    <link rel="stylesheet" href="customScript/components/bundle-20180216_01.css?$staticlink$" title="external style sheet">
+</head>
+
+<section class="template-hero-plp template-block-wrapper block-hero component-margin-top- component-margin-bottom- " style="background-image: url(/pages/campaign/igrill/spring-confirmation-page.jpg?$staticlink$); clip-path: url(#clip-hero-shape);"
+    data-component="hero-plp">
+    <div class="content-wrapper">
+    <h1 class="template-heading h1 type-texture white upper title">
+        Takk for din registrering!
+    </h1>
+    </div>
+</section>
