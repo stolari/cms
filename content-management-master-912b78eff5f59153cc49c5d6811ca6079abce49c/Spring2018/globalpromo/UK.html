@@ -1,0 +1,43 @@
+<style>
+    .sr-global-promo {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 5px 10px;
+        color: #1a1a1a;
+    }
+    .sr-global-promo__igrill {
+        display: block;
+        max-width: 50px;
+        margin-right: 10px;
+    }
+    .sr-global-promo__text {
+        font-family: 'Weber Serif', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: .2px;
+    }
+    @media screen and (max-width: 479px) {
+        .sr-global-promo__text {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .sr-global-promo {
+            padding: 10px;
+        }
+    }
+</style>
+
+<div class="sr-global-promo" style="background-image: url('campaigns/2018/spring2018-special-texture-orange.jpg?$staticlink$');">
+    <img class="sr-global-promo__igrill" src="campaigns/2018/igrill3_Promo_Badge.png?$staticlink$" alt="iGrill" />
+    <span class="sr-global-promo__text">Buy a <a href="$url('Search-Show', 'cgid', '40')$" target="_blank" title="Genesis II Gasgrill">Genesis&nbsp;II gas barbecue</a> now and claim an <a href="$httpsUrl('Product-Show', 'pid', '7205')$" target="_blank" title="iGrill 3 gratis">iGrill&nbsp;3 for free!</a> <a href="$httpsUrl('PageSupportive-SpringStartLandingSingle')$" target="_blank" title="Die Aktion läuft nur noch bis zum 31. März 2018.">Learn more</a></span>
+</div>
