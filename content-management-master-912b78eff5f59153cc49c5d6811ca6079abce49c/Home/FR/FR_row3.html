@@ -1,0 +1,446 @@
+<style>
+    .sr-dealer {
+        position: relative;
+        width: 100%;
+        padding: 30px 0;
+        background-color: #fbf8f2;
+        background-position: 0 0;
+        background-repeat: repeat;
+        background-size: auto;
+        color: #08090f;
+    }
+
+    .sr-dealer--above {
+        padding: 20px 0;
+        margin-bottom: 64px;
+    }
+
+    @media (max-width: 479px) {
+        .sr-dealer {
+            padding: 20px 16px;
+        }
+
+        .sr-dealer--below {
+            padding-bottom: 0;
+        }
+
+        .sr-dealer--above {
+            padding-top: 10px;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (min-width: 480px) and (max-width: 767px) {
+        .sr-dealer {
+            padding: 20px 16px;
+        }
+
+        .sr-dealer--above {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .sr-dealer {
+            padding: 25px 32px;
+        }
+
+        .sr-dealer--below {
+            padding: 20px 32px 0;
+        }
+
+        .sr-dealer--above {
+            padding: 0 32px;
+            margin-bottom: 64px;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        .sr-dealer {
+            padding: 30px 0;
+        }
+
+        .sr-dealer--below {
+            padding: 20px 32px 0;
+        }
+
+        .sr-dealer--above {
+            padding: 0 32px;
+            margin-bottom: 64px;
+        }
+    }
+
+    .sr-dealer__content-wrap {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        background-color: #fbf8f2;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #08090f;
+        border-radius: 3px;
+    }
+
+    @media (max-width: 479px) {
+        .sr-dealer__content-wrap {
+            background-position: center center;
+            height: 300px;
+        }
+    }
+
+    @media (min-width: 480px) and (max-width: 767px) {
+        .sr-dealer__content-wrap {
+            height: 300px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .sr-dealer__content-wrap {
+            height: 350px;
+        }
+    }
+
+    .sr-dealer__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        padding: 50px 60px 0;
+        margin: 5px;
+        border: 1px dashed #696969;
+        border-radius: 3px;
+        z-index: 2;
+    }
+
+    @media (max-width: 479px) {
+        .sr-dealer__content {
+            padding: 30px 15px 0;
+        }
+    }
+
+    @media (min-width: 480px) and (max-width: 767px) {
+        .sr-dealer__content {
+            padding: 30px 20px 0;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .sr-dealer__content {
+            padding: 40px 50px 0;
+        }
+    }
+
+    .sr-dealer__content__header {
+        max-width: 45%;
+        text-align: left;
+    }
+
+    @media (max-width: 479px) {
+        .sr-dealer__content__header {
+            max-width: 100%;
+        }
+    }
+
+    @media (min-width: 480px) and (max-width: 767px) {
+        .sr-dealer__content__header {
+            max-width: 85%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .sr-dealer__content__header {
+            max-width: 90%;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        .sr-dealer__content__header {
+            max-width: 65%;
+        }
+    }
+
+    .sr-dealer__overline {
+        font-family: 'Weber Serif', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        -webkit-font-smoothing: subpixel-antialiased;
+        font-size: 32px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #e01c1c;
+    }
+
+    @media (max-width: 767px) {
+        .sr-dealer__overline {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+    .sr-dealer__headline {
+        font-family: "DIN-Next-LT-Pro-Cond", arial, sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #fbf8f2;
+    }
+
+    @media (max-width: 767px) {
+        .sr-dealer__headline {
+            font-size: 32px;
+            line-height: 1;
+        }
+    }
+
+    .sr-dealer__content__address {
+        margin: 0;
+        font-family: "DIN-Next-LT-Pro", arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        color: #b9b7b2;
+    }
+
+    .sr-dealer__content__links {
+        position: absolute;
+        bottom: 50px;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    @media (max-width: 479px) {
+        .sr-dealer__content__links {
+            bottom: 20px;
+        }
+    }
+
+    .sr-dealer__content__link {
+        position: relative;
+        display: inline-block;
+        margin-right: 40px;
+        padding-right: 30px;
+        font-family: "DIN-Next-LT-Pro-Cond", arial, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .sr-dealer__content__link .arrow {
+        top: 11px !important;
+    }
+
+    .sr-dealer__content__link, .sr-dealer__content__link:hover {
+        text-decoration: none;
+        color: #fbf8f2;
+    }
+
+    @media (max-width: 767px) {
+        .sr-dealer__content__link {
+            margin-left: 0;
+            margin-right: auto;
+        }
+    }
+
+    .sr-dealer__content__link--last {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    @media (max-width: 767px) {
+        .sr-dealer__content__link--last {
+            margin-left: 0;
+            margin-right: auto;
+        }
+    }
+
+    .sr-dealer__label {
+        position: absolute;
+        right: 60px;
+        top: -5px;
+        z-index: 2;
+    }
+
+    @media (max-width: 767px) {
+        .sr-dealer__label {
+            display: none !important;
+        }
+    }
+
+    .sr-dealer__label__image {
+        display: block;
+        max-width: 130px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .sr-dealer__label__image {
+            max-width: 80px;
+        }
+    }
+
+    .sr-wrapper .text-button-arrow {
+        position: relative;
+        padding: 7px 40px 5px 0;
+        border: 0;
+        outline: 0;
+        text-transform: uppercase;
+        background: 0 0;
+        overflow: hidden;
+        height: 24px;
+        display: inline-block;
+        color: #fbf8f2;
+    }
+
+    .sr-wrapper .text-button-arrow .arrow {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        vertical-align: middle;
+        transition: transform .7s cubic-bezier(.19, 1, .22, 1);
+        transition: transform .7s cubic-bezier(.19, 1, .22, 1), -webkit-transform .7s cubic-bezier(.19, 1, .22, 1);
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .sr-wrapper .text-button-arrow .arrow {
+            top: 8px;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        .sr-wrapper .text-button-arrow .arrow {
+            top: 6px;
+        }
+    }
+
+    @media (min-width: 1440px) {
+        .sr-wrapper .text-button-arrow .arrow {
+            top: 8px;
+        }
+    }
+
+    .sr-wrapper .text-button-arrow .arrow.left {
+        left: -80px;
+    }
+
+    .sr-wrapper .text-button-arrow .arrow svg {
+        display: block;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    .sr-wrapper .sub-heading.h3, .sr-wrapper .sub-heading.h3-full {
+        font-family: "DIN-Next-LT-Pro-Cond", arial, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        margin: -.188em 0 -.375em;
+    }
+
+    @media (max-width: 479px) {
+        .sr-wrapper .sub-heading.h3, .sr-wrapper .sub-heading.h3-full {
+            font-size: 14px !important;
+        }
+    }
+
+    .sr-wrapper .text-button-arrow .label {
+        display: inline-block;
+        position: relative;
+        color: currentColor;
+        vertical-align: middle;
+        transition: transform .7s cubic-bezier(.19, 1, .22, 1);
+        transition: transform .7s cubic-bezier(.19, 1, .22, 1), -webkit-transform .7s cubic-bezier(.19, 1, .22, 1);
+        margin-top: -1em;
+    }
+
+    .sr-wrapper .text-button-arrow:hover .arrow, .sr-wrapper .text-button-arrow:hover .label {
+        -webkit-transform: translateX(40px);
+        transform: translateX(40px);
+    }
+
+    .sr-wrapper .text-button-arrow:hover .arrow.left {
+        -webkit-transform: translateX(80px);
+        transform: translateX(80px);
+    }
+
+    .sr-wrapper .text-button-arrow .arrow path {
+        fill: currentColor;
+    }
+
+    .sr-wrapper .text-button-arrow .arrow, .sr-wrapper .text-button-arrow .arrow svg {
+        height: 7px;
+        width: 24px;
+    }
+</style>
+
+<div class="block-wrapper block-call-to-action-list block-padding-medium">
+        <div class="block-content-wrapper small">
+            <div class="action-list-item-wrapper">
+                <h2 class="heading h3 upper type-texture red section-title"> WEBER GRILL ACADEMY</h2>
+                <div class="action-list-item" style="background-image: url(pages/homepage/redesign/FR/GA_doublemodule.jpg?$staticlink$);">
+                    <div class="action-list-item-info">
+                        <span class="action-list-item-category">DÉCOUVREZ LE BARBECUE SELON WEBER. POUR EN SAVOIR PLUS, RÉSERVEZ VOTRE COURS À LA GRILL ACADEMY.</span>
+                        <a href="$url('Search-Show', 'cgid', 'grill-academy')$" class="heading h4 title">TROUVER UNE ÉCOLE ET RÉSERVER MAINTENANT
+                            <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7"><title>arrow</title><g data-name="Layer 1"><path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path><path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path></g></svg></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-list-item-wrapper">
+                <h2 class="heading h3 upper type-texture red section-title">LISTE DES REVENDEURS</h2>
+                <div class="action-list-item" style="background-image: url(pages/homepage/redesign/FR/170817_bbq-header.jpg?$staticlink$);">
+                    <div class="action-list-item-info">
+                        <span class="action-list-item-category">VENEZ DÉCOUVRIR NOS PRODUITS EN MAGASIN</span>
+                        <a href="$httpUrl('Stores-Find')$" class="heading h4 title">LISTE DES REVENDEURS
+                            <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7"><title>arrow</title><g data-name="Layer 1"><path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path><path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path></g></svg></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="block-content-wrapper small sr-wrapper">
+    <section class="sr-dealer sr-dealer--below" id="sr-dealer" style="background-image: url('pages/campaign/spring2018-promo/spring2018-promo-body-bg.jpg?$staticlink$')">
+
+        <div class="srgrid">
+
+            <div class="srgrid__container">
+
+                <div class="srgrid__row srgrid__row_center">
+                    <div class="srgrid__col srgrid__col_32_xs srgrid__col_34_s srgrid__col_34_m srgrid__col_32_l">
+
+                        <div class="sr-dealer__content-wrap" style="background-image: url('pages/homepage/row3/background_image.jpg?$staticlink$')">
+                            <div class="sr-dealer__content">
+                                <div class="sr-dealer__content__header">
+                                    <h3 class="sr-dealer__overline headline--decor">Nos démonstrations et cours en magasin</h3>
+                                    <h2 class="sr-dealer__headline">Venez participer aux démonstrations et cours de cuisine au BBQ</h2>
+                                </div>
+
+                                <div class="sr-dealer__content__links">
+                                    <a class="text-button-arrow sr-dealer__content__link" href="$url('Page-Show', 'cid','weber-31184')$" title="Weber Store finden">
+                                        <span class="arrow left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7"><title>arrow</title><g data-name="Layer 1"><path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path><path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path></g></svg></span>
+                                        <span class="sub-heading h3-full label">Voir les magasins participants</span>
+                                        <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7"><title>arrow</title><g data-name="Layer 1"><path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path><path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path></g></svg></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+</div>
