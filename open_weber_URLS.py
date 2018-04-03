@@ -14,8 +14,12 @@ while True:
     ###transforming command in url
     if command=='D':
         url='https://www.weber.com/DE/de'
+    elif command=='d':
+        url='http://staging.weber.com/DE/de/start/'
     elif command=='A':
         url='https://www.weber.com/AT/de'
+    elif command=='a':
+        url='http://staging.weber.com/AT/de/start/'
     elif command=='F':
         url='https://www.weber.com/FR/fr'
     elif command=='f':
@@ -24,8 +28,12 @@ while True:
         url='https://www.weber.com/FI/fi'
     elif command=='K':
         url='https://www.weber.com/DK/da'
+    elif command=='k':
+        url='http://staging.weber.com/DK/da/home/'
     elif command=='S':
         url='https://www.weber.com/SE/sv'
+    elif command=='S':
+            url='http://staging.weber.com/SE/sv/home/'
     elif command=='G':
         url='https://www.weber.com/GB/en'
     elif command=='I':

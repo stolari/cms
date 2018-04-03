@@ -1,164 +1,382 @@
 <style>
-    .legaltext {
-        position: absolute;
-        right: 20px;
-        bottom: 10px;
-        margin-left: 20px;
-        max-width: 670px;
-        font-size: 11px;
-        line-height: 14px;
-        color: #bebebe;
-        text-align: left;
+    .test-badge {
+    position: absolute;
+    display: block;
+    max-width: 100px;
+}
+
+.corner-ribbon {
+    font-family: 'Weber Serif', sans-serif, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #fbf8f2;
+    background-color: #e01c1c;
+    width: 315px;
+    position: absolute;
+    top: 25px;
+    left: -100px;
+    text-align: center;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.slide--ribbon {
+    overflow: hidden !important;
+}
+
+@media screen and (max-width: 767px){
+    .test-badge {
+        display: none;
+        visibility: hidden;
     }
 
-    .bubble-container {
-        position: absolute;
-        z-index: 1;
-        top: 60px;
-        right: 160px;
+    .corner-ribbon {
+        width: 100%;
+        top: 0;
+        left: 0;
+        font-size: 24px;
+        line-height: 34px;
+        transform: none;
+        -webkit-transform: none;
     }
 
-    .bubble-image {
-        width: 160px;
-        height: auto;}
-
-
-        @media (max-width: 793px) {
-            .bubble-image  {
-                width: 60px
-            }
-
-     .bubble-container {
-        top: 45px;
-        right: 100px;
-    }
+    .bee__body-homepage .block-hero-carousel {
+        height: 470px !important;
     }
 
- @media (max-width: 640px) {
-  .bubble-container {
-    display: none;
-    opacity: 0;
-  }
+    .bee__body-homepage .hero-carousel-item-video {
+        height: 470px !important;
+    }
+
+    .bee__body-homepage .heading.h1 {
+        font-size: 44px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .bee__body-homepage .block-hero-carousel {
+        height: 470px !important;
+    }
+
+    .bee__body-homepage .hero-carousel-item-video {
+        height: 470px !important;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .bee__body-homepage .hero-carousel-item-video {
+        height: 832px !important;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .bee__body-homepage .hero-carousel-item-video {
+        height: 832px !important;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .bee__body-homepage .hero-carousel-item-video {
+        height: 832px !important;
+    }
 }
 </style>
 
-<section class="black-container image-slider">
-    <div class="slider">
-        <div class="jcarousel-wrapper full-width-container no-padding">
-            <div class="jcarousel" data-autoplay="true" data-interval="10500">
-                <ul class="slides">
+<div class="block-wrapper block-hero-carousel">
+<div class="carousel-wrapper slider">
+    <div class="component-carousel-hero">
+        <div class="carousel-wrapper jcarousel-wrapper">
+            <div class="jcarousel"  data-autoplay="true" data-interval="5500">
+                <ul class="carousel-hero-list js-slider-element slides">
 
-<!--genesis II push-->
-                    <li class="slide teaser-homepage" style="background-image: url(pages/homepage/row1/Imagegeniipush.jpg?$staticlink$); background-position-x: right;">
-                        <div class="col-left" style="position: relative; z-index: 10;">
-                            <h2 class="headline text-condensed headline-1 text-white"><a href="$httpsUrl('GiftCert-Purchase')$" class="text-white" style="text-decoration:none">Begrüße den Sommer!</a></h2>
 
-<h3 class="text-condensed text-white headline-6"><a href="$httpsUrl('GiftCert-Purchase')$" class="text-white" style="text-decoration:none">Bestelle einen Genesis II bis zum 11. Juni und freu dich auf ein gratis Wok-Set</a></h3>
-<div class="form-row form-row-button">
-                           <a href="http://www.weber.com/DE/de/grills/gasgrills/genesis-ii/" class="button"><h4 class="headline-inherit">Jetzt bestellen</h4></a>
-                           <a href="$url('Stores-Find', 'storetypes[]', 'wok_weeks')$" class="button"><h4 class="headline-inherit">Teilnehmende Händler</h4></a>
-                         </div>
+                  <!--SpringStart - put live on 17.3-->
+                  <!--SpringStart - go live 17.03-->
+
+
+        <!--Pulse-->
+                        <li class="carousel-hero-item slide slide--bg-fix slide--ribbon" style="background-image: url(pages/homepage/redesign/de/PulseHero2400_3.jpg?$staticlink$)">
+                            <div class="corner-ribbon">Neu</div>
+                            <div class="hero-carousel-item-video">
+                                <div class="content-wrapper">
+                                    <h2 class="heading h3 regular subtitle">- Erlebe mit der elektrischen Revolution im Grillen überall den 100% WEBER Geschmack bei original Grillgefühl – ganz gleich, wo du wohnst -</h2>
+                                    <h1 class="heading h1 upper type-texture white title" style="">GRILLEN am PULS(E) der ZEIT</h1>
+                                    <div class="button-wrapper">
+                                        <div class="component-button">
+                                            <a class="button-drop-down white filled-red-hover" href="$url('Page-Show', 'cid', 'weber-pulse')$">
+                                                    <span class="border">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                            <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                        </svg>
+                                                    </span>
+                                                <span class="sub-heading h3-full label">Jetzt entdecken</span>
+                                            </a>
+                                        </div>
+                                        <div class="component-button">
+                                            <a class="button-drop-down white filled-red-hover" href="$url('Search-Show', 'cgid', '18482')$">
+                                                    <span class="border">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                                <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                        </svg>
+                                                    </span>
+                                                <span class="sub-heading h3-full label">Zum Produkt</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+        <!--Master-Touch LP-->
+                <li class="carousel-hero-item slide slide--bg-fix" style="background-image: url(pages/homepage/redesign/de/180123_UX2_Heroteaser_Mastertouch.jpg?$staticlink$)">
+                    <div class="hero-carousel-item-video">
+                        <div class="content-wrapper">
+                            <h2 class="heading h3 regular subtitle">- Der Master-Touch GBS Pro: Das Original ist jetzt noch vielfältiger -</h2>
+                            <h1 class="heading h1 upper type-texture white title" style="">Entfache deine Liebe zum Räuchern</h1>
+                            <div class="button-wrapper">
+                                <div class="component-button">
+                                    <a class="button-drop-down white filled-red-hover" href="$url('Page-Show', 'cid', 'mastertouch-special')$">
+                                            <span class="border">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                    <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                </svg>
+                                            </span>
+                                        <span class="sub-heading h3-full label">Jetzt entdecken</span>
+                                    </a>
+                                </div>
+                                <div class="component-button">
+                                    <a class="button-drop-down white filled-red-hover" href="$url('Search-Show', 'cgid', '4')$">
+                                            <span class="border">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                        <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                </svg>
+                                            </span>
+                                        <span class="sub-heading h3-full label">Zum Produkt</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </li>
 
-                        <div class="bubble-container">
-                            <img class="bubble-image" src="pages/homepage/row1/Bubble.png?$staticlink$" alt="Gratis Wok-Set">
-                        </div>
-
-                        <div class="legaltext">*Aktionszugabe nur bei den teilnehmenden Händlern erhältlich. Das Wok-Set besteht aus Wok, Dünsteinsatz und Deckel. Aktionszugabe nur im Zeitraum vom 18.05.-11.06.2017 erhältlich. Nur solange der Vorrat reicht.</div>
-                    </li>
-
-
-
-
-<!--Genesis II-->
-
-                    <li class="slide teaser-homepage" style="background-image: url(pages/homepage/teaser_homepage_friends_together_170420.jpg?$staticlink$)">
-                        <div class="col-left">
-                            <h2 class="headline text-condensed headline-1 text-white"><a href="https://www.weber.com/DE/de/genesis-ii" class="text-white" style="text-decoration:none">Gemeinsam genießen</a></h2>
-                            <h3 class="text-condensed text-white headline-6"><a href="https://www.weber.com/DE/de/genesis-ii" class="text-white" style="text-decoration:none"> Das Hochleistungsgrillsystem GS4 des Genesis II wird niemanden hungrig zurücklassen.</a></h3>
-                            <div class="form-row form-row-button">
-                                <a href="$url('Search-Show', 'cgid', '8897')$" class="button"><h4 class="headline-inherit">Jetzt Kaufen</h4></a>
-                                <a href="https://www.weber.com/DE/de/genesis-ii" class="button" target="_blank"><h4 class="headline-inherit">Genesis II erleben</h4></a>
-                                <a href="$url('Page-Show', 'cid', 'nav70')$" class="button"><h4 class="headline-inherit">Grillkurs buchen</h4></a>
+        <!--GA-->
+                    <li class="carousel-hero-item slide" style="background-image: url(pages/homepage/redesign/de/171110_DE_Hero_02.jpg?$staticlink$)">
+                        <div class="hero-carousel-item-video">
+                            <div class="content-wrapper">
+                                <h2 class="heading h3 regular subtitle">- Erlebe die Weber Grill Academy -</h2>
+                                <h1 class="heading h1 upper type-texture white title">Grill Academy Kurse bequem online buchen</h1>
+                                <div class="button-wrapper">
+                                    <div class="component-button">
+                                        <a class="button-drop-down white filled-red-hover" href="$httpsUrl('GrillAcademy-BookNow')$">
+                                            <span class="border">
+                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                    <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                 </svg>
+                                             </span>
+                                            <span class="sub-heading h3-full label">Jetzt buchen</span>
+                                        </a>
+                                    </div>
+                                    <div class="component-button">
+                                        <a class="button-drop-down white filled-red-hover" href="$httpsUrl('GrillAcademy-CourseOverview')$">
+                                            <span class="border">
+                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                    <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                 </svg>
+                                             </span>
+                                            <span class="sub-heading h3-full label">Kurse entdecken</span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </li>
 
-<!--thomas müller -->
-
-                    <!--<li class="slide teaser-homepage" style="background-image: url(pages/homepage/row1/170517_TM_Hero_Teaser.jpg?$staticlink$)">
-                        <div class="col-left">
-                            <h2 class="headline text-condensed headline-1 text-white"><a href="https://www.weber.com/DE/de/genesis-ii" class="text-white" style="text-decoration:none">Die Weber Fankonferenz mit Thomas Müller</a></h2>
-                            <h3 class="text-condensed text-white headline-6"><a href="https://www.weber.com/DE/de/genesis-ii" class="text-white" style="text-decoration:none"> Gewinne eine Reise zum Fanevent des Jahres und triff Thomas Müller in München zur exklusiven Frage- und Grillrunde!</a></h3>
-                            <div class="form-row form-row-button">
-                                <a href="$httpsUrl('PageSupportive-FanMeeting')$" class="button"><h4 class="headline-inherit">Zum Gewinnspiel</h4></a>
-
+        <!--Gift Finder-->
+         <li class="carousel-hero-item slide" style="background-image: url(/assets/images/gifting/171218_Heroteaser_Remove_Christmas.jpg?$staticlink$)">
+                        <div class="hero-carousel-item-video">
+                            <div class="content-wrapper">
+                                <h2 class="heading h3 regular subtitle">- Finde den passenden Grill oder das passende Zubehör für dein perfektes Grillerlebnis -</h2>
+                                <h1 class="heading h1 upper type-texture white title" style="">Wovon träumst du?</h1>
+                                <div class="button-wrapper">
+                                    <div class="component-button">
+                                        <a class="button-drop-down white filled-red-hover" href="$url('Search-Show', 'cgid', 'giftfinder_intermediate')$">
+                                          <span class="border">
+                                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                  <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                               </svg>
+                                            </span>
+                                            <span class="sub-heading h3-full label">Zum Geschenkefinder</span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </li>-->
+                    </li>
 
-
-
-
-<!--gift certificates-->
-
-
-
-
-
-                    <li class="slide teaser-homepage" style="background-image: url(pages/homepage/row1/Voucher-Hero-Spring.jpg?$staticlink$)">
-                        <div class="col-left">
-                            <h2 class="headline text-condensed headline-1 text-white"><a href="$httpsUrl('GiftCert-Purchase')$" class="text-white" style="text-decoration:none">Geschenkgutscheine <br>von Weber</a></h2>
-                            <h3 class="text-condensed text-white headline-6"><a href="$httpsUrl('GiftCert-Purchase')$" class="text-white" style="text-decoration:none">Weil selber aussuchen glücklich macht. <br>Überrasche Deine Liebsten mit einem unserer Gutscheine.</a></h3>
-                            <a href="$httpsUrl('GiftCert-Purchase')$" class="button"><h4 class="headline-inherit">Jetzt kaufen</h4></a>
+        <!--Genesis II-->
+                    <li class="carousel-hero-item slide" style="background-image: url(pages/homepage/redesign/de/171110_DE_Hero_03.jpg?$staticlink$)">
+                        <div class="hero-carousel-item-video">
+                            <div class="content-wrapper">
+                                <h2 class="heading h3 regular subtitle">- Unser beliebtester Grill ist jetzt noch besser -</h2>
+                                <h1 class="heading h1 upper type-texture white title">Weber Genesis II</h1>
+                                <div class="button-wrapper">
+                                    <div class="component-button">
+                                        <a class="button-drop-down white filled-red-hover" href="$url('Search-Show', 'cgid', '40')$">
+                                            <span class="border" data-bind="icon: 'rect-border'">
+                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                    <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                 </svg>
+                                            </span>
+                                            <span class="sub-heading h3-full label">Jetzt kaufen</span>
+                                        </a>
+                                    </div>
+                                    <div class="component-button">
+                                        <a class="button-drop-down white filled-red-hover" href="https://www.weber.com/AT/de/genesis-ii">
+                                            <span class="border" data-bind="icon: 'rect-border'">
+                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                    <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                 </svg>
+                                            </span>
+                                            <span class="sub-heading h3-full label">Genesis II erleben</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </li>
 
-
-                  <!--summitcharchoal-->
-
-
-                    <li class="slide teaser-homepage" style="background-image: url(pages/homepage/teaser_homepage_summit3.jpg?$staticlink$)">
-                        <div class="col-left">
-                            <h2 class="headline text-condensed headline-1 text-white"><a href="$httpsUrl(PageSupportive-LandingPageSummitCharcoal)$" class="text-white" style="text-decoration:none">Summit Charcoal Grill</a></h2>
-                            <h3 class="text-condensed text-white headline-6"><a href="$httpsUrl(PageSupportive-LandingPageSummitCharcoal)$" class="text-white" style="text-decoration:none">Eine ganz neue Welt des Grillens</a></h3>
-                            <a href="$httpsUrl(PageSupportive-LandingPageSummitCharcoal)$" class="button"><h4 class="headline-inherit">Mehr entdecken</h4></a>
+        <!--Voucher-->
+                    <li class="carousel-hero-item slide" style="background-image: url(pages/homepage/redesign/de/171110_DE_Hero_04.jpg?$staticlink$)">
+                        <div class="hero-carousel-item-video">
+                            <div class="content-wrapper">
+                                <h2 class="heading h3 regular subtitle">- Weil selber aussuchen glücklich macht. Überrasche deine Liebsten mit einem unserer Gutscheine. -</h2>
+                                <h1 class="heading h1 upper type-texture white title" data-bind="richTitle: $data.title">Geschenk-gutscheine von Weber</h1>
+                                <div class="button-wrapper">
+                                    <div class="component-button">
+                                        <a class="button-drop-down white filled-red-hover" href="$httpsUrl('GiftCert-Purchase')$">
+                                            <span class="border">
+                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                    <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                 </svg>
+                                            </span>
+                                            <span class="sub-heading h3-full label">Jetzt kaufen</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-hero-item slide" style="background-image: url(pages/homepage/redesign/de/171110_DE_Hero_05.jpg?$staticlink$)">
+                        <div class="hero-carousel-item-video">
+                            <div class="content-wrapper">
+                                <h2 class="heading h3 regular subtitle">- Summit Charcoal Grill -</h2>
+                                <h1 class="heading h1 upper type-texture white title" data-bind="richTitle: $data.title">Eine ganz neue Welt des Grillens</h1>
+                                <div class="button-wrapper">
+                                    <div class="component-button">
+                                        <a class="button-drop-down white filled-red-hover" href="$httpsUrl('PageSupportive-LandingPageSummitCharcoal')$">
+                                            <span class="border">
+                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                    <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                 </svg>
+                                            </span>
+                                            <span class="sub-heading h3-full label">Mehr entdecken</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </li>
 
-
-
-<!--WOS-->
-
-
-
-                    <li class="slide teaser-homepage" style="background-image: url(/pages/homepage/teaser_homepage_weber-original-stores.jpg?$staticlink$)">
-                        <div class="col-left">
-                            <h2 class="headline text-condensed headline-1 text-white"><a href="$httpsUrl('Page-Show', 'cid', 'nav65')$" class="text-white" style="text-decoration:none">360 Grad Markenwelt:<br>Weber  Original Stores</a></h2>
-                            <h3 class="text-condensed text-white headline-6"><a href="$httpsUrl('Page-Show', 'cid', 'nav65')$" class="text-white" style="text-decoration:none">Faszinierende Produktvielfalt. Inspirierende Ideen. Die gesamte Produktpalette von Weber und das Wissen unserer Grillmeister für Dein ultimatives Grillerlebnis.</a></h3>
-                            <a href="$httpsUrl('Page-Show', 'cid', 'nav65')$" class="button"><h4 class="headline-inherit">MEHR ERFAHREN</h4></a>
+        <!--WOS-->
+                    <li class="carousel-hero-item slide" style="background-image: url(pages/homepage/redesign/de/171110_DE_Hero_06.jpg?$staticlink$)">
+                        <div class="hero-carousel-item-video">
+                            <div class="content-wrapper">
+                                <h2 class="heading h3 regular subtitle">- Weber Original Stores -</h2>
+                                <h1 class="heading h1 upper type-texture white title" data-bind="richTitle: $data.title">Dein ultimatives Erlebnis</h1>
+                                <div class="button-wrapper">
+                                    <div class="component-button">
+                                        <a class="button-drop-down white filled-red-hover" href="$url('Page-Show', 'cid', 'nav65')$">
+                                            <span class="border">
+                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                    <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                 </svg>
+                                            </span>
+                                            <span class="sub-heading h3-full label">Mehr erfahren</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </li>
-
-
-<!--weber q-->
-
-
-                    <li class="slide teaser-homepage" style="background-image: url(pages/homepage/teaser_homepage_color-q-v4.jpg?$staticlink$)">
-                        <div class="col-left">
-                            <h2 class="headline text-condensed headline-1 text-white"><a href="$url('Page-Show', 'cid', 'weber-color-q')$" class="text-white" style="text-decoration:none">Der Weber Q<br>Meiner für Alles</a></h2>
-                            <h3 class="text-condensed text-white headline-6"><a href="$url('Page-Show', 'cid', 'weber-color-q')$" class="text-white" style="text-decoration:none">Der kleine und doch leistungsstarke Gasgrill Weber Q 1200. Jetzt in fünf tollen Farben erhältlich.</a></h3>
-                            <a href="$url('Page-Show', 'cid', 'weber-color-q')$" class="button"><h4 class="headline-inherit">Mehr entdecken</h4></a>
-                        </div>
-                    </li>
-
                 </ul>
-            </div>
-            <div class="jcarousel-navigation bottom-right">
-                <a href="" class="jcarousel-control-prev icon-arrow-down-light bubble"></a>
-                <span class="jcarousel-pagination light"></span>
-                <a href="" class="jcarousel-control-next icon-arrow-down-light bubble"></a>
+                <div class="component-button">
+                    <button class="button-circle light previous filled jcarousel-control-prev">
+                        <span class="border-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                              <title>circle-medium</title>
+                              <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                           </svg>
+                        </span>
+                        <span class="arrow-wrapper">
+                            <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                                    <title>arrow</title>
+                                    <g data-name="Layer 1">
+                                        <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                        <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                    </g>
+                              </svg>
+                          </span>
+                          <span class="arrow">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                                  <title>arrow</title>
+                                      <g data-name="Layer 1">
+                                          <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                          <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                     </g>
+                              </svg>
+                          </span>
+                      </span>
+                    </button>
+                </div>
+                <div class="component-button">
+                    <button class="button-circle light next filled jcarousel-control-next">
+                        <span class="border-icon" data-bind="icon: 'circle-medium'">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                              <title>circle-medium</title>
+                              <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                           </svg>
+                        </span>
+                        <span class="arrow-wrapper">
+                           <span class="arrow">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                                 <title>arrow</title>
+                                 <g data-name="Layer 1">
+                                    <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                    <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                 </g>
+                              </svg>
+                           </span>
+                           <span class="arrow">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                                 <title>arrow</title>
+                                 <g data-name="Layer 1">
+                                    <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                    <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                 </g>
+                              </svg>
+                           </span>
+                        </span>
+                    </button>
+                </div>
+                <div class="jcarousel-navigation">
+                    <span class="jcarousel-pagination" data-jcarouselpagination="true"></span>
+                </div>
             </div>
         </div>
     </div>
-</section>
+</div>
+</div>
