@@ -36,6 +36,8 @@ while True:
             url='http://staging.weber.com/SE/sv/home/'
     elif command=='G':
         url='https://www.weber.com/GB/en'
+    elif command=='g':
+        url='http://staging.weber.com/on/demandware.store/Sites-UK-Site'
     elif command=='I':
         url='https://www.weber.com/IE/en'
     elif command=='N':
