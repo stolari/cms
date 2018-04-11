@@ -32,7 +32,7 @@ while True:
         url='http://staging.weber.com/DK/da/home/'
     elif command=='S':
         url='https://www.weber.com/SE/sv'
-    elif command=='S':
+    elif command=='s':
             url='http://staging.weber.com/SE/sv/home/'
     elif command=='G':
         url='https://www.weber.com/GB/en'
