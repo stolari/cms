@@ -1,0 +1,815 @@
+<style>
+    .product-badge
+
+    { display: inline-block; padding: 3px 15px; margin-bottom: 7px; font-family: 'Weber Serif', Arial, sans-serif; font-size: 18px; line-height: 1; font-weight: 700; text-transform: uppercase; color: #fff; background: #e01c1c; }
+    </style>
+
+<div class="block-wrapper block-featured-grills">
+<h2 class="heading h3 upper type-texture red section-title">Sélectionnez votre type de barbecue et élargissez le champ des possibles</h2>
+<form action="#" class="featured-grills-filter">
+    <fieldset>
+        <label class="filter-item">
+        <input type="radio" name="type" class="input-hidden no-uniform" value="gas" checked="checked">
+        <div class="filter-item-content">
+           <div class="filter-item-icon">
+              <span class="icon-copy">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                    <defs>
+                       <path id="a-36" d="M64 112c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48" stroke-width="3"></path>
+                    </defs>
+                    <text text-anchor="middle" fill="currentColor">
+                       <textPath xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" xlink:href="$url(’Search-Show’, 'cgid‘, '#‘)$">Barbecues à gaz</textPath>
+                    </text>
+                 </svg>
+              </span>
+              <span class="border-icon" data-bind="icon: 'circle'">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                    <title>circle</title>
+                    <circle cx="64.5" cy="64.5" r="64" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                 </svg>
+              </span>
+              <span class="bbq-type type-gas" data-bind="css: 'type-' + $data.id"></span>
+           </div>
+           <span class="sub-heading h3-full title">Barbecues à gaz</span>
+        </div>
+     </label>
+        <label class="filter-item">
+        <input type="radio" name="type" class="input-hidden no-uniform" value="charcoal">
+        <div class="filter-item-content">
+           <div class="filter-item-icon">
+              <span class="icon-copy">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                    <defs>
+                       <path id="a-38" d="M64 112c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48" stroke-width="3"></path>
+                    </defs>
+                    <text text-anchor="middle" fill="currentColor">
+                       <textPath xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" xlink:href="$url(’Search-Show’, 'cgid‘, '#‘)$">Barbecues à charbon</textPath>
+                    </text>
+                 </svg>
+              </span>
+              <span class="border-icon" data-bind="icon: 'circle'">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                    <title>circle</title>
+                    <circle cx="64.5" cy="64.5" r="64" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                 </svg>
+              </span>
+              <span class="bbq-type type-charcoal"></span>
+           </div>
+           <span class="sub-heading h3-full title">Barbecues à charbon</span>
+        </div>
+     </label>
+        <label class="filter-item">
+        <input type="radio" name="type" class="input-hidden no-uniform" value="electric">
+        <div class="filter-item-content">
+           <div class="filter-item-icon">
+              <span class="icon-copy">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                    <defs>
+                       <path id="a-40" d="M64 112c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48" stroke-width="3"></path>
+                    </defs>
+                    <text text-anchor="middle" fill="currentColor">
+                       <textPath xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" xlink:href="$url(’Search-Show’, 'cgid‘, '#‘)$">Barbecues électriques</textPath>
+                    </text>
+                 </svg>
+              </span>
+              <span class="border-icon" data-bind="icon: 'circle'">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                    <title>circle</title>
+                    <circle cx="64.5" cy="64.5" r="64" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                 </svg>
+              </span>
+              <span class="bbq-type type-electric"></span>
+           </div>
+           <span class="sub-heading h3-full title">Barbecues électriques</span>
+        </div>
+     </label>
+        <label class="filter-item">
+        <input type="radio" name="type" class="input-hidden no-uniform" value="portable">
+        <div class="filter-item-content">
+           <div class="filter-item-icon">
+              <span class="icon-copy">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                    <defs>
+                       <path id="a-42" d="M64 112c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48" stroke-width="3"></path>
+                    </defs>
+                    <text text-anchor="middle" fill="currentColor">
+                       <textPath xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" xlink:href="$url(’Search-Show’, 'cgid‘, '#‘)$">Barbecues portables</textPath>
+                    </text>
+                 </svg>
+              </span>
+              <span class="border-icon" data-bind="icon: 'circle'">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                    <title>circle</title>
+                    <circle cx="64.5" cy="64.5" r="64" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                 </svg>
+              </span>
+              <span class="bbq-type type-portable"></span>
+           </div>
+           <span class="sub-heading h3-full title">Barbecues portables</span>
+        </div>
+     </label>
+    </fieldset>
+</form>
+<div class="bee__container-carousels">
+    <div class="component-carousel-featured-grills js-slider-wrapper slider active">
+        <div class="jcarousel-wrapper">
+            <div class="featured-grills-list-wrapper jcarousel">
+                <ul class="featured-grills-list js-grills-list js-slider-element js-draggable slides">
+                        <li class="carousel-item slide">
+                                <div class="featured-grills-item js-carousel-item is-active">
+                                    <div class="product-item">
+                                        <a class="link"   href="$httpsUrl('Product-Show', 'pid', '60010153')$">
+                                            <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/60010179F_1800x1800.png?$staticlink$);"></span>
+                                        </a>
+                                        <div class="product-data">
+                                            <div class="product-title-price-wrapper">
+                                                <!--<span class="product-badge">IGRILL 3 GRATUIT</span></span>-->
+                                                <div class="product-title-price">
+                                                    <a class="sub-heading h1" href="$httpsUrl('Product-Show', 'pid', '60010153')$">Barbecue à gaz Genesis&reg; II E-210 GBS – Gasgrill</a>
+                                                    <p class="heading h5 regular price">
+                                                        <span class="red">€ 799,00</span>
+                                                        <span class="price-info">TVA incluse</span>
+                                                    </p>
+                                                    <p class="heading h6 regular shipping">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="featured-grills-item js-carousel-item is-active">
+                                    <div class="product-item">
+                                        <a class="link" href="$httpsUrl('Product-Show', 'pid', '61010153')$">
+                                            <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/61010179F_1800x1800.png?$staticlink$);"></span>
+                                        </a>
+                                        <div class="product-data">
+                                            <div class="product-title-price-wrapper">
+                                                <!--<span class="product-badge">IGRILL 3 GRATUIT</span></span>-->
+                                                <div class="product-title-price">
+                                                    <a class="sub-heading h1" href="$httpsUrl('Product-Show', 'pid', '61010153')$">Barbecue à gaz Genesis&reg; II E-310 GBS – Gasgrill</a>
+                                                    <p class="heading h5 regular price">
+                                                        <span class="red">€ 999,00</span>
+                                                        <span class="price-info">TVA incluse</span>
+                                                    </p>
+                                                    <p class="heading h6 regular shipping"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="featured-grills-item js-carousel-item is-active">
+                                    <div class="product-item">
+                                        <a class="link" href="$httpsUrl('Product-Show', 'pid', '62010153')$">
+                                            <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/62010179F_1800x1800.png?$staticlink$);"></span>
+                                        </a>
+                                        <div class="product-data">
+                                            <div class="product-title-price-wrapper">
+                                                <!--<span class="product-badge">IGRILL 3 GRATUIT</span></span>-->
+                                                <div class="product-title-price">
+                                                    <a class="sub-heading h1" href="$httpsUrl('Product-Show', 'pid', '62010153')$">Barbecue à gaz Genesis&reg; II E-410 GBS – Gasgrill</a>
+                                                    <p class="heading h5 regular price">
+                                                        <span class="red">€ 1.299,00</span>
+                                                        <span class="price-info">TVA incluse</span>
+                                                    </p>
+                                                    <p class="heading h6 regular shipping"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="carousel-item slide">
+                            <div class="featured-grills-item js-carousel-item">
+                                    <div class="product-item">
+                                        <a class="link" href="$httpsUrl('Product-Show', 'pid', '60004153')$">
+                                            <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/60004179F_1800x1800.png?$staticlink$);"></span>
+                                        </a>
+                                        <div class="product-data">
+                                            <div class="product-title-price-wrapper">
+                                                <!--<span class="product-badge">IGRILL 3 GRATUIT</span></span>-->
+                                                <div class="product-title-price">
+                                                    <a class="sub-heading h1" href="$httpsUrl('Product-Show', 'pid', '60004153')$">Barbecue à gaz Genesis&reg; II LX S-240 GBS – Gasgrill</a>
+                                                    <p class="heading h5 regular price">
+                                                        <span class="red">€ 1.699,00</span>
+                                                        <span class="price-info">TVA incluse</span>
+                                                    </p>
+                                                    <p class="heading h6 regular shipping">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="featured-grills-item js-carousel-item">
+                                    <div class="product-item">
+                                        <a class="link" href="$httpsUrl('Product-Show', 'pid', '61004153')$"><span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/61004179F_1800x1800.png?$staticlink$);"></span>
+                                        </a>
+                                        <div class="product-data">
+                                            <div class="product-title-price-wrapper">
+                                                <!--<span class="product-badge">IGRILL 3 GRATUIT</span></span>-->
+                                                <div class="product-title-price">
+                                                    <a class="sub-heading h1" href="$httpsUrl('Product-Show', 'pid', '61004153')$">Barbecue à gaz Genesis&reg; II LX S-340 GBS – Gasgrill</a>
+                                                    <p class="heading h5 regular price">
+                                                        <span class="red">€ 1.999,00</span>
+                                                        <span class="price-info">TVA incluse</span>
+                                                    </p>
+                                                    <p class="heading h6 regular shipping">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="featured-grills-item js-carousel-item">
+                                    <div class="product-item">
+                                        <a class="link"   href="$httpsUrl('Product-Show', 'pid', '62004153')$">
+                                            <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/62004179F_1800x1800.png?$staticlink$);"></span>
+                                        </a>
+                                        <div class="product-data">
+                                            <div class="product-title-price-wrapper">
+                                                <!--<span class="product-badge">IGRILL 3 GRATUIT</span></span>-->
+                                                <div class="product-title-price">
+                                                    <a class="sub-heading h1" href="$httpsUrl('Product-Show', 'pid', '62004153')$">Barbecue à gaz Genesis&reg; II LX S-440 GBS – Gasgrill</a>
+                                                    <p class="heading h5 regular price">
+                                                        <span class="red">€ 2.499,00</span>
+                                                        <span class="price-info">TVA incluse</span>
+                                                    </p>
+                                                    <p class="heading h6 regular shipping">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="carousel-item slide">
+                                <div class="featured-grills-item js-carousel-item">
+                                    <div class="product-item">
+                                        <a class="link" href="$httpsUrl('Product-Show', 'pid', '61014153')$">
+                                            <span class="ir product-image" data-bind="backgroundImage: $data.productImage" style="background-image: url(pages/homepage/redesign/de/384px/61014179F_1800x1800.png?$staticlink$);"></span>
+                                        </a>
+                                        <div class="product-data">
+                                            <div class="product-title-price-wrapper">
+                                                <!--<span class="product-badge">IGRILL 3 GRATUIT</span></span>-->
+                                                <div class="product-title-price">
+                                                    <a class="sub-heading h1" href="$httpsUrl('Product-Show', 'pid', '61014153')$">Barbecue à gaz Genesis&reg; II LX E-340 GBS – Gasgrill</a>
+                                                    <p class="heading h5 regular price">
+                                                        <span class="red">€ 1.799,00</span>
+                                                        <span class="price-info">TVA incluse</span>
+                                                    </p>
+                                                    <p class="heading h6 regular shipping">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="featured-grills-item js-carousel-item">
+                                    <div class="product-item">
+                                        <a class="link" href="$httpsUrl('Product-Show', 'pid', '63014153')$">
+                                            <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/63014179F_1800x1800.png?$staticlink$);"></span>
+                                        </a>
+                                        <div class="product-data">
+                                            <div class="product-title-price-wrapper">
+                                                <!--<span class="product-badge">IGRILL 3 GRATUIT</span></span>-->
+                                                <div class="product-title-price">
+                                                    <a class="sub-heading h1" href="$httpsUrl('Product-Show', 'pid', '63014153')$">Barbecue à gaz Genesis&reg; II LX E-640 GBS – Gasgrill</a>
+                                                    <p class="heading h5 regular price">
+                                                        <span class="red">€ 2.799,00</span>
+                                                        <span class="price-info">TVA incluse</span>
+                                                    </p>
+                                                    <p class="heading h6 regular shipping">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="featured-grills-item js-carousel-item">
+                                    <div class="product-item">
+                                        <a class="link" href="$httpsUrl('Product-Show', 'pid', '63004153')$">
+                                            <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/63004179F_1800x1800.png?$staticlink$);"></span>
+                                        </a>
+                                        <div class="product-data">
+                                            <div class="product-title-price-wrapper">
+                                                <!--<span class="product-badge">IGRILL 3 GRATUIT</span></span>-->
+                                                <div class="product-title-price">
+                                                    <a class="sub-heading h1"   href="$httpsUrl('Product-Show', 'pid', '63004153')$">Barbecue à gaz Genesis&reg; II LX S-640 GBS – Gasgrill</a>
+                                                    <p class="heading h5 regular price">
+                                                        <span class="red">€ 2.999,00</span>
+                                                        <span class="price-info">TVA incluse</span>
+                                                    </p>
+                                                    <p class="heading h6 regular shipping">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                <div class="component-button">
+                    <button class="button-circle previous jcarousel-control-prev">
+                     <span class="border-icon" data-bind="icon: 'circle-medium'">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                           <title>circle-medium</title>
+                           <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                        </svg>
+                     </span>
+                     <span class="arrow-wrapper">
+                        <span class="arrow" data-bind="icon: 'arrow'">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                              <title>arrow</title>
+                              <g data-name="Layer 1">
+                                 <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                 <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                              </g>
+                           </svg>
+                        </span>
+                        <span class="arrow" data-bind="icon: 'arrow'">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                              <title>arrow</title>
+                              <g data-name="Layer 1">
+                                 <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                 <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                              </g>
+                           </svg>
+                        </span>
+                     </span>
+                  </button>
+                </div>
+                <div class="component-button">
+                    <button class="button-circle next jcarousel-control-next">
+                     <span class="border-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                           <title>circle-medium</title>
+                           <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                        </svg>
+                     </span>
+                     <span class="arrow-wrapper">
+                        <span class="arrow" data-bind="icon: 'arrow'">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                              <title>arrow</title>
+                              <g data-name="Layer 1">
+                                 <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                 <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                              </g>
+                           </svg>
+                        </span>
+                        <span class="arrow" data-bind="icon: 'arrow'">
+                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                              <title>arrow</title>
+                              <g data-name="Layer 1">
+                                 <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                 <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                              </g>
+                           </svg>
+                        </span>
+                     </span>
+                  </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component-carousel-featured-grills js-slider-wrapper slider">
+        <div class="jcarousel-wrapper">
+            <div class="featured-grills-list-wrapper jcarousel">
+                <ul class="featured-grills-list js-grills-list js-slider-element js-draggable slides">
+                    <li class="carousel-item slide">
+                        <div class="featured-grills-item js-carousel-item is-active">
+                            <div class="product-item">
+                                <a class="link" href="$httpsUrl('Product-Show', 'pid', '14501004')$">
+                                    <span class="ir product-image" style="background-image: url(pages/homepage/redesign/FR/14501004F_1800x1800.png?$staticlink$);"></span>
+                                </a>
+                                <div class="product-data">
+                                    <div class="product-title-price-wrapper">
+                                        <div class="product-title-price">
+                                            <a class="sub-heading h1"   href="$httpsUrl('Product-Show', 'pid', '14501004')$">Barbecue à charbon Master-Touch GBS ø57 cm
+                                </a>
+                                            <p class="heading h5 regular price">
+                                                <span class="red">329,00 €</span>
+                                                <span class="price-info">TVA incluse</span>
+                                            </p>
+                                            <p class="heading h6 regular shipping">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-grills-item js-carousel-item is-active">
+                            <div class="product-item">
+                                <a class="link"   href="$httpsUrl('Product-Show', 'pid', '15501998')$">
+                                    <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/15501998-F-1800x1800-Performer-Sear-Combov2.png?$staticlink$);"></span>
+                                </a>
+                                <div class="product-data">
+                                    <div class="product-title-price-wrapper">
+                                        <div class="product-title-price">
+                                            <a class="sub-heading h1"   href="$httpsUrl('Product-Show', 'pid', '15501998')$">Barbecue à charbon Performer Deluxe GBS Ø57 cm
+                                </a>
+                                            <p class="heading h5 regular price">
+                                                <span class="red">649,00 €</span>
+                                                <span class="price-info">TVA incluse</span>
+                                            </p>
+                                            <p class="heading h6 regular shipping">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-grills-item js-carousel-item is-active">
+                            <div class="product-item">
+                                <a class="link"   href="$httpsUrl('Product-Show', 'pid', '13601004')$">
+                                    <span class="ir product-image" style="background-image: url(pages/homepage/redesign/FR/13601004F_1800x1800.png?$staticlink$);"></span>
+                                </a>
+                                <div class="product-data">
+                                    <div class="product-title-price-wrapper">
+                                        <div class="product-title-price">
+                                            <a class="sub-heading h1"   href="$httpsUrl('Product-Show', 'pid', '13601004')$">Barbecue à charbon Kettle Plus 47 cm
+                                </a>
+                                            <p class="heading h5 regular price">
+                                                <span class="red">199.99 €</span>
+                                                <span class="price-info">TVA incluse</span>
+                                            </p>
+                                            <p class="heading h6 regular shipping">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-item slide">
+                        <div class="featured-grills-item js-carousel-item">
+                            <div class="product-item">
+                                <a class="link" href="$httpsUrl('Product-Show', 'pid', '14401004')$">
+                                    <span class="ir product-image" style="background-image: url(pages/homepage/redesign/FR/14401004F_1800x1800.png?$staticlink$);"></span>
+                                </a>
+                                <div class="product-data">
+                                    <div class="product-title-price-wrapper">
+                                        <div class="product-title-price">
+                                            <a class="sub-heading h1" href="$httpsUrl('Product-Show', 'pid', '14401004')$">Barbecue à charbon Original Kettle Premium Ø57 cm
+                                </a>
+                                            <p class="heading h5 regular price">
+                                                <span class="red">279,00</span>
+                                                <span class="price-info">TVA incluse</span>
+                                            </p>
+                                            <p class="heading h6 regular shipping">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-grills-item js-carousel-item">
+                            <div class="product-item">
+                                <a class="link"   href="$httpsUrl('Product-Show', 'pid', '1341504')$">
+                                    <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/1341504F_1800x1800.png?$staticlink$);"></span>
+                                </a>
+                                <div class="product-data">
+                                    <div class="product-title-price-wrapper">
+                                        <div class="product-title-price">
+                                            <a class="sub-heading h1"   href="$httpsUrl('Product-Show', 'pid', '1341504')$">Barbecue à charbon Original Kettle Ø57 cm
+                                </a>
+                                            <p class="heading h5 regular price">
+                                                <span class="red">199,99 €</span>
+                                                <span class="price-info">TVA incluse</span>
+                                            </p>
+                                            <p class="heading h6 regular shipping">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-grills-item js-carousel-item">
+                            <div class="product-item">
+                                <a class="link" href="$httpsUrl('Product-Show', 'pid', '731004')$">
+                                    <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/721004F_1800x1800.png?$staticlink$);"></span>
+                                </a>
+                                <div class="product-data">
+                                    <div class="product-title-price-wrapper">
+                                        <div class="product-title-price">
+                                            <a class="sub-heading h1"   href="$httpsUrl('Product-Show', 'pid', '731004')$">Fumoir Smokey Mountain Cooker Ø57 cm
+                                </a>
+                                            <p class="heading h5 regular price">
+                                                <span class="red">599,00 €</span>
+                                                <span class="price-info">TVA incluse</span>
+                                            </p>
+                                            <p class="heading h6 regular shipping">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="component-button">
+                    <button class="button-circle previous jcarousel-control-prev">
+                 <span class="border-icon" data-bind="icon: 'circle-medium'">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                       <title>circle-medium</title>
+                       <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                    </svg>
+                 </span>
+                 <span class="arrow-wrapper">
+                    <span class="arrow" data-bind="icon: 'arrow'">
+                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                          <title>arrow</title>
+                          <g data-name="Layer 1">
+                             <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                             <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                          </g>
+                       </svg>
+                    </span>
+                    <span class="arrow" data-bind="icon: 'arrow'">
+                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                          <title>arrow</title>
+                          <g data-name="Layer 1">
+                             <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                             <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                          </g>
+                       </svg>
+                    </span>
+                 </span>
+              </button>
+                </div>
+                <div class="component-button">
+                    <button class="button-circle next jcarousel-control-next">
+                 <span class="border-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                       <title>circle-medium</title>
+                       <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                    </svg>
+                 </span>
+                 <!-- ko if: $data.icon == 'arrow' -->
+                 <span class="arrow-wrapper">
+                    <span class="arrow" data-bind="icon: 'arrow'">
+                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                          <title>arrow</title>
+                          <g data-name="Layer 1">
+                             <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                             <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                          </g>
+                       </svg>
+                    </span>
+                    <span class="arrow" data-bind="icon: 'arrow'">
+                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                          <title>arrow</title>
+                          <g data-name="Layer 1">
+                             <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                             <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                          </g>
+                       </svg>
+                    </span>
+                 </span>
+              </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component-carousel-featured-grills js-slider-wrapper slider">
+        <div class="jcarousel-wrapper">
+            <div class="featured-grills-list-wrapper jcarousel">
+                <ul class="featured-grills-list js-grills-list js-slider-element js-draggable">
+                    <li class="carousel-item slide">
+                        <div class="featured-grills-item js-carousel-item is-active">
+                            <div class="product-item">
+                                <a class="link" href="$httpsUrl('Product-Show', 'pid', '52020053')$">
+                                    <span class="ir product-image" data-bind="backgroundImage: $data.productImage" style="background-image: url(pages/homepage/redesign/de/384px/52020079F_1800x1800.png?$staticlink$);"></span>
+                                </a>
+                                <div class="product-data">
+                                    <div class="product-title-price-wrapper">
+                                        <div class="product-title-price">
+                                            <a class="sub-heading h1" href="$httpsUrl('Product-Show', 'pid', '52020053')$">Barbecue électrique Weber® Q 1400
+                             </a>
+                                            <p class="heading h5 regular price">
+                                                <span class="red">299,00 €</span>
+                                                <span class="price-info">TVA incluse</span>
+                                            </p>
+                                            <p class="heading h6 regular shipping">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="component-button">
+                    <button class="button-circle previous jcarousel-control-prev">
+                   <span class="border-icon" data-bind="icon: 'circle-medium'">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                         <title>circle-medium</title>
+                         <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                      </svg>
+                   </span>
+                   <span class="arrow-wrapper">
+                      <span class="arrow" data-bind="icon: 'arrow'">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                            <title>arrow</title>
+                            <g data-name="Layer 1">
+                               <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                               <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                            </g>
+                         </svg>
+                      </span>
+                      <span class="arrow" data-bind="icon: 'arrow'">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                            <title>arrow</title>
+                            <g data-name="Layer 1">
+                               <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                               <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                            </g>
+                         </svg>
+                      </span>
+                   </span>
+                </button>
+                </div>
+                <div class="component-button">
+                    <button class="button-circle next jcarousel-control-next">
+                   <span class="border-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                         <title>circle-medium</title>
+                         <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                      </svg>
+                   </span>
+                   <span class="arrow-wrapper">
+                      <span class="arrow" data-bind="icon: 'arrow'">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                            <title>arrow</title>
+                            <g data-name="Layer 1">
+                               <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                               <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                            </g>
+                         </svg>
+                      </span>
+                      <span class="arrow" data-bind="icon: 'arrow'">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                            <title>arrow</title>
+                            <g data-name="Layer 1">
+                               <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                               <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                            </g>
+                         </svg>
+                      </span>
+                   </span>
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component-carousel-featured-grills js-slider-wrapper slider">
+        <div class="jcarousel-wrapper">
+            <div class="featured-grills-list-wrapper jcarousel">
+                <ul class="featured-grills-list js-grills-list js-slider-element js-draggable">
+                    <li class="carousel-item slide">
+                        <div class="featured-grills-item js-carousel-item is-active">
+                            <div class="product-item">
+                                <a class="link" href="$httpsUrl('Product-Show', 'pid', '1121004')$">
+                                    <span class="ir product-image" style="background-image: url(pages/homepage/redesign/FR/1121004F_1800x1800.png?$staticlink$);"></span>
+                                </a>
+                                <div class="product-data">
+                                    <div class="product-title-price-wrapper">
+                                        <div class="product-title-price">
+                                            <a class="sub-heading h1"   href="$httpsUrl('Product-Show', 'pid', '1121004')$">Barbecue à charbon Smokey Joe® Premium Ø37 cm
+                                            </a>
+                                            <p class="heading h5 regular price">
+                                                <span class="red">89.99 €</span>
+                                                <span class="price-info">TAV incluse</span>
+                                            </p>
+                                            <p class="heading h6 regular shipping">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-grills-item js-carousel-item is-active">
+                            <div class="product-item">
+                                <a class="link"   href="$httpsUrl('Product-Show', 'pid', '1131004')$">
+                                    <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/1131004F_1800x1800_REV.png?$staticlink$);"></span>
+                                </a>
+                                <div class="product-data">
+                                    <div class="product-title-price-wrapper">
+                                        <div class="product-title-price">
+                                            <a class="sub-heading h1"   href="$httpsUrl('Product-Show', 'pid', '1131004')$">Barbecue à charbon Go-Anywhere
+                                            </a>
+                                            <p class="heading h5 regular price">
+                                                <span class="red">99.99 €</span>
+                                                <span class="price-info">TAV incluse</span>
+                                            </p>
+                                            <p class="heading h6 regular shipping">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-grills-item js-carousel-item is-active">
+                            <div class="product-item">
+                                <a class="link"   href="$httpsUrl('Product-Show', 'pid', '1141056')$">
+                                    <span class="ir product-image" style="background-image: url(pages/homepage/redesign/de/384px/1141079F_1800x1800.png?$staticlink$);"></span>
+                                </a>
+                                <div class="product-data">
+                                    <div class="product-title-price-wrapper">
+                                        <div class="product-title-price">
+                                            <a class="sub-heading h1"   href="$httpsUrl('Product-Show', 'pid', '1141056')$">Barbecue à gaz Go-Anywhere
+                                            </a>
+                                            <p class="heading h5 regular price">
+                                                <span class="red">169.99 €</span>
+                                                <span class="price-info">TAV incluse</span>
+                                            </p>
+                                            <p class="heading h6 regular shipping">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="component-button">
+                <button class="button-circle previous jcarousel-control-prev">
+               <span class="border-icon" data-bind="icon: 'circle-medium'">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                     <title>circle-medium</title>
+                     <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                  </svg>
+               </span>
+               <span class="arrow-wrapper">
+                  <span class="arrow" data-bind="icon: 'arrow'">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                        <title>arrow</title>
+                        <g data-name="Layer 1">
+                           <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                           <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                        </g>
+                     </svg>
+                  </span>
+                  <span class="arrow" data-bind="icon: 'arrow'">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                        <title>arrow</title>
+                        <g data-name="Layer 1">
+                           <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                           <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                        </g>
+                     </svg>
+                  </span>
+               </span>
+            </button>
+            </div>
+            <div class="component-button">
+                <button class="button-circle next jcarousel-control-next">
+               <span class="border-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                     <title>circle-medium</title>
+                     <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                  </svg>
+               </span>
+               <span class="arrow-wrapper">
+                  <span class="arrow" data-bind="icon: 'arrow'">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                        <title>arrow</title>
+                        <g data-name="Layer 1">
+                           <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                           <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                        </g>
+                     </svg>
+                  </span>
+                  <span class="arrow" data-bind="icon: 'arrow'">
+                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                        <title>arrow</title>
+                        <g data-name="Layer 1">
+                           <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                           <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                        </g>
+                     </svg>
+                  </span>
+               </span>
+            </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="component-button see-all-button">
+    <a class="button-line-bottom"   href="$url('Search-Show', 'cgid', '4585')$">
+        <span class="border">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+               <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+            </svg>
+         </span>
+        <span class="background"></span>
+        <span class="line-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 64" preserveAspectRatio="none">
+               <path class="stroke" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" d="M0 1v62"></path>
+            </svg>
+         </span>
+        <span class="sub-heading h3 label">Voir tout</span>
+    </a>
+</div>
+</div>
