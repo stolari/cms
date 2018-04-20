@@ -1,0 +1,1294 @@
+<style>
+    .lity {
+        z-index: 9990;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        white-space: nowrap;
+        background: #0b0b0b;
+        background: rgba(26, 26, 26, .8);
+        outline: none !important;
+        transition: opacity .3s ease;
+    }
+    .lity.lity-opened {
+        opacity: 1;
+    }
+    .lity, .lity.lity-closed {
+        opacity: 0;
+    }
+    .lity * {
+        box-sizing: border-box;
+    }
+    .lity-wrap {
+        z-index: 9990;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        outline: none !important;
+    }
+    .lity-container, .lity-wrap:before {
+        vertical-align: middle;
+        display: inline-block;
+    }
+    .lity-wrap:before {
+        content: '';
+        height: 100%;
+        margin-right: -.25em;
+    }
+    .lity-loader {
+        z-index: 9991;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        margin-top: -.8em;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0;
+        transition: opacity .3s ease;
+    }
+    .lity-loading .lity-loader {
+        opacity: 1;
+    }
+    .lity-container {
+        z-index: 9992;
+        position: relative;
+        text-align: left;
+        white-space: normal;
+        max-width: 100%;
+        max-height: 100%;
+        outline: none !important;
+    }
+    .lity-content {
+        z-index: 9993;
+        width: 100%;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        transition: transform .3s ease;
+        transition: transform .3s ease, -webkit-transform .3s ease;
+    }
+    .lity-closed .lity-content, .lity-loading .lity-content {
+        -webkit-transform: scale(.8);
+        transform: scale(.8);
+    }
+    .lity-content:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        display: block;
+        right: 0;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+    }
+    .lity-close {
+        z-index: 9994;
+        width: 47px;
+        height: 47px;
+        border-radius: 50%;
+        position: fixed;
+        right: 32px;
+        top: 32px;
+        -webkit-appearance: none;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center;
+        padding: 0;
+        color: #fbf8f2;
+        font-style: normal;
+        font-size: 35px;
+        font-family: Arial, Baskerville, monospace;
+        line-height: 35px;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+        border: 0;
+        background: #e01c1c;
+        outline: none;
+        box-shadow: none;
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .lity-close {
+            top: 16px;
+            right: 16px;
+        }
+    }
+    .lity-close .cross-icon {
+        height: 17px;
+        width: 17px;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        -webkit-transform: translate3d(-50%, -50%, 0) rotate(45deg);
+        transform: translate3d(-50%, -50%, 0) rotate(45deg);
+    }
+    .lity-close .cross-icon:after, .lity-close .cross-icon:before {
+        top: 50%;
+        left: 50%;
+        content: '';
+        position: absolute;
+        background: #fff;
+    }
+    .lity-close .cross-icon:before {
+        height: 1px;
+        width: 17px;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+    .lity-close .cross-icon:after {
+        height: 17px;
+        width: 1px;
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+    }
+    .lity-close::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+    .lity-close:active, .lity-close:focus, .lity-close:hover, .lity-close:visited {
+        text-decoration: none;
+        text-align: center;
+        padding: 0;
+        color: #fbf8f2;
+        font-style: normal;
+        font-size: 35px;
+        font-family: Arial, Baskerville, monospace;
+        line-height: 35px;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+        border: 0;
+        background: #e01c1c;
+        outline: none;
+        box-shadow: none;
+    }
+    .lity-close:active .cross-icon, .lity-close:focus .cross-icon, .lity-close:hover .cross-icon, .lity-close:visited .cross-icon {
+        -webkit-transform: translate3d(-50%, -50%, 0) scale(.85) rotate(45deg);
+        transform: translate3d(-50%, -50%, 0) scale(.85) rotate(45deg);
+    }
+    .lity-image img {
+        max-width: 100%;
+        display: block;
+        line-height: 0;
+        border: 0;
+    }
+    .lity-iframe .lity-container {
+        width: 100%;
+        max-width: 964px;
+    }
+    .lity-iframe-container {
+        width: 100%;
+        height: 0;
+        padding-top: 56.25%;
+        overflow: auto;
+        pointer-events: auto;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-overflow-scrolling: touch;
+    }
+    .lity-iframe-container iframe {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+        background: #000;
+    }
+    .lity-hide {
+        display: none;
+    }
+    .test-badge {
+        position: absolute;
+        display: block;
+        max-width: 100px;
+    }
+
+    .corner-ribbon {
+        font-family: 'Weber Serif', sans-serif, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        text-transform: uppercase;
+        color: #fbf8f2;
+        background-color: #e01c1c;
+        width: 315px;
+        position: absolute;
+        top: 25px;
+        left: -100px;
+        text-align: center;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .slide--ribbon {
+        overflow: hidden !important;
+    }
+
+    @media screen and (max-width: 767px){
+        .test-badge {
+            display: none;
+            visibility: hidden;
+        }
+
+        .corner-ribbon {
+            width: 100%;
+            top: 0;
+            left: 0;
+            font-size: 24px;
+            line-height: 34px;
+            transform: none;
+            -webkit-transform: none;
+        }
+
+        .bee__body-homepage .block-hero-carousel {
+            height: 470px !important;
+        }
+
+        .bee__body-homepage .hero-carousel-item-video {
+            height: 470px !important;
+        }
+
+        .bee__body-homepage .heading.h1 {
+            font-size: 44px;
+            line-height: 44px;
+        }
+    }
+
+    @media screen and (min-width: 768px){
+        .test-badge {
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+        }
+
+        .bee__body-homepage .hero-carousel-item-video {
+            height: 832px !important;
+        }
+    }
+
+    @media screen and (min-width: 1024px){
+        .test-badge {
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+        }
+
+        .bee__body-homepage .hero-carousel-item-video {
+            height: 832px !important;
+        }
+
+        .bee__body-homepage .slide--bg-fix {
+            background-position: 0 0;
+        }
+    }
+
+    @media screen and (min-width: 1440px){
+        .test-badge {
+            position: absolute;
+            bottom: 100px;
+            left: 100px;
+        }
+
+        .bee__body-homepage .hero-carousel-item-video {
+            height: 832px !important;
+        }
+
+        .bee__body-homepage .slide--bg-fix {
+            background-position: 0 0;
+        }
+    }
+    .sr-button-play {
+        position: relative;
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-right: 15px;
+        text-align: center;
+    }
+
+    .sr-button-circle {
+        position: absolute;
+        top: -3px;
+        left: 0;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 1px solid #fbf8f2;
+    }
+
+    .sr-button-circle svg {
+        display: inline-block;
+        height: 8px;
+        width: 5px;
+    }
+</style>
+
+<div class="block-wrapper block-hero-carousel">
+    <div class="carousel-wrapper slider">
+        <div class="component-carousel-hero">
+            <div class="carousel-wrapper jcarousel-wrapper">
+                <div class="jcarousel"  data-autoplay="true" data-interval="5500">
+                    <ul class="carousel-hero-list js-slider-element slides">
+
+
+
+                        <!--Genesis II poultry rouster-->
+                        <li class="carousel-hero-item slide slide--bg-fix slide--ribbon" style="background-image: url(pages/homepage/redesign/GBIE/UX2_Heroteaser_poultry_roster.jpg?$staticlink$)">
+                            <!--<div class="corner-ribbon">Neu</div>-->
+                            <div class="hero-carousel-item-video">
+                                <div class="content-wrapper">
+                                    <h2 class="heading h3 regular subtitle">- The GBS Poultry Roaster -</h2>
+                                    <h1 class="heading h1 upper type-texture white title" style="">COOK THE TASTIEST CHICKEN EVER</h1>
+                                    <div class="button-wrapper">
+                                        <div class="component-button">
+                                            <!--here comes the lightbox video-->
+                                            <a class="button-drop-down white filled-red-hover" href="https://youtu.be/X4RQ4YLal0k" data-lity>
+                                                  <span class="border">
+                                                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                          <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                      </svg>
+                                                  </span>
+                                                <span class="sr-button-play">
+                                                    <span class="sr-button-circle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.98 28.02"><title>play</title><g data-name="Layer 2"><path d="M1.83.43L21.6 13a1.63 1.63 0 0 1 0 2.09L1.83 27.59a1.18 1.18 0 0 1-1.83 0V.43a1.18 1.18 0 0 1 1.83 0z" fill="#fbf8f2" fill-rule="evenodd" data-name="Layer 1"></path></g></svg></span>
+                                                </span>
+                                                <span class="sub-heading h3-full label">LEARN HOW</span>
+                                            </a>
+                                        </div>
+                                        <div class="component-button">
+
+                                            <a class="button-drop-down white filled-red-hover" href="$url('Search-Show', 'cgid', '40')$">
+                                                  <span class="border">
+                                                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                              <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                      </svg>
+                                                  </span>
+                                                <span class="sub-heading h3-full label">Get a free Poultry Roaster now </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+                        <!--Pulse-->
+                        <li class="carousel-hero-item slide slide--bg-fix slide--ribbon" style="background-image: url(pages/homepage/redesign/GBIE/180201_GB_Pulse_Hero.jpg?$staticlink$)">
+                            <!--<div class="corner-ribbon">Neu</div>-->
+                            <div class="hero-carousel-item-video">
+                                <div class="content-wrapper">
+                                    <h2 class="heading h3 regular subtitle">- Introducing Pulse -</h2>
+                                    <h1 class="heading h1 upper type-texture white title" style="">Made for Urban Living</h1>
+                                    <div class="button-wrapper">
+                                        <div class="component-button">
+                                            <a class="button-drop-down white filled-red-hover" href="$url('Page-Show', 'cid', 'weber-pulse')$">
+                                                    <span class="border">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                            <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                        </svg>
+                                                    </span>
+                                                <span class="sub-heading h3-full label">Learn more</span>
+                                            </a>
+                                        </div>
+                                        <div class="component-button">
+                                            <a class="button-drop-down white filled-red-hover" href="$url('Search-Show', 'cgid', '18482')$">
+                                                    <span class="border">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                                <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                        </svg>
+                                                    </span>
+                                                <span class="sub-heading h3-full label">View all Pulse barbecues</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!--SpringStart - -->
+                        <li class="carousel-hero-item slide slide--bg-fix slide--ribbon" style="background-image: url(pages/homepage/redesign/GBIE/180202_UX2_Spring_Heroteaser.jpg?$staticlink$)">
+                            <div class="hero-carousel-item-video">
+                                <div class="content-wrapper">
+                                    <h2 class="heading h3 regular subtitle">- Bought a Genesis II between 17.03 and 15.04? -</h2>
+                                    <h1 class="heading h1 upper type-texture white title" style="">DON’T FORGET YOUR FREE IGRILL 3!*</h1>
+                                    <div>
+                                        <br><span style="font-size:14px;text-align:right">*Terms & Conditions apply</span><div>
+                                        <div class="button-wrapper">
+                                            <div class="component-button">
+                                                <a class="button-drop-down white filled-red-hover" href="$httpsUrl('PageSupportive-SpringStartLandingSingle')$">
+                                                    <span class="border">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                            <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="sub-heading h3-full label">Learn how</span>
+                                                </a>
+                                            </div>
+                                            <div class="component-button">
+                                                <a class="button-drop-down white filled-red-hover" href="$httpsUrl('PageSupportive-SpringStartRegistrationSingle')$">
+                                                    <span class="border">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                                <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="sub-heading h3-full label">Register your barbecue</span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                        </li>
+
+                        <!--start a new tradition-->
+                        <li class="carousel-hero-item slide" style="background-image: url(pages/homepage/redesign/GBIE/Grill_Acedmy_darker_0.jpg?$staticlink$)">
+                            <div class="hero-carousel-item-video">
+                                <div class="content-wrapper">
+                                    <h2 class="heading h3 regular subtitle">- Start a new tradition -</h2>
+                                    <h1 class="heading h1 upper type-texture white title" style="">Create mouth-watering roasts on your barbecue</h1>
+                                    <div class="button-wrapper">
+                                        <div class="component-button">
+                                            <a class="button-drop-down white filled-red-hover" href="$url('Page-Recipes', 'cid', 'weberMoments-recipes-column-2-recipesOfTheWeek')$">
+                                                  <span class="border">
+                                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                          <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                       </svg>
+                                                    </span>
+                                                <span class="sub-heading h3-full label">Learn how</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+                        <!--iGrill-->
+                        <li class="carousel-hero-item slide" style="background-image: url(pages/homepage/redesign/GBIE/171123_GB_iGrill_0.jpg?$staticlink$)">
+                            <div class="hero-carousel-item-video">
+                                <div class="content-wrapper">
+                                    <h2 class="heading h3 regular subtitle">- The iGrill thermometer -</h2>
+                                    <h1 class="heading h1 upper type-texture white title" data-bind="richTitle: $data.title">Take the guesswork out of barbecuing</h1>
+                                    <div class="button-wrapper">
+                                        <div class="component-button">
+                                            <a class="button-drop-down white filled-red-hover" href="https://youtu.be/4HyM3JNtfvo">
+                                                    <span class="border">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                            <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                        </svg>
+                                                    </span>
+                                                <span class="sub-heading h3-full label">Play the video</span>
+                                            </a>
+                                        </div>
+                                        <div class="component-button">
+                                            <a class="button-drop-down white filled-red-hover" href="$url('Search-Show', 'cgid', '1339')$">
+                                                    <span class="border">
+                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                            <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                         </svg>
+                                                    </span>
+                                                <span class="sub-heading h3-full label">View all iGrill products</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <!--GA-->
+                        <li class="carousel-hero-item slide" style="background-image: url(pages/homepage/redesign/GBIE/07_170425_heroUX2_UK_GA_v1-2.jpg?$staticlink$)">
+                            <div class="hero-carousel-item-video">
+                                <div class="content-wrapper">
+                                    <h2 class="heading h3 regular subtitle">- Give a unique experience to someone you care about -</h2>
+                                    <h1 class="heading h1 upper type-texture white title">GIVE THE GIFT OF GRILL ACADEMY</h1>
+                                    <div class="button-wrapper">
+
+                                        <div class="component-button">
+                                            <a class="button-drop-down white filled-red-hover" href="$httpsUrl('GrillAcademy-GCPurchase')$">
+                                                <span class="border">
+                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" preserveAspectRatio="none">
+                                                        <rect class="stroke" x=".5" y=".5" width="199" height="63" stroke="red" fill="none" vector-effect="non-scaling-stroke" stroke-dasharray="3,2" rx="3" ry="3"></rect>
+                                                     </svg>
+                                                 </span>
+                                                <span class="sub-heading h3-full label">Find your gift voucher</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+
+
+
+                    <div class="component-button">
+                        <button class="button-circle light previous filled jcarousel-control-prev">
+                                <span class="border-icon">
+                                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                                      <title>circle-medium</title>
+                                      <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                                   </svg>
+                                </span>
+                            <span class="arrow-wrapper">
+                                    <span class="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                                            <title>arrow</title>
+                                            <g data-name="Layer 1">
+                                                <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                                <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                            </g>
+                                      </svg>
+                                  </span>
+                                  <span class="arrow">
+                                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                                          <title>arrow</title>
+                                              <g data-name="Layer 1">
+                                                  <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                                  <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                             </g>
+                                      </svg>
+                                  </span>
+                              </span>
+                        </button>
+                    </div>
+                    <div class="component-button">
+                        <button class="button-circle light next filled jcarousel-control-next">
+                                <span class="border-icon" data-bind="icon: 'circle-medium'">
+                                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65">
+                                      <title>circle-medium</title>
+                                      <circle cx="32.5" cy="32.5" r="32" vector-effect="non-scaling-stroke" stroke-dasharray="3" fill="none" stroke="#fbf8f2" stroke-miterlimit="10"></circle>
+                                   </svg>
+                                </span>
+                            <span class="arrow-wrapper">
+                                   <span class="arrow">
+                                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                                         <title>arrow</title>
+                                         <g data-name="Layer 1">
+                                            <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                            <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                         </g>
+                                      </svg>
+                                   </span>
+                                   <span class="arrow">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.96 7">
+                                         <title>arrow</title>
+                                         <g data-name="Layer 1">
+                                            <path class="arrow-svg-arrow" d="M5 4l3.55 2.1-.45.9L2 4.36 0 3.5l2-.85L8.1 0l.45.91L5 3" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                            <path class="arrow-svg-base" d="M5 3h19v1H5" fill="#1a1a1a" data-name="Layer 1-2"></path>
+                                         </g>
+                                      </svg>
+                                   </span>
+                                </span>
+                        </button>
+                    </div>
+                    <div class="jcarousel-navigation">
+                        <span class="jcarousel-pagination" data-jcarouselpagination="true"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    !function (name, definition) {
+
+        if (typeof module != 'undefined') module.exports = definition()
+        else if (typeof define == 'function' && typeof define.amd == 'object') define(definition)
+        else this[name] = definition()
+
+    }('domready', function () {
+
+        var fns = [], listener
+            , doc = typeof document === 'object' && document
+            , hack = doc && doc.documentElement.doScroll
+            , domContentLoaded = 'DOMContentLoaded'
+            , loaded = doc && (hack ? /^loaded|^c/ : /^loaded|^i|^c/).test(doc.readyState)
+
+
+        if (!loaded && doc)
+            doc.addEventListener(domContentLoaded, listener = function () {
+                doc.removeEventListener(domContentLoaded, listener)
+                loaded = 1
+                while (listener = fns.shift()) listener()
+            })
+
+        return function (fn) {
+            loaded ? setTimeout(fn, 0) : fns.push(fn)
+        }
+
+    });
+
+    function init($) {
+        (function(window, factory) {
+
+            window.lity = factory(window, window.jQuery || $);
+
+        }(typeof window !== "undefined" ? window : this, function(window, $) {
+            'use strict';
+
+            var document = window.document;
+
+            var _win = $(window);
+            var _deferred = $.Deferred;
+            var _html = $('html');
+            var _instances = [];
+
+            var _attrAriaHidden = 'aria-hidden';
+            var _dataAriaHidden = 'lity-' + _attrAriaHidden;
+
+            var _focusableElementsSelector = 'a[href],area[href],input:not([disabled]),select:not([disabled]),textarea:not([disabled]),button:not([disabled]),iframe,object,embed,[contenteditable],[tabindex]:not([tabindex^="-"])';
+
+            var _defaultOptions = {
+                esc: true,
+                handler: null,
+                handlers: {
+                    image: imageHandler,
+                    inline: inlineHandler,
+                    youtube: youtubeHandler,
+                    vimeo: vimeoHandler,
+                    googlemaps: googlemapsHandler,
+                    facebookvideo: facebookvideoHandler,
+                    iframe: iframeHandler
+                },
+                template: '<div class="lity" role="dialog" aria-label="Dialog Window (Press escape to close)" tabindex="-1"><div class="lity-wrap" data-lity-close role="document"><div class="lity-loader" aria-hidden="true">Loading...</div><div class="lity-container"><div class="lity-content"></div><button class="lity-close" type="button" aria-label="Close (Press escape to close)" data-lity-close><span class="cross-icon" data-lity-close></span></button></div></div></div>'
+            };
+
+            var _imageRegexp = /(^data:image\/)|(\.(png|jpe?g|gif|svg|webp|bmp|ico|tiff?)(\?\S*)?$)/i;
+            var _youtubeRegex = /(youtube(-nocookie)?\.com|youtu\.be)\/(watch\?v=|v\/|u\/|embed\/?)?([\w-]{11})(.*)?/i;
+            var _vimeoRegex =  /(vimeo(pro)?\.com)\/(?:[^\d]+)?(\d+)\??(.*)?$/;
+            var _googlemapsRegex = /((maps|www)\.)?google\.([^\/\?]+)\/?((maps\/?)?\?)(.*)/i;
+            var _facebookvideoRegex = /(facebook\.com)\/([a-z0-9_-]*)\/videos\/([0-9]*)(.*)?$/i;
+
+            var _transitionEndEvent = (function() {
+                var el = document.createElement('div');
+
+                var transEndEventNames = {
+                    WebkitTransition: 'webkitTransitionEnd',
+                    MozTransition: 'transitionend',
+                    OTransition: 'oTransitionEnd otransitionend',
+                    transition: 'transitionend'
+                };
+
+                for (var name in transEndEventNames) {
+                    if (el.style[name] !== undefined) {
+                        return transEndEventNames[name];
+                    }
+                }
+
+                return false;
+            })();
+
+            function transitionEnd(element) {
+                var deferred = _deferred();
+
+                if (!_transitionEndEvent || !element.length) {
+                    deferred.resolve();
+                } else {
+                    element.one(_transitionEndEvent, deferred.resolve);
+                    setTimeout(deferred.resolve, 500);
+                }
+
+                return deferred.promise();
+            }
+
+            function settings(currSettings, key, value) {
+                if (arguments.length === 1) {
+                    return $.extend({}, currSettings);
+                }
+
+                if (typeof key === 'string') {
+                    if (typeof value === 'undefined') {
+                        return typeof currSettings[key] === 'undefined'
+                            ? null
+                            : currSettings[key];
+                    }
+
+                    currSettings[key] = value;
+                } else {
+                    $.extend(currSettings, key);
+                }
+
+                return this;
+            }
+
+            function parseQueryParams(params) {
+                var pos = params.indexOf('?');
+
+                if (pos > -1) {
+                    params = params.substr(pos + 1);
+                }
+
+                var pairs = decodeURI(params.split('#')[0]).split('&');
+                var obj = {}, p;
+
+                for (var i = 0, n = pairs.length; i < n; i++) {
+                    if (!pairs[i]) {
+                        continue;
+                    }
+
+                    p = pairs[i].split('=');
+                    obj[p[0]] = p[1];
+                }
+
+                return obj;
+            }
+
+            function appendQueryParams(url, params) {
+                if (!params) {
+                    return url;
+                }
+
+                if ('string' === $.type(params)) {
+                    params = parseQueryParams(params);
+                }
+
+                if (url.indexOf('?') > -1) {
+                    var split = url.split('?');
+                    url = split.shift();
+
+                    params = $.extend(
+                        {},
+                        parseQueryParams(split[0]),
+                        params
+                    )
+                }
+
+                return url + '?' + $.param(params);
+            }
+
+            function transferHash(originalUrl, newUrl) {
+                var pos = originalUrl.indexOf('#');
+
+                if (-1 === pos) {
+                    return newUrl;
+                }
+
+                if (pos > 0) {
+                    originalUrl = originalUrl.substr(pos);
+                }
+
+                return newUrl + originalUrl;
+            }
+
+            function iframe(iframeUrl, instance, queryParams, hashUrl) {
+                instance && instance.element().addClass('lity-iframe');
+
+                if (queryParams) {
+                    iframeUrl = appendQueryParams(iframeUrl, queryParams);
+                }
+
+                if (hashUrl) {
+                    iframeUrl = transferHash(hashUrl, iframeUrl);
+                }
+
+                return '<div class="lity-iframe-container"><iframe frameborder="0" allowfullscreen src="' + iframeUrl + '"/></div>';
+            }
+
+            function error(msg) {
+                return $('<span class="lity-error"/>').append(msg);
+            }
+
+            function imageHandler(target, instance) {
+                var desc = (instance.opener() && instance.opener().data('lity-desc')) || 'Image with no description';
+                var img = $('<img src="' + target + '" alt="' + desc + '"/>');
+                var deferred = _deferred();
+                var failed = function() {
+                    deferred.reject(error('Failed loading image'));
+                };
+
+                img
+                    .on('load', function() {
+                        if (this.naturalWidth === 0) {
+                            return failed();
+                        }
+
+                        deferred.resolve(img);
+                    })
+                    .on('error', failed)
+                ;
+
+                return deferred.promise();
+            }
+
+            imageHandler.test = function(target) {
+                return _imageRegexp.test(target);
+            };
+
+            function inlineHandler(target, instance) {
+                var el, placeholder, hasHideClass;
+
+                try {
+                    el = $(target);
+                } catch (e) {
+                    return false;
+                }
+
+                if (!el.length) {
+                    return false;
+                }
+
+                placeholder = $('<i style="display:none !important"/>');
+                hasHideClass = el.hasClass('lity-hide');
+
+                instance
+                    .element()
+                    .one('lity:remove', function() {
+                        placeholder
+                            .before(el)
+                            .remove()
+                        ;
+
+                        if (hasHideClass && !el.closest('.lity-content').length) {
+                            el.addClass('lity-hide');
+                        }
+                    })
+                ;
+
+                return el
+                    .removeClass('lity-hide')
+                    .after(placeholder)
+                    ;
+            }
+
+            function youtubeHandler(target, instance) {
+                var matches = _youtubeRegex.exec(target);
+
+                if (!matches) {
+                    return false;
+                }
+
+                return iframe(
+                    'https://www.youtube' + (matches[2] || '') + '.com/embed/' + matches[4] + '?autoplay=1',
+                    instance,
+                    matches[5],
+                    target
+                );
+            }
+
+            function vimeoHandler(target, instance) {
+                var matches = _vimeoRegex.exec(target);
+
+                if (!matches) {
+                    return false;
+                }
+
+                return iframe(
+                    'https://player.vimeo.com/video/' + matches[3] + '?autoplay=1',
+                    instance,
+                    matches[4],
+                    target
+                );
+            }
+
+            function facebookvideoHandler(target, instance) {
+                var matches = _facebookvideoRegex.exec(target);
+
+                if (!matches) {
+                    return false;
+                }
+
+                if (0 !== target.indexOf('http')) {
+                    target = 'https:' + target;
+                }
+
+                return iframe(
+                    'https://www.facebook.com/plugins/video.php?href=' + target + '&autoplay=1',
+                    instance,
+                    matches[4],
+                    target
+                );
+            }
+
+            function googlemapsHandler(target, instance) {
+                var matches = _googlemapsRegex.exec(target);
+
+                if (!matches) {
+                    return false;
+                }
+
+                return iframe(
+                    'https://www.google.' + matches[3] + '/maps?' + matches[6],
+                    instance,
+                    {
+                        output: matches[6].indexOf('layer=c') > 0 ? 'svembed' : 'embed'
+                    },
+                    target
+                );
+            }
+
+            function iframeHandler(target, instance) {
+                return iframe(target, instance);
+            }
+
+            function winHeight() {
+                return document.documentElement.clientHeight
+                    ? document.documentElement.clientHeight
+                    : Math.round(_win.height());
+            }
+
+            function keydown(e) {
+                var current = currentInstance();
+
+                if (!current) {
+                    return;
+                }
+
+                // ESC key
+                if (e.keyCode === 27 && !!current.options('esc')) {
+                    current.close();
+                }
+
+                // TAB key
+                if (e.keyCode === 9) {
+                    handleTabKey(e, current);
+                }
+            }
+
+            function handleTabKey(e, instance) {
+                var focusableElements = instance.element().find(_focusableElementsSelector);
+                var focusedIndex = focusableElements.index(document.activeElement);
+
+                if (e.shiftKey && focusedIndex <= 0) {
+                    focusableElements.get(focusableElements.length - 1).focus();
+                    e.preventDefault();
+                } else if (!e.shiftKey && focusedIndex === focusableElements.length - 1) {
+                    focusableElements.get(0).focus();
+                    e.preventDefault();
+                }
+            }
+
+            function resize() {
+                $.each(_instances, function(i, instance) {
+                    instance.resize();
+                });
+            }
+
+            function registerInstance(instanceToRegister) {
+                if (1 === _instances.unshift(instanceToRegister)) {
+                    _html.addClass('lity-active');
+
+                    _win
+                        .on({
+                            resize: resize,
+                            keydown: keydown
+                        })
+                    ;
+                }
+
+                $('body > *').not(instanceToRegister.element())
+                    .addClass('lity-hidden')
+                    .each(function() {
+                        var el = $(this);
+
+                        if (undefined !== el.data(_dataAriaHidden)) {
+                            return;
+                        }
+
+                        el.data(_dataAriaHidden, el.attr(_attrAriaHidden) || null);
+                    })
+                    .attr(_attrAriaHidden, 'true')
+                ;
+            }
+
+            function removeInstance(instanceToRemove) {
+                var show;
+
+                instanceToRemove
+                    .element()
+                    .attr(_attrAriaHidden, 'true')
+                ;
+
+                if (1 === _instances.length) {
+                    _html.removeClass('lity-active');
+
+                    _win
+                        .off({
+                            resize: resize,
+                            keydown: keydown
+                        })
+                    ;
+                }
+
+                _instances = $.grep(_instances, function(instance) {
+                    return instanceToRemove !== instance;
+                });
+
+                if (!!_instances.length) {
+                    show = _instances[0].element();
+                } else {
+                    show = $('.lity-hidden');
+                }
+
+                show
+                    .removeClass('lity-hidden')
+                    .each(function() {
+                        var el = $(this), oldAttr = el.data(_dataAriaHidden);
+
+                        if (!oldAttr) {
+                            el.removeAttr(_attrAriaHidden);
+                        } else {
+                            el.attr(_attrAriaHidden, oldAttr);
+                        }
+
+                        el.removeData(_dataAriaHidden);
+                    })
+                ;
+            }
+
+            function currentInstance() {
+                if (0 === _instances.length) {
+                    return null;
+                }
+
+                return _instances[0];
+            }
+
+            function factory(target, instance, handlers, preferredHandler) {
+                var handler = 'inline', content;
+
+                var currentHandlers = $.extend({}, handlers);
+
+                if (preferredHandler && currentHandlers[preferredHandler]) {
+                    content = currentHandlers[preferredHandler](target, instance);
+                    handler = preferredHandler;
+                } else {
+                    // Run inline and iframe handlers after all other handlers
+                    $.each(['inline', 'iframe'], function(i, name) {
+                        delete currentHandlers[name];
+
+                        currentHandlers[name] = handlers[name];
+                    });
+
+                    $.each(currentHandlers, function(name, currentHandler) {
+                        // Handler might be "removed" by setting callback to null
+                        if (!currentHandler) {
+                            return true;
+                        }
+
+                        if (
+                            currentHandler.test &&
+                            !currentHandler.test(target, instance)
+                        ) {
+                            return true;
+                        }
+
+                        content = currentHandler(target, instance);
+
+                        if (false !== content) {
+                            handler = name;
+                            return false;
+                        }
+                    });
+                }
+
+                return {handler: handler, content: content || ''};
+            }
+
+            function Lity(target, options, opener, activeElement) {
+                var self = this;
+                var result;
+                var isReady = false;
+                var isClosed = false;
+                var element;
+                var content;
+
+                options = $.extend(
+                    {},
+                    _defaultOptions,
+                    options
+                );
+
+                element = $(options.template);
+
+                // -- API --
+
+                self.element = function() {
+                    return element;
+                };
+
+                self.opener = function() {
+                    return opener;
+                };
+
+                self.content = function() {
+                    return content;
+                };
+
+                self.options  = $.proxy(settings, self, options);
+                self.handlers = $.proxy(settings, self, options.handlers);
+
+                self.resize = function() {
+                    if (!isReady || isClosed) {
+                        return;
+                    }
+
+                    content
+                        .css('max-height', winHeight() + 'px')
+                        .trigger('lity:resize', [self])
+                    ;
+                };
+
+                self.close = function() {
+                    if (!isReady || isClosed) {
+                        return;
+                    }
+
+                    isClosed = true;
+
+                    removeInstance(self);
+
+                    var deferred = _deferred();
+
+                    // We return focus only if the current focus is inside this instance
+                    if (
+                        activeElement &&
+                        (
+                            document.activeElement === element[0] ||
+                            $.contains(element[0], document.activeElement)
+                        )
+                    ) {
+                        try {
+                            activeElement.focus();
+                        } catch (e) {
+                            // Ignore exceptions, eg. for SVG elements which can't be
+                            // focused in IE11
+                        }
+                    }
+
+                    content.trigger('lity:close', [self]);
+
+                    element
+                        .removeClass('lity-opened')
+                        .addClass('lity-closed')
+                    ;
+
+                    transitionEnd(content.add(element))
+                        .always(function() {
+                            content.trigger('lity:remove', [self]);
+                            element.remove();
+                            element = undefined;
+                            deferred.resolve();
+                        })
+                    ;
+
+                    return deferred.promise();
+                };
+
+                // -- Initialization --
+
+                result = factory(target, self, options.handlers, options.handler);
+
+                element
+                    .attr(_attrAriaHidden, 'false')
+                    .addClass('lity-loading lity-opened lity-' + result.handler)
+                    .appendTo('body')
+                    .focus()
+                    .on('click', '[data-lity-close]', function(e) {
+                        if ($(e.target).is('[data-lity-close]')) {
+                            self.close();
+                        }
+                    })
+                    .trigger('lity:open', [self])
+                ;
+
+                registerInstance(self);
+
+                $.when(result.content)
+                    .always(ready)
+                ;
+
+                function ready(result) {
+                    content = $(result)
+                        .css('max-height', winHeight() + 'px')
+                    ;
+
+                    element
+                        .find('.lity-loader')
+                        .each(function() {
+                            var loader = $(this);
+
+                            transitionEnd(loader)
+                                .always(function() {
+                                    loader.remove();
+                                })
+                            ;
+                        })
+                    ;
+
+                    element
+                        .removeClass('lity-loading')
+                        .find('.lity-content')
+                        .empty()
+                        .append(content)
+                    ;
+
+                    isReady = true;
+
+                    content
+                        .trigger('lity:ready', [self])
+                    ;
+                }
+            }
+
+            function lity(target, options, opener) {
+                if (!target.preventDefault) {
+                    opener = $(opener);
+                } else {
+                    target.preventDefault();
+                    opener = $(this);
+                    target = opener.data('lity-target') || opener.attr('href') || opener.attr('src');
+                }
+
+                var instance = new Lity(
+                    target,
+                    $.extend(
+                        {},
+                        opener.data('lity-options') || opener.data('lity'),
+                        options
+                    ),
+                    opener,
+                    document.activeElement
+                );
+
+                if (!target.preventDefault) {
+                    return instance;
+                }
+            }
+
+            lity.version  = '3.0.0-dev';
+            lity.options  = $.proxy(settings, lity, _defaultOptions);
+            lity.handlers = $.proxy(settings, lity, _defaultOptions.handlers);
+            lity.current  = currentInstance;
+            lity.iframe   = iframe;
+
+            $(document).on('click.lity', '[data-lity]', lity);
+
+            return lity;
+        }));
+    }
+
+    domready(function () {
+        init(window.getJquery());
+    });
+</script>
