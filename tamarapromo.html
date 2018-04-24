@@ -1,0 +1,33 @@
+<style>
+  .sr-warranty-badge {
+    float: left;
+    max-width: 130px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  @media screen and (max-width: 767px){
+    .sr-warranty-badge {
+      float: none;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0;
+    }
+  }
+</style>
+<div class="clearfix" style="background: #fff; padding: 15px 20px 15px 15px;color:#899291;">
+
+  <!-- Der folgende Image-Pfad funktioniert erst, wenn das Image auf Production gepushed wurde, davor kann der aktivierte Staging-Pfad unten verwendet werden
+  <img alt=“T-Shirt Promotion” src="http://production-web-webergrill.demandware.net/on/demandware.static/-/Sites/default/dw92783ccc/campaigns/DE_T-Shirt-Promo_2018.png" alt="Dein-persönliches-Geschenk-beim-Kauf-dieses-Weber-Gasgrills-Nur-solange-der-Vorrat-reicht" /> -->
+
+
+  <!-- Staging Image-Pfad funktioniert, muss aber ersetzt werden bzw. das Image muss auf production gepushed werden, sodass obiger Image-Pfad funktioniert und das Bild beim Go-live immer noch sichtbar ist -->
+  <a href="$url('Page-Show', 'cid', 'grillchampion2018')$" style="color:#899291;" target="_blank" title=“Dein-persönliches-Geschenk-beim-Kauf-dieses-Weber-Gasgrills-Nur-solange-der-Vorrat-reicht”>
+         <img class="sr-warranty-badge" src="http://staging-web-webergrill.demandware.net/on/demandware.static/-/Sites/default/dw92783ccc/campaigns/DE_T-Shirt-Promo_2018.png" alt="Dein-persönliches-Geschenk-beim-Kauf-dieses-Weber-Gasgrills-Nur-solange-der-Vorrat-reicht" />
+  </a>
+
+  <span>
+    <br>
+    GRATIS Gutscheincode für dein <a href="$url('Page-Show', 'cid', 'grillchampion2018')$" style="color:#899291;" target="_blank" title=“Dein-persönliches-Geschenk-beim-Kauf-dieses-Weber-Gasgrills-Nur-solange-der-Vorrat-reicht”><b>personalisiertes Weber Grill Champion Shirt</b></a>, beim Kauf dieses Grills (nur solange der Vorrat reicht!). Zeig allen, wer der Champion am Grill ist!
+  </span>
+</div>
