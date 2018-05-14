@@ -20,6 +20,14 @@ while True:
         url='https://www.weber.com/AT/de'
     elif command=='a':
         url='http://staging.weber.com/AT/de/start/'
+    elif command=='BD':
+        url='https://www.weber.com/BE/nl'
+    elif command=='bd':
+        url='https://staging.weber.com/BE/nl/home/'
+    elif command=='BF':
+            url='https://www.weber.com/BE/fr'
+    elif command=='bf':
+            url='https://staging.weber.com/BE/fr/home/'
     elif command=='F':
         url='https://www.weber.com/FR/fr'
     elif command=='f':
@@ -48,6 +56,8 @@ while True:
         url='http://staging.weber.com/NL/nl/home/'
     elif command=='N':
         url='https://www.weber.com/NL/nl'
+    elif command=='n':
+            url='http://staging.weber.com/on/demandware.store/Sites-NL-Site'
     elif command=='CD':
         url='https://www.weber.com/CH/DE'
     elif command=='cd':
@@ -68,9 +78,6 @@ while True:
     webbrowser.open(url,new=2)
 #endx
 print('end')
-
-
-
 
 
 
