@@ -59,13 +59,13 @@ while True:
     elif command=='n':
             url='http://staging.weber.com/on/demandware.store/Sites-NL-Site'
     elif command=='CD':
-        url='https://www.weber.com/CH/DE'
+        url='https://www.weber.com/CH/de'
     elif command=='cd':
-        url='http://staging.weber.com/CH/de/home/'
+        url='http://staging.weber.com/CH/de/'
     elif command=='cf':
-        url='http://staging.weber.com/CH/fr/home/'
+        url='http://staging.weber.com/CH/fr/'
     elif command=='CF':
-        url='https://www.weber.com/CH/FR'
+        url='https://www.weber.com/CH/fr/home/'
     elif command=='0':
         print('Exit the program')
         break
